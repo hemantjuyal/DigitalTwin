@@ -1,0 +1,82 @@
+{
+  "@id": "dtmi:DigitalTwin:DTBuilding;1",
+  "@type": "Interface",
+  "displayName": "DTBuilding",
+  "@context": "dtmi:dtdl:context;3",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "address",
+      "schema": {
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "street",
+            "schema": "string"
+          },
+          {
+            "name": "city",
+            "schema": "string"
+          },
+          {
+            "name": "state",
+            "schema": "string"
+          },
+          {
+            "name": "zip",
+            "schema": "string"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Property",
+      "name": "GeographicalCoordinates",
+      "displayName": "Geographical Coordinates",
+      "schema": {
+          "@type": "Object",
+          "fields": [
+              {
+                  "name": "Latitude",
+                  "schema": "double",
+                  "displayName": "Latitude"
+              },
+              {
+                  "name": "Longitude",
+                  "schema": "double",
+                  "displayName": "Longitude"
+              },
+              {
+                "name": "Altitude",
+                "schema": "double",
+                "displayName": "Altitude"
+              }
+          ]
+      }
+  },
+{
+  "@type": "Property",
+  "name": "SiteArea",
+  "schema": "double",
+  "displayName": "Site Area (sq. meters)"
+},
+  {
+    "@type": "Property",
+    "name": "No_of_floors",
+    "schema": "integer",
+    "displayName": "Number of floors"
+  },
+  {
+    "@type": "Property",
+    "name": "EnergyConsumption",
+    "schema": "double",
+    "displayName": "Total Energy Consumption (kW-h)"
+},
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains",
+      "target": "dtmi:Digital_Twin_Proj:FacFloor;1"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "@id": "dtmi:DigitalTwin:FacFloor;1",
+  "@type": "Interface",
+  "displayName": "FacFloor",
+  "@context": "dtmi:dtdl:context;3",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "double",
+      "displayName": "Temperature (°C)"
+  },
+  {
+      "@type": "Property",
+      "name": "Humidity",
+      "schema": "double",
+      "displayName": "Humidity (%)"
+  },
+  {
+    "@type": "Property",
+    "name": "Area",
+    "schema": "double",
+    "displayName": "Area (sq. meters)"
+},
+{
+  "@type": "Property",
+  "name": "No_of_RoboP",
+  "schema": "integer",
+  "displayName": "Number of Robot Palletizers"
+},
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains",
+      "target": "dtmi:Digital_Twin_Proj:RoboP;1"
+    }
+  ]
+}

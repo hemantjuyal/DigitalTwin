@@ -1,0 +1,40 @@
+{
+  "@id": "dtmi:DigitalTwin:RoboP;1",
+  "@type": "Interface",
+  "displayName": "RoboP",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "RoboP_ID",
+      "schema": "string",
+      "displayName": "Robotic Palletizer ID"
+  },
+  {
+    "@type": "Property",
+    "name": "Status",
+    "schema": "string",
+    "displayName": "Palletizer Status"
+
+  },
+        {
+            "@type": "Property",
+            "name": "PowerConsumption",
+            "schema": "double",
+            "displayName": "Power Consumption (Watt)"
+        },
+        {
+            "@type": "Property",
+            "name": "OperatingSpeed",
+            "schema": "double",
+            "displayName": "Operating Speed (box/minute)"
+        },
+        {
+            "@type": "Property",
+            "name": "LoadCapacity",
+            "schema": "double",
+            "displayName": "Load Capacity (kg)"
+        }
+
+  ]
+}
