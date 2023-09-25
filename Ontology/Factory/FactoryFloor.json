@@ -1,8 +1,8 @@
 {
-  "@id": "dtmi:DigitalTwin:FacFloor;1",
+  "@id": "dtmi:DigitalTwin:FactoryFloor;1",
   "@type": "Interface",
-  "displayName": "FacFloor",
-  "@context": "dtmi:dtdl:context;3",
+  "displayName": "FactoryFloor",
+  "@context": "dtmi:dtdl:context;2",
   "contents": [
     {
       "@type": "Property",
@@ -24,7 +24,7 @@
 },
 {
   "@type": "Property",
-  "name": "No_of_RoboP",
+  "name": "NumberofRobotPalletizers",
   "schema": "integer",
   "displayName": "Number of Robot Palletizers"
 },
@@ -32,7 +32,7 @@
       "@type": "Relationship",
       "name": "contains",
       "displayName": "contains",
-      "target": "dtmi:Digital_Twin_Proj:RoboP;1"
+      "target": "dtmi:DigitalTwin:RoboticPalletizer;1"
     }
   ]
 }
