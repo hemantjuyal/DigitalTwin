@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{C7AEBCC3-D526-753E-F06C-0CD98957177A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/colorChange.cs">
+    <Files>
+      <File FileName="Assets/Scripts/colorChange.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Factory Floor-ADT" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f1a34937-a416-4d01-805c-2f42f542bb29" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

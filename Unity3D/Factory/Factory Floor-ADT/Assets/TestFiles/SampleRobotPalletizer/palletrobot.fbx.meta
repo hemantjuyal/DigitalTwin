@@ -1,0 +1,1490 @@
+fileFormatVersion: 2
+guid: dd406fc010a904ba7b059006d22944a0
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #20
+    second: {fileID: 2100000, guid: af5afdd1ac4fa4d839df8f09fdffd1b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2030
+    second: {fileID: 2100000, guid: 22e75825f0361434aa29c21da55898f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2033
+    second: {fileID: 2100000, guid: 5430d0f546f914a428d8151cfa58b231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2034
+    second: {fileID: 2100000, guid: 02f43d4f761c244afb0552effd6da9c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2035
+    second: {fileID: 2100000, guid: a0a18c53471894a838d6eac667ececfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2036
+    second: {fileID: 2100000, guid: 675adceca8b8843cc80220eee9d4dcb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2037
+    second: {fileID: 2100000, guid: 2e3023b16d63f45d8a6150312ac87142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2038
+    second: {fileID: 2100000, guid: 6676f8bac786349da958e153076df712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2039
+    second: {fileID: 2100000, guid: 18294367d190f442aaa865f3fc138904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2040
+    second: {fileID: 2100000, guid: d5c15a21e6cc644a387bbcd5cbd62c9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2041
+    second: {fileID: 2100000, guid: c61ad036950794d439f93f26a22d06ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2043
+    second: {fileID: 2100000, guid: 5513074c6a8a54bbea791dedab0eb271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2056
+    second: {fileID: 2100000, guid: b0f9170e8df7d4a7fae529fdf5146d18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2057
+    second: {fileID: 2100000, guid: 3b1ff5175ad3a4a88b28eb3ca86c1c13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2058
+    second: {fileID: 2100000, guid: f89e1eaed6135420580a6f7366d32da5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2059
+    second: {fileID: 2100000, guid: 50e078a1e7e1f48c5802c2a30ae631bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28715
+    second: {fileID: 2100000, guid: da4bac76efc16437cb500f82de40d71f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28716
+    second: {fileID: 2100000, guid: 93c256a7859bf4f0281047da5222f9ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28717
+    second: {fileID: 2100000, guid: 8a3359f6035a74c63a57bb1285fd8518, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28718
+    second: {fileID: 2100000, guid: 6124cb5f2cabe48bba7a3fbc3d6bd735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28719
+    second: {fileID: 2100000, guid: c072be3fbfed94dc5acd53daf66da91b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28721
+    second: {fileID: 2100000, guid: 857534680dea846b0bdfecdf1bad2d7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28722
+    second: {fileID: 2100000, guid: 740bf04303f6547faa8515eb9864cb16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28723
+    second: {fileID: 2100000, guid: 509d78e015ac54fa8a3e300cc029d646, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28725
+    second: {fileID: 2100000, guid: 9ed36c0ace8cd497491fdb7a24f045c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28740
+    second: {fileID: 2100000, guid: 45c4b2b5d82704161b8ba5d1ddedf474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #28741
+    second: {fileID: 2100000, guid: 5b777137122284cb6bf83c1dd92dcb0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #30
+    second: {fileID: 2100000, guid: 788e094077ac84f3cbbf04e67a2a3c6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #31
+    second: {fileID: 2100000, guid: eaf3345fc773040999212c80c295c443, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #32
+    second: {fileID: 2100000, guid: 950e67314c9a840e1999daf7928af8f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material1
+    second: {fileID: 2100000, guid: a8f0bb723d74e42799e517cd759d1925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material10
+    second: {fileID: 2100000, guid: 194d07ebf20554f18ae01fbc96d6c46c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material12
+    second: {fileID: 2100000, guid: b076c1bb6a38442a0b67a7f9c817f74f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material14
+    second: {fileID: 2100000, guid: f339339f822614490a138c5e900cec04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material15
+    second: {fileID: 2100000, guid: 9d41f6e6624664bb1bf16f596e9dda4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material18
+    second: {fileID: 2100000, guid: 5bde488bf652a4b83946eb4bfbe4ea24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material19
+    second: {fileID: 2100000, guid: 1bacbc431c596429786ba1f40812bfce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3
+    second: {fileID: 2100000, guid: 58d3d1f8a6e854035bd63c176a49f1cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material4
+    second: {fileID: 2100000, guid: 31f4aeebb163f42b8a094f6275cf82dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material6
+    second: {fileID: 2100000, guid: 5deedee563b2b43848bf7c74c828fc96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material7
+    second: {fileID: 2100000, guid: f967d35c16c414f69abedcd429fc4625, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material8
+    second: {fileID: 2100000, guid: c87563d6f0ba44f609d4373779db9488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material9
+    second: {fileID: 2100000, guid: 5116c0c0151014549911f6d4a3fc7e2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banden
+    second: {fileID: 2100000, guid: a3d8b6c3a19ad444e995c5657faf4ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_243 x 1567 x 6m poly panel_001
+    second: {fileID: 2100000, guid: 11c630cf9d4c64c55956bda7c277c4e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_243 x 1567 x 6m poly panel_002
+    second: {fileID: 2100000, guid: 1fea6b1bad06943c5be2017d430f0c5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_63 A  HRC Switch_001
+    second: {fileID: 2100000, guid: 5e4b5ec9d93c94b4a91eb923fb69f6f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#2_001
+    second: {fileID: 2100000, guid: c7c54b8df282d43ccbdf370216a32908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#2_002
+    second: {fileID: 2100000, guid: 67d250d23879f4a6ab277e448935e26b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#2_003
+    second: {fileID: 2100000, guid: 62a2934e7ef8648c38fe41be73232f81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#2_004
+    second: {fileID: 2100000, guid: 9bf69bc839c4b40beb37644a3b33c2a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#2_005
+    second: {fileID: 2100000, guid: 7dda02b28ac3a4d28b98cef8c93d2e9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#4_001
+    second: {fileID: 2100000, guid: 93a50f8f9952740af8383770515f0c40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Forklift fast by BeauCAD_002
+    second: {fileID: 2100000, guid: 52095b4b48c4343f9b248341dbbdb41a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_001
+    second: {fileID: 2100000, guid: 2bba0cdef8e30497dae15118df2f24f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_002
+    second: {fileID: 2100000, guid: 52fd859a9ed254211a0eeaf57675195f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_003
+    second: {fileID: 2100000, guid: 28586a048d9584390aa2d85912d1499a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_004
+    second: {fileID: 2100000, guid: 37d0d773da18f42909389354342e0e53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_005
+    second: {fileID: 2100000, guid: 6d527252e4379458a9aff9a7031433f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_006
+    second: {fileID: 2100000, guid: e447e27352c8441b29dff945dd75d0cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_007
+    second: {fileID: 2100000, guid: efe96b4ce75924d6eae93300c8319a6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_008
+    second: {fileID: 2100000, guid: 4473d7abdf164458fa82f912aab91a6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_009
+    second: {fileID: 2100000, guid: 0ae78d9097ecd48f7859e7f6d4884cd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_010
+    second: {fileID: 2100000, guid: 20f8e2d74d89247ee955cb1e64f27291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_011
+    second: {fileID: 2100000, guid: 1e4f77370f08d4dd59159c223b938ecf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_012
+    second: {fileID: 2100000, guid: 4ddd568cdf6ff4be7b1881dff73bf5be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_013
+    second: {fileID: 2100000, guid: e8bc21cb8ddb147bd960642ca2c85f01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_014
+    second: {fileID: 2100000, guid: 214885cca10994dc1a89a350c8b0f685, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_015
+    second: {fileID: 2100000, guid: 97f6975edc7cd417fbd3033f52b6a075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_016
+    second: {fileID: 2100000, guid: 1b68973f0d792423086f1aa0fc053f70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_017
+    second: {fileID: 2100000, guid: 47b0d26f40e1a46ce8c33e43c769e4b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_020
+    second: {fileID: 2100000, guid: 77486547947694d3d87ce3cfc9932507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_030
+    second: {fileID: 2100000, guid: 609fa80b1ee9a409494fa57cc34d8aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_031
+    second: {fileID: 2100000, guid: 5fb758c474fbf46c79d6e7f7c340d5b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_032
+    second: {fileID: 2100000, guid: c94b0d84498a342bf9a05c92599e6ede, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_043
+    second: {fileID: 2100000, guid: 46533a1eb9d4a4c5281c1d84d2b860f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_052
+    second: {fileID: 2100000, guid: 0fc9e8fbcac254452b572d7c2f9193a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_053
+    second: {fileID: 2100000, guid: eb22b39372dc14bcda8b96557d64227c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_054
+    second: {fileID: 2100000, guid: 157b61882543842909c9cfb86875bfa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_055
+    second: {fileID: 2100000, guid: 241ef6c316cf14a66bab58f72a217afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_056
+    second: {fileID: 2100000, guid: f8b5294fdb5e84bae8a19b6d2f8c21bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_002
+    second: {fileID: 2100000, guid: 4de50b91a4172438e9dd121429a1823f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_004
+    second: {fileID: 2100000, guid: da326c8b24d954eeb8c22b873f7c595d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_007
+    second: {fileID: 2100000, guid: d9bbf4c6e4a1640959cb8be5091d3706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_014
+    second: {fileID: 2100000, guid: 6f2e6997404b64a12888dc8bb4a0b1d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_026
+    second: {fileID: 2100000, guid: 4468dd536a4cf4d94af1ead5813a7906, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_027
+    second: {fileID: 2100000, guid: 6cb5a587903ee4a5a844259b2b03b326, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_033
+    second: {fileID: 2100000, guid: 79d266362f89e4bde9f6387cfafe69e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_055
+    second: {fileID: 2100000, guid: f477747d12f754bc29ee5a7211e26c3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_057
+    second: {fileID: 2100000, guid: 0d7ef3e8f2d9f4219bb76306c7f872ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_058
+    second: {fileID: 2100000, guid: ba6a3060e1b564c0789bfe33540a4396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_083
+    second: {fileID: 2100000, guid: 251d604a0de43482a980492464302516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_084
+    second: {fileID: 2100000, guid: fb565ae99c6304f10bc53c0325bb44ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_b50.45.001#1_001
+    second: {fileID: 2100000, guid: b0cdd1bb2635e4f388921a0153926f2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dozen
+    second: {fileID: 2100000, guid: 2feac7ec3370645c98c7baff49e37c3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grijs
+    second: {fileID: 2100000, guid: 246b3f99c5ebf44a9a98a4c950a44402, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leer
+    second: {fileID: 2100000, guid: 2150fb95169b44bd3b08cae0034abae1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scherm
+    second: {fileID: 2100000, guid: d737024b0a5ef494f8dec978c80bb202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skp_front_default
+    second: {fileID: 2100000, guid: 2a7ec936ba0b54889b41d1dceddf3b2a, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: voet/basis/basis2
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 1999.9999
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: -DC_Shell005
+        weight: 1
+      - path: box005
+        weight: 1
+      - path: box006
+        weight: 1
+      - path: box007
+        weight: 1
+      - path: box008
+        weight: 1
+      - path: Box035
+        weight: 1
+      - path: Box117
+        weight: 1
+      - path: Box119
+        weight: 1
+      - path: Box120
+        weight: 1
+      - path: Box121
+        weight: 1
+      - path: Box122
+        weight: 1
+      - path: Box122/stoppen
+        weight: 1
+      - path: Box122/stoppen/noodstop
+        weight: 1
+      - path: Box122/stoppen/noodstop/Cylinder001
+        weight: 1
+      - path: Box122/stoppen/noodstop/rood001
+        weight: 1
+      - path: Box122/stoppen/noodstop001
+        weight: 1
+      - path: Box122/stoppen/noodstop001/Cylinder027
+        weight: 1
+      - path: Box122/stoppen/noodstop001/rood002
+        weight: 1
+      - path: Box124
+        weight: 1
+      - path: Box125
+        weight: 1
+      - path: Box126
+        weight: 1
+      - path: Component#6_001
+        weight: 1
+      - path: Component#16_001
+        weight: 1
+      - path: Component#17_001
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder016
+        weight: 1
+      - path: Cylinder030
+        weight: 1
+      - path: Cylinder031
+        weight: 1
+      - path: Driver_woman_Daylight_001
+        weight: 1
+      - path: Driver_woman_Daylight_001/Sky002
+        weight: 1
+      - path: Driver_woman_Daylight_001/Sun001
+        weight: 1
+      - path: Forklift fast by BeauCAD_001
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/geelheftr
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/mannetjeheftruck01
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/mannetjeheftruck02
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/mannetjeheftruck03
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/Object051
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/Object061
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/Object064
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/Object065
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/Object067
+        weight: 1
+      - path: Forklift fast by BeauCAD_001/Object069
+        weight: 1
+      - path: Forklift fast by BeauCAD_002
+        weight: 1
+      - path: Group001
+        weight: 1
+      - path: Group001/2016158_ASM
+        weight: 1
+      - path: 'Group001/2016158_ASM/ '
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship/2016157
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship/2016157/ '
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship/2016157/ / '
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship/2016157/ / / '
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship/2016157/ /  1
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship/2016157/ /  1/ '
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship/2016157/ /  1/ / '
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship 1
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship 1/2016155
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 1/2016155/ '
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 1/2016155/ / '
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 1/2016155/ / / '
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship 1/2016155/ /  1
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 1/2016155/ /  1/ '
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 1/2016155/ /  1/
+          / '
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship 1/2016155/ /  1/
+          / /-DC_Curve
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship 2
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship 2/2016156
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 2/2016156/ '
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 2/2016156/ / '
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 2/2016156/ / / '
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 2/2016156/ / / / '
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship 2/2016156/ / / /
+          /-DC_Curve
+        weight: 1
+      - path: Group001/2016158_ASM/ /Next assembly relationship 2/2016156/ /  1
+        weight: 1
+      - path: 'Group001/2016158_ASM/ /Next assembly relationship 2/2016156/ /  1/ '
+        weight: 1
+      - path: Group001/2016164_ASM
+        weight: 1
+      - path: Group001/2016164_ASM/033
+        weight: 1
+      - path: Group001/2016164_ASM/033/004
+        weight: 1
+      - path: Group001/2016164_ASM/033/004/007
+        weight: 1
+      - path: Group001/2016164_ASM/033/004/007/010
+        weight: 1
+      - path: Group001/2016164_ASM/033/004/007/010/-DC_Curve
+        weight: 1
+      - path: Group001/2016164_ASM/033/004/007/010/-DC_Curve 1
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship001
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship001/002
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship001/002/003
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship001/002/003/008
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship001/002/003/008/006
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship001/002/003/011
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship001/002/003/011/001
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship001/002/003/011/001/009
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship001/002/003/011/001/009/-DC_Curve
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship002
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship002/2016163
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship002/2016163/018
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship002/2016163/018/020
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship002/2016163/018/020/017
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship002/2016163/018/023
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship002/2016163/018/023/013
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship002/2016163/018/023/013/014
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship002/2016163/018/023/013/014/-DC_Curve
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship003
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship003/032
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship003/032/034
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship003/032/034/012
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship003/032/034/012/016
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship003/032/034/012/016/021
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship003/032/034/012/016/021/-DC_Curve
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship003/032/034/027
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship003/032/034/027/024
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship004
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship004/035
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship004/035/030
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship004/035/030/025
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship004/035/030/025/022
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship004/035/030/025/022/028
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship004/035/030/025/022/028/-DC_Curve
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship004/035/030/026
+        weight: 1
+      - path: Group001/2016164_ASM/033/Next assembly relationship004/035/030/026/029
+        weight: 1
+      - path: Group003
+        weight: 1
+      - path: Group003/hek038
+        weight: 1
+      - path: Group003/hekpaal031
+        weight: 1
+      - path: Group005
+        weight: 1
+      - path: Group005/54.40.0224.8_002
+        weight: 1
+      - path: Group005/54.40.1823.8_001
+        weight: 1
+      - path: Group005/63 A  HRC Switch_001
+        weight: 1
+      - path: Group005/67.02.0004_001
+        weight: 1
+      - path: Group005/230V / 400V_001
+        weight: 1
+      - path: Group005/230V / 415_001
+        weight: 1
+      - path: Group005/243 x 1567 x 6m poly panel_001
+        weight: 1
+      - path: Group005/b50.45.001#1_002
+        weight: 1
+      - path: Group005/back-fins_003
+        weight: 1
+      - path: Group005/back-fins_004
+        weight: 1
+      - path: Group005/back-fins_005
+        weight: 1
+      - path: Group005/back-fins_006
+        weight: 1
+      - path: Group005/Component#1_001
+        weight: 1
+      - path: Group005/Component#1_002
+        weight: 1
+      - path: Group005/Component#1_003
+        weight: 1
+      - path: Group005/Component#1_004
+        weight: 1
+      - path: Group005/Component#1_005
+        weight: 1
+      - path: Group005/Component#1_006
+        weight: 1
+      - path: Group005/Component#1_007
+        weight: 1
+      - path: Group005/Component#1_008
+        weight: 1
+      - path: Group005/Component#1_009
+        weight: 1
+      - path: Group005/Component#1_012
+        weight: 1
+      - path: Group005/Component#2_001
+        weight: 1
+      - path: Group005/Component#2_002
+        weight: 1
+      - path: Group005/Component#3_001
+        weight: 1
+      - path: Group005/Component#4_001
+        weight: 1
+      - path: Group005/Component#4_002
+        weight: 1
+      - path: Group005/Component#4_003
+        weight: 1
+      - path: Group005/Component#6_002
+        weight: 1
+      - path: Group005/Component#7_001
+        weight: 1
+      - path: Group005/Component#11_001
+        weight: 1
+      - path: Group005/Component#11_002
+        weight: 1
+      - path: Group005/Component#13_001
+        weight: 1
+      - path: Group005/Component#13_002
+        weight: 1
+      - path: Group005/Component#15_001
+        weight: 1
+      - path: Group005/Component#15_001/Group006
+        weight: 1
+      - path: Group005/Component#15_001/Group006/Box123
+        weight: 1
+      - path: Group005/Component#15_001/Group006/stoppen001
+        weight: 1
+      - path: Group005/Component#15_001/Group006/stoppen001/noodstop002
+        weight: 1
+      - path: Group005/Component#15_001/Group006/stoppen001/noodstop002/Cylinder028
+        weight: 1
+      - path: Group005/Component#15_001/Group006/stoppen001/noodstop002/rood003
+        weight: 1
+      - path: Group005/Component#15_001/Group006/stoppen001/noodstop003
+        weight: 1
+      - path: Group005/Component#15_001/Group006/stoppen001/noodstop003/Cylinder029
+        weight: 1
+      - path: Group005/Component#15_001/Group006/stoppen001/noodstop003/rood004
+        weight: 1
+      - path: Group005/Component#18_001
+        weight: 1
+      - path: Group005/Component#22_001
+        weight: 1
+      - path: Group005/endcap_005
+        weight: 1
+      - path: Group005/frontfins-half_001
+        weight: 1
+      - path: Group005/frontfins-half_002
+        weight: 1
+      - path: Group005/frontfins-half_003
+        weight: 1
+      - path: Group005/frontfins-half_004
+        weight: 1
+      - path: Group005/Group#1_001
+        weight: 1
+      - path: Group005/Group_001
+        weight: 1
+      - path: Group005/Group_002
+        weight: 1
+      - path: Group005/Group_003
+        weight: 1
+      - path: Group005/Group_004
+        weight: 1
+      - path: Group005/Group_005
+        weight: 1
+      - path: Group005/Group_006
+        weight: 1
+      - path: Group005/Group_007
+        weight: 1
+      - path: Group005/Group_010
+        weight: 1
+      - path: Group005/Group_011
+        weight: 1
+      - path: Group005/Group_012
+        weight: 1
+      - path: Group005/Group_013
+        weight: 1
+      - path: Group005/Group_023
+        weight: 1
+      - path: Group005/Group_024
+        weight: 1
+      - path: Group005/Group_026
+        weight: 1
+      - path: Group005/Group_027
+        weight: 1
+      - path: Group005/Group_032
+        weight: 1
+      - path: Group005/Group_033
+        weight: 1
+      - path: Group005/Group_192
+        weight: 1
+      - path: Group005/Group_194
+        weight: 1
+      - path: Group005/Group_195
+        weight: 1
+      - path: Group005/Group_196
+        weight: 1
+      - path: Group005/Group_197
+        weight: 1
+      - path: Group005/Group_198
+        weight: 1
+      - path: Group005/Group_199
+        weight: 1
+      - path: Group005/Group_200
+        weight: 1
+      - path: Group005/Group_201
+        weight: 1
+      - path: Group005/Group_202
+        weight: 1
+      - path: Group005/Group_203
+        weight: 1
+      - path: Group005/Group_204
+        weight: 1
+      - path: Group005/Group_205
+        weight: 1
+      - path: Group005/Group_206
+        weight: 1
+      - path: Group005/Group_207
+        weight: 1
+      - path: Group005/Group_208
+        weight: 1
+      - path: Group005/Group_209
+        weight: 1
+      - path: Group005/Group_210
+        weight: 1
+      - path: Group005/Group_211
+        weight: 1
+      - path: Group005/Group_212
+        weight: 1
+      - path: Group005/Group_213
+        weight: 1
+      - path: Group005/Group_214
+        weight: 1
+      - path: Group005/Group_215
+        weight: 1
+      - path: Group005/Group_408
+        weight: 1
+      - path: Group005/LEG_Transformer 0,6 mm_005
+        weight: 1
+      - path: Group005/LEG_Transformer 0,6 mm_006
+        weight: 1
+      - path: Group005/Spring#1_001
+        weight: 1
+      - path: Group005/Spring#1_002
+        weight: 1
+      - path: Group005/Spring#1_003
+        weight: 1
+      - path: Group005/Spring#1_004
+        weight: 1
+      - path: Group005/switch_XCKS101H29_10_003
+        weight: 1
+      - path: Group005/switch_XCKS101H29_10_004
+        weight: 1
+      - path: hek
+        weight: 1
+      - path: hek/hek008
+        weight: 1
+      - path: hek/hekpaal015
+        weight: 1
+      - path: hek010
+        weight: 1
+      - path: hek010/hek011
+        weight: 1
+      - path: hek010/hekpaal017
+        weight: 1
+      - path: hek012
+        weight: 1
+      - path: hek012/hek013
+        weight: 1
+      - path: hek012/hekpaal018
+        weight: 1
+      - path: hek018
+        weight: 1
+      - path: hek018/hek019
+        weight: 1
+      - path: hek018/hekpaal021
+        weight: 1
+      - path: hek021
+        weight: 1
+      - path: hek021/hek020
+        weight: 1
+      - path: hek021/hekpaal022
+        weight: 1
+      - path: hek023
+        weight: 1
+      - path: hek023/hek022
+        weight: 1
+      - path: hek023/hekpaal023
+        weight: 1
+      - path: hek025
+        weight: 1
+      - path: hek025/hek024
+        weight: 1
+      - path: hek025/hekpaal024
+        weight: 1
+      - path: hek026
+        weight: 1
+      - path: hek027
+        weight: 1
+      - path: hek027/hekpaal025
+        weight: 1
+      - path: hek031
+        weight: 1
+      - path: hek031/hek030
+        weight: 1
+      - path: hek031/hekpaal027
+        weight: 1
+      - path: hek033
+        weight: 1
+      - path: hek033/-DC_Brep002
+        weight: 1
+      - path: hek033/-DC_Shell009
+        weight: 1
+      - path: hek033/2016165
+        weight: 1
+      - path: hek033/hek032
+        weight: 1
+      - path: hek033/hekpaal028
+        weight: 1
+      - path: hek035
+        weight: 1
+      - path: hek035/hek034
+        weight: 1
+      - path: hek035/hekpaal029
+        weight: 1
+      - path: hek039
+        weight: 1
+      - path: hek039/hek040
+        weight: 1
+      - path: hek039/hekpaal032
+        weight: 1
+      - path: hek041
+        weight: 1
+      - path: hek041/hek042
+        weight: 1
+      - path: hek041/hekpaal033
+        weight: 1
+      - path: hek043
+        weight: 1
+      - path: hek043/hek044
+        weight: 1
+      - path: hek043/hekpaal034
+        weight: 1
+      - path: hekpaal016
+        weight: 1
+      - path: hinge2
+        weight: 1
+      - path: hinge2/2016166
+        weight: 1
+      - path: hinge2/2016167
+        weight: 1
+      - path: hinge2/Line002
+        weight: 1
+      - path: Line002-zonderani001
+        weight: 1
+      - path: Object
+        weight: 1
+      - path: Object/-DC_Brep001
+        weight: 1
+      - path: Object/-DC_Shell010
+        weight: 1
+      - path: Object/-DC_Shell010/Object042
+        weight: 1
+      - path: Object/2016164
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object010
+        weight: 1
+      - path: Object012
+        weight: 1
+      - path: Object028
+        weight: 1
+      - path: Object028/hek009
+        weight: 1
+      - path: Object029
+        weight: 1
+      - path: Object029/-DC_Brep
+        weight: 1
+      - path: Object029/-DC_Shell008
+        weight: 1
+      - path: Object029/005
+        weight: 1
+      - path: Object029/hek036
+        weight: 1
+      - path: Object029/hekpaal030
+        weight: 1
+      - path: Object030
+        weight: 1
+      - path: Object031
+        weight: 1
+      - path: Object032
+        weight: 1
+      - path: Object034
+        weight: 1
+      - path: Object040
+        weight: 1
+      - path: Object041
+        weight: 1
+      - path: Object041/-DC_Brep
+        weight: 1
+      - path: Object041/-DC_Brep/-DC_Brep
+        weight: 1
+      - path: Object041/-DC_Brep/Line001
+        weight: 1
+      - path: Object041/015
+        weight: 1
+      - path: Object041/019
+        weight: 1
+      - path: Object041/031
+        weight: 1
+      - path: Object043
+        weight: 1
+      - path: Object044
+        weight: 1
+      - path: Object045
+        weight: 1
+      - path: Object046
+        weight: 1
+      - path: Object047
+        weight: 1
+      - path: Object048
+        weight: 1
+      - path: Object049
+        weight: 1
+      - path: Object050
+        weight: 1
+      - path: Object070
+        weight: 1
+      - path: pallet
+        weight: 1
+      - path: pallet/Box037
+        weight: 1
+      - path: pallet/Box038
+        weight: 1
+      - path: pallet/Box039
+        weight: 1
+      - path: pallet/Box040
+        weight: 1
+      - path: pallet/Box041
+        weight: 1
+      - path: pallet/Box042
+        weight: 1
+      - path: pallet/Box043
+        weight: 1
+      - path: pallet/Box044
+        weight: 1
+      - path: pallet/Box045
+        weight: 1
+      - path: pallet/Box046
+        weight: 1
+      - path: pallet/Box047
+        weight: 1
+      - path: pallet/Box048
+        weight: 1
+      - path: pallet/Box049
+        weight: 1
+      - path: pallet/Box050
+        weight: 1
+      - path: pallet/Box051
+        weight: 1
+      - path: pallet/Box052
+        weight: 1
+      - path: pallet/Box053
+        weight: 1
+      - path: pallet/Box054
+        weight: 1
+      - path: pallet/Box055
+        weight: 1
+      - path: pallet/Box056
+        weight: 1
+      - path: pallet/Box057
+        weight: 1
+      - path: pallet/Box058
+        weight: 1
+      - path: pallet/Box059
+        weight: 1
+      - path: pallet/Box060
+        weight: 1
+      - path: pallet/Box061
+        weight: 1
+      - path: pallet/Box062
+        weight: 1
+      - path: pallet/Box063
+        weight: 1
+      - path: pallet/Box064
+        weight: 1
+      - path: pallet/Box065
+        weight: 1
+      - path: pallet/Box066
+        weight: 1
+      - path: pallet/Box067
+        weight: 1
+      - path: pallet/Box068
+        weight: 1
+      - path: pallet/Box069
+        weight: 1
+      - path: pallet/Box070
+        weight: 1
+      - path: pallet/Box071
+        weight: 1
+      - path: pallet/Box072
+        weight: 1
+      - path: pallet/Box073
+        weight: 1
+      - path: pallet/Box074
+        weight: 1
+      - path: pallet/Box075
+        weight: 1
+      - path: pallet/Box076
+        weight: 1
+      - path: pallet/Box077
+        weight: 1
+      - path: pallet/Box078
+        weight: 1
+      - path: pallet/Box079
+        weight: 1
+      - path: pallet/Box080
+        weight: 1
+      - path: pallet/Box081
+        weight: 1
+      - path: pallet/Box082
+        weight: 1
+      - path: pallet/Box083
+        weight: 1
+      - path: pallet/Box084
+        weight: 1
+      - path: pallet/Box085
+        weight: 1
+      - path: pallet/Box086
+        weight: 1
+      - path: pallet/Box087
+        weight: 1
+      - path: pallet/Box088
+        weight: 1
+      - path: pallet/Box089
+        weight: 1
+      - path: pallet/Box090
+        weight: 1
+      - path: pallet/Box091
+        weight: 1
+      - path: pallet/Box092
+        weight: 1
+      - path: pallet/Box093
+        weight: 1
+      - path: pallet/Box094
+        weight: 1
+      - path: pallet/Box095
+        weight: 1
+      - path: pallet/Box096
+        weight: 1
+      - path: pallet/Box097
+        weight: 1
+      - path: pallet/Box098
+        weight: 1
+      - path: pallet/Box099
+        weight: 1
+      - path: pallet/Box100
+        weight: 1
+      - path: pallet/Box101
+        weight: 1
+      - path: pallet/Box102
+        weight: 1
+      - path: pallet/Box103
+        weight: 1
+      - path: pallet/Box104
+        weight: 1
+      - path: pallet/Box105
+        weight: 1
+      - path: pallet/Box106
+        weight: 1
+      - path: pallet/Box107
+        weight: 1
+      - path: pallet/Box108
+        weight: 1
+      - path: pallet/Box109
+        weight: 1
+      - path: pallet/Box110
+        weight: 1
+      - path: pallet/Box111
+        weight: 1
+      - path: pallet/Box112
+        weight: 1
+      - path: pallet/Box113
+        weight: 1
+      - path: pallet/Box114
+        weight: 1
+      - path: pallet/Box115
+        weight: 1
+      - path: pallet/Box116
+        weight: 1
+      - path: pallet/Group_409
+        weight: 1
+      - path: pallet/Group_410
+        weight: 1
+      - path: pallet/Group_411
+        weight: 1
+      - path: pallet/Group_412
+        weight: 1
+      - path: pallet/Group_413
+        weight: 1
+      - path: pallet/Group_414
+        weight: 1
+      - path: pallet/Group_415
+        weight: 1
+      - path: pallet/Group_416
+        weight: 1
+      - path: pallet/Line002-zonderani
+        weight: 1
+      - path: pallet001
+        weight: 1
+      - path: pallet001 1
+        weight: 1
+      - path: pilzlogo3dkoen
+        weight: 1
+      - path: rol
+        weight: 1
+      - path: rol/Cylinder018
+        weight: 1
+      - path: rol/Cylinder018/Cylinder017
+        weight: 1
+      - path: rol002
+        weight: 1
+      - path: rol002/Cylinder021
+        weight: 1
+      - path: rol002/Cylinder021/Cylinder022
+        weight: 1
+      - path: rol003
+        weight: 1
+      - path: rol003/Cylinder023
+        weight: 1
+      - path: rol003/Cylinder023/Cylinder024
+        weight: 1
+      - path: rol004
+        weight: 1
+      - path: rol004/Cylinder025
+        weight: 1
+      - path: rol004/Cylinder025/Cylinder026
+        weight: 1
+      - path: rollerbandenkel
+        weight: 1
+      - path: rollerbandenkel001
+        weight: 1
+      - path: rollerbandenkel002
+        weight: 1
+      - path: rollerbandenkel003
+        weight: 1
+      - path: scherm
+        weight: 1
+      - path: voet
+        weight: 1
+      - path: voet/basis
+        weight: 1
+      - path: voet/basis/basis2
+        weight: 1
+      - path: voet/basis/basis2/basis3
+        weight: 1
+      - path: voet/basis/basis2/basis3/basis4
+        weight: 1
+      - path: voet/basis/basis2/basis3/basis4/basis5
+        weight: 1
+      - path: voet/basis/basis2/basis3/basis4/basis5/basis6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
