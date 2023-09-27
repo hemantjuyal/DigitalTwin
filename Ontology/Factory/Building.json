@@ -1,29 +1,33 @@
 {
-  "@id": "dtmi:DigitalTwin:DTBuilding;1",
+  "@id": "dtmi:DigitalTwin:Building;1",
   "@type": "Interface",
-  "displayName": "DTBuilding",
-  "@context": "dtmi:dtdl:context;3",
+  "displayName": "Building",
+  "@context": "dtmi:dtdl:context;2",
   "contents": [
     {
       "@type": "Property",
-      "name": "address",
+      "name": "Address",
       "schema": {
         "@type": "Object",
         "fields": [
           {
-            "name": "street",
+            "name": "Street",
             "schema": "string"
           },
           {
-            "name": "city",
+            "name": "City",
             "schema": "string"
           },
           {
-            "name": "state",
+            "name": "State",
             "schema": "string"
           },
           {
-            "name": "zip",
+            "name":"Country",
+            "schema": "string"
+          },
+          {
+            "name": "Zip",
             "schema": "string"
           }
         ]
@@ -45,15 +49,16 @@
                   "name": "Longitude",
                   "schema": "double",
                   "displayName": "Longitude"
-              },
-              {
-                "name": "Altitude",
-                "schema": "double",
-                "displayName": "Altitude"
               }
           ]
       }
   },
+{
+  "@type": "Property",
+  "name": "Altitude",
+  "schema": "double",
+  "displayName": "Altitude"
+},
 {
   "@type": "Property",
   "name": "SiteArea",
@@ -62,7 +67,7 @@
 },
   {
     "@type": "Property",
-    "name": "No_of_floors",
+    "name": "Numberoffloors",
     "schema": "integer",
     "displayName": "Number of floors"
   },
@@ -76,7 +81,7 @@
       "@type": "Relationship",
       "name": "contains",
       "displayName": "contains",
-      "target": "dtmi:Digital_Twin_Proj:FacFloor;1"
+      "target": "dtmi:DigitalTwin:FactoryFloor;1"
     }
   ]
 }
