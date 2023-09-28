@@ -28,7 +28,7 @@
           },
           {
             "name": "Zip",
-            "schema": "string"
+            "schema": "integer"
           }
         ]
       }
@@ -73,7 +73,7 @@
   },
   {
     "@type": "Property",
-    "name": "EnergyConsumption",
+    "name": "TotalEnergyConsumption",
     "schema": "double",
     "displayName": "Total Energy Consumption (kW-h)"
 },

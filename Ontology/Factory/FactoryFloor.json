@@ -2,25 +2,26 @@
   "@id": "dtmi:DigitalTwin:FactoryFloor;1",
   "@type": "Interface",
   "displayName": "FactoryFloor",
+  "extends":"dtmi:DigitalTwin:Building;1",
   "@context": "dtmi:dtdl:context;2",
   "contents": [
     {
       "@type": "Property",
-      "name": "Temperature",
+      "name": "RoomTemperature",
       "schema": "double",
-      "displayName": "Temperature (°C)"
+      "displayName": "Temperature of the Room(°C)"
   },
   {
       "@type": "Property",
-      "name": "Humidity",
+      "name": "RoomHumidity",
       "schema": "double",
-      "displayName": "Humidity (%)"
+      "displayName": "Humidity of the Room(%)"
   },
   {
     "@type": "Property",
-    "name": "Area",
+    "name": "RoomArea",
     "schema": "double",
-    "displayName": "Area (sq. meters)"
+    "displayName": "Area of the Room(sq. meters)"
 },
 {
   "@type": "Property",
