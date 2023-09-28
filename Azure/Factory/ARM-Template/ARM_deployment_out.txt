@@ -1,0 +1,735 @@
+{
+  "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Resources/deployments/azuredeploy",
+  "location": null,
+  "name": "azuredeploy",
+  "properties": {
+    "correlationId": "ed849556-2bc0-48bf-832a-4a758cc85c42",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Storage/storageAccounts/banjotprojpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojpiytqw3vm4",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Storage/storageAccounts/banjotprojpiytqw3vm4/blobServices/default/containers/bladeremoteassets",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "banjotprojpiytqw3vm4/default/bladeremoteassets",
+        "resourceType": "Microsoft.Storage/storageAccounts/blobServices/containers"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/banjotprojscriptidentity",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojscriptidentity",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.DigitalTwins/digitalTwinsInstances/banjotprojadtpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "banjotprojadtpiytqw3vm4",
+        "resourceType": "Microsoft.DigitalTwins/digitalTwinsInstances"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.DigitalTwins/digitalTwinsInstances/banjotprojadtpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojadtpiytqw3vm4",
+            "resourceType": "Microsoft.DigitalTwins/digitalTwinsInstances"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Insights/components/banjotprojappinsightpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojappinsightpiytqw3vm4",
+            "resourceType": "Microsoft.Insights/components"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/serverfarms/banjotprojfarmpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojfarmpiytqw3vm4",
+            "resourceType": "Microsoft.Web/serverfarms"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/banjotprojscriptidentity",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojscriptidentity",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.SignalRService/signalR/banjotprojsignalrpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojsignalrpiytqw3vm4",
+            "resourceType": "Microsoft.SignalRService/signalR"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Storage/storageAccounts/banjotprojpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojpiytqw3vm4",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "actionName": "listKeys",
+            "apiVersion": "2019-06-01",
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Storage/storageAccounts/banjotprojpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojpiytqw3vm4",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "apiVersion": "2020-03-01-preview",
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.DigitalTwins/digitalTwinsInstances/banjotprojadtpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojadtpiytqw3vm4",
+            "resourceType": "Microsoft.DigitalTwins/digitalTwinsInstances"
+          },
+          {
+            "actionName": "listKeys",
+            "apiVersion": "2023-08-01-preview",
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.SignalRService/signalR/banjotprojsignalrpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojsignalrpiytqw3vm4",
+            "resourceType": "Microsoft.SignalRService/signalR"
+          },
+          {
+            "apiVersion": "2015-05-01",
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Insights/components/banjotprojappinsightpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojappinsightpiytqw3vm4",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "banjotprojfuncapppiytqw3vm4",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojfuncapppiytqw3vm4",
+            "resourceType": "Microsoft.Web/sites"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4/extensions/ZipDeploy",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "banjotprojfuncapppiytqw3vm4/ZipDeploy",
+        "resourceType": "Microsoft.Web/sites/extensions"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojfuncapppiytqw3vm4",
+            "resourceType": "Microsoft.Web/sites"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4/extensions/ZipDeploy",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojfuncapppiytqw3vm4/ZipDeploy",
+            "resourceType": "Microsoft.Web/sites/extensions"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Devices/IotHubs/banjotprojHubpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojHubpiytqw3vm4",
+            "resourceType": "Microsoft.Devices/IotHubs"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.EventGrid/systemTopics/banjotprojegingestpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "banjotprojegingestpiytqw3vm4",
+        "resourceType": "Microsoft.EventGrid/systemTopics"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.EventGrid/systemTopics/banjotprojegingestpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojegingestpiytqw3vm4",
+            "resourceType": "Microsoft.EventGrid/systemTopics"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojfuncapppiytqw3vm4",
+            "resourceType": "Microsoft.Web/sites"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4/extensions/ZipDeploy",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojfuncapppiytqw3vm4/ZipDeploy",
+            "resourceType": "Microsoft.Web/sites/extensions"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Devices/IotHubs/banjotprojHubpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojHubpiytqw3vm4",
+            "resourceType": "Microsoft.Devices/IotHubs"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Resources/deploymentScripts/PostDeploymentscript",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "PostDeploymentscript",
+            "resourceType": "Microsoft.Resources/deploymentScripts"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.SignalRService/signalR/banjotprojsignalrpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojsignalrpiytqw3vm4",
+            "resourceType": "Microsoft.SignalRService/signalR"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.EventGrid/systemTopics/banjotprojegingestpiytqw3vm4/eventSubscriptions/telemetryfunction",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "banjotprojegingestpiytqw3vm4/telemetryfunction",
+        "resourceType": "Microsoft.EventGrid/systemTopics/eventSubscriptions"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/banjotprojscriptidentity",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojscriptidentity",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/bfdf8524-0609-5248-bbe6-eebf1074153c",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "bfdf8524-0609-5248-bbe6-eebf1074153c",
+        "resourceType": "Microsoft.Authorization/roleAssignments"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/banjotprojscriptidentity",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojscriptidentity",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/e3a16c8f-a3dd-5db5-ae70-4a76579eb9ee",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "e3a16c8f-a3dd-5db5-ae70-4a76579eb9ee",
+        "resourceType": "Microsoft.Authorization/roleAssignments"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/banjotprojscriptidentity",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojscriptidentity",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/6a275fe3-78dc-5346-aab8-be9e24e6b435",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "6a275fe3-78dc-5346-aab8-be9e24e6b435",
+        "resourceType": "Microsoft.Authorization/roleAssignments"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojfuncapppiytqw3vm4",
+            "resourceType": "Microsoft.Web/sites"
+          },
+          {
+            "apiVersion": "2019-08-01",
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojfuncapppiytqw3vm4",
+            "resourceType": "Microsoft.Web/sites"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/54bbd6e3-4711-5fa0-93f4-b8087d9cb55d",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "54bbd6e3-4711-5fa0-93f4-b8087d9cb55d",
+        "resourceType": "Microsoft.Authorization/roleAssignments"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.DigitalTwins/digitalTwinsInstances/banjotprojadtpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojadtpiytqw3vm4",
+            "resourceType": "Microsoft.DigitalTwins/digitalTwinsInstances"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.EventGrid/topics/banjotprojcltpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojcltpiytqw3vm4",
+            "resourceType": "Microsoft.EventGrid/topics"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojfuncapppiytqw3vm4",
+            "resourceType": "Microsoft.Web/sites"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/banjotprojscriptidentity",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojscriptidentity",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Devices/IotHubs/banjotprojHubpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojHubpiytqw3vm4",
+            "resourceType": "Microsoft.Devices/IotHubs"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/bfdf8524-0609-5248-bbe6-eebf1074153c",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "bfdf8524-0609-5248-bbe6-eebf1074153c",
+            "resourceType": "Microsoft.Authorization/roleAssignments"
+          },
+          {
+            "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Storage/storageAccounts/banjotprojpiytqw3vm4",
+            "resourceGroup": "banjotproj-rg",
+            "resourceName": "banjotprojpiytqw3vm4",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          }
+        ],
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Resources/deploymentScripts/PostDeploymentscript",
+        "resourceGroup": "banjotproj-rg",
+        "resourceName": "PostDeploymentscript",
+        "resourceType": "Microsoft.Resources/deploymentScripts"
+      }
+    ],
+    "duration": "PT9M20.5494789S",
+    "error": null,
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputResources": [
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/351b4ac6-918f-49c4-82c1-c048e7c078df",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/3672d23f-9705-5ea7-b148-4c3dc17070a6",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/54bbd6e3-4711-5fa0-93f4-b8087d9cb55d",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/6a275fe3-78dc-5346-aab8-be9e24e6b435",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/bfdf8524-0609-5248-bbe6-eebf1074153c",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Authorization/roleAssignments/e3a16c8f-a3dd-5db5-ae70-4a76579eb9ee",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Devices/IotHubs/banjotprojHubpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.DigitalTwins/digitalTwinsInstances/banjotprojadtpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.EventGrid/systemTopics/banjotprojegingestpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.EventGrid/systemTopics/banjotprojegingestpiytqw3vm4/eventSubscriptions/telemetryfunction",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.EventGrid/topics/banjotprojcltpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Insights/components/banjotprojappinsightpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/banjotprojscriptidentity",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Resources/deploymentScripts/PostDeploymentscript",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.SignalRService/signalR/banjotprojsignalrpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Storage/storageAccounts/banjotprojpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Storage/storageAccounts/banjotprojpiytqw3vm4/blobServices/default/containers/bladeremoteassets",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/serverfarms/banjotprojfarmpiytqw3vm4",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4",
+        "resourceGroup": "banjotproj-rg"
+      },
+      {
+        "id": "/subscriptions/d1aa9394-9dee-4fa0-8e52-dd6b030645aa/resourceGroups/banjotproj-rg/providers/Microsoft.Web/sites/banjotprojfuncapppiytqw3vm4/extensions/ZipDeploy",
+        "resourceGroup": "banjotproj-rg"
+      }
+    ],
+    "outputs": {
+      "importantInfo": {
+        "type": "Object",
+        "value": {
+          "adtHostName": "https://banjotprojadtpiytqw3vm4.api.eus.digitaltwins.azure.net",
+          "iotHubName": "banjotprojHubpiytqw3vm4",
+          "signalRNegotiatePath": "https://banjotprojfuncapppiytqw3vm4.azurewebsites.net/api/negotiate"
+        }
+      }
+    },
+    "parameters": {
+      "appRegObjectId": {
+        "type": "String",
+        "value": "351b4ac6-918f-49c4-82c1-c048e7c078df"
+      },
+      "projectName": {
+        "type": "String",
+        "value": "banjotproj"
+      },
+      "userId": {
+        "type": "String",
+        "value": "19f87876-b5b2-4885-8245-5e6947299f78"
+      },
+      "utcValue": {
+        "type": "String",
+        "value": "20230928T093507Z"
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Devices",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "IotHubs",
+            "zoneMappings": null
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Storage",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts",
+            "zoneMappings": null
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts/blobServices/containers",
+            "zoneMappings": null
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.DigitalTwins",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "digitalTwinsInstances",
+            "zoneMappings": null
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.SignalRService",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "signalR",
+            "zoneMappings": null
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Web",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "serverfarms",
+            "zoneMappings": null
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "sites",
+            "zoneMappings": null
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "sites/extensions",
+            "zoneMappings": null
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Insights",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "components",
+            "zoneMappings": null
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.EventGrid",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "systemTopics",
+            "zoneMappings": null
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "topics",
+            "zoneMappings": null
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "systemTopics/eventSubscriptions",
+            "zoneMappings": null
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.ManagedIdentity",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "userAssignedIdentities",
+            "zoneMappings": null
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Authorization",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "roleAssignments",
+            "zoneMappings": null
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Resources",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "deploymentScripts",
+            "zoneMappings": null
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "templateHash": "14740880205820163575",
+    "templateLink": null,
+    "timestamp": "2023-09-28T09:44:34.270984+00:00",
+    "validatedResources": null
+  },
+  "resourceGroup": "banjotproj-rg",
+  "tags": null,
+  "type": "Microsoft.Resources/deployments"
+}
