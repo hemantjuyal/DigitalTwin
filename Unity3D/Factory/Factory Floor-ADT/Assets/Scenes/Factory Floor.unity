@@ -2248,8 +2248,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621508753}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.143456, y: 34.261074, z: 3.304027}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.4451733, y: 29.92966, z: -10.520269}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2261,7 +2261,7 @@ Transform:
   - {fileID: 1112332335}
   - {fileID: 2029312596}
   - {fileID: 8623822}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1618070143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &627790758 stripped
 Transform:
@@ -4214,8 +4214,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094866122}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -73.45504, y: 17.526527, z: 58.810516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -53.86641, y: 13.195114, z: 44.98622}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4226,7 +4226,7 @@ Transform:
   - {fileID: 2085209457}
   - {fileID: 898981463}
   - {fileID: 1612636773}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1618070143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1108262405 stripped
 Transform:
@@ -4902,8 +4902,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327774648}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.143456, y: 74.9, z: 3.304027}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.4451733, y: 70.56859, z: -10.520269}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4915,7 +4915,7 @@ Transform:
   - {fileID: 74365590}
   - {fileID: 730622988}
   - {fileID: 1131450052}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1618070143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1330592520 stripped
 Transform:
@@ -5041,8 +5041,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358175555}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -222.92955, y: 25.33881, z: 2.6937506}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -203.34093, y: 21.007397, z: -11.130546}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5074,7 +5074,7 @@ Transform:
   - {fileID: 1108262405}
   - {fileID: 818217851}
   - {fileID: 1289919363}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1618070143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1377895520
 PrefabInstance:
@@ -5754,6 +5754,41 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7eaadca71fab77447860a121cc907048, type: 3}
+--- !u!1 &1618070142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1618070143}
+  m_Layer: 0
+  m_Name: Factory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1618070143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618070142}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -19.588629, y: 4.331413, z: 13.824296}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 621508754}
+  - {fileID: 1327774649}
+  - {fileID: 1094866123}
+  - {fileID: 1358175556}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1663685039 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8394441383734776805, guid: 91c72721b0e704d2ba13a6304792b8c6, type: 3}
@@ -7589,7 +7624,4 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 474988314}
-  - {fileID: 621508754}
-  - {fileID: 1327774649}
-  - {fileID: 1094866123}
-  - {fileID: 1358175556}
+  - {fileID: 1618070143}
