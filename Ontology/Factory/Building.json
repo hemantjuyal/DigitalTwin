@@ -23,7 +23,7 @@
             "schema": "string"
           },
           {
-            "name":"Country",
+            "name": "Country",
             "schema": "string"
           },
           {
@@ -38,50 +38,44 @@
       "name": "GeographicalCoordinates",
       "displayName": "Geographical Coordinates",
       "schema": {
-          "@type": "Object",
-          "fields": [
-              {
-                  "name": "Latitude",
-                  "schema": "double",
-                  "displayName": "Latitude"
-              },
-              {
-                  "name": "Longitude",
-                  "schema": "double",
-                  "displayName": "Longitude"
-              }
-          ]
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "Latitude",
+            "schema": "double",
+            "displayName": "Latitude"
+          },
+          {
+            "name": "Longitude",
+            "schema": "double",
+            "displayName": "Longitude"
+          }
+        ]
       }
-  },
-{
-  "@type": "Property",
-  "name": "Altitude",
-  "schema": "double",
-  "displayName": "Altitude"
-},
-{
-  "@type": "Property",
-  "name": "SiteArea",
-  "schema": "double",
-  "displayName": "Site Area (sq. meters)"
-},
-  {
-    "@type": "Property",
-    "name": "Numberoffloors",
-    "schema": "integer",
-    "displayName": "Number of floors"
-  },
-  {
-    "@type": "Property",
-    "name": "TotalEnergyConsumption",
-    "schema": "double",
-    "displayName": "Total Energy Consumption (kW-h)"
-},
+    },
     {
-      "@type": "Relationship",
-      "name": "contains",
-      "displayName": "contains",
-      "target": "dtmi:DigitalTwin:FactoryFloor;1"
+      "@type": "Property",
+      "name": "Altitude",
+      "schema": "double",
+      "displayName": "Altitude"
+    },
+    {
+      "@type": "Property",
+      "name": "SiteArea",
+      "schema": "double",
+      "displayName": "Site Area (sq. meters)"
+    },
+    {
+      "@type": "Property",
+      "name": "Numberoffloors",
+      "schema": "integer",
+      "displayName": "Number of floors"
+    },
+    {
+      "@type": "Property",
+      "name": "TotalEnergyConsumption",
+      "schema": "double",
+      "displayName": "Total Energy Consumption (kW-h)"
     }
   ]
 }

@@ -11,190 +11,152 @@
     {
       "@type": "Component",
       "name": "RoboticArm",
-      "schema": "dtmi:DigitalTwin:RoboticArm;1"
+      "schema": {
+        "@id": "dtmi:DigitalTwin:RoboticArm;1",
+        "@type": "Interface",
+        "displayName": "RoboticArm",
+        "contents": [
+          {
+            "@type": "Property",
+            "name": "RoboticArmID",
+            "schema": "string",
+            "displayName": "Robotic Arm ID"
+          },
+          {
+            "@type": "Property",
+            "name": "RoboticArmStatus",
+            "schema": "string",
+            "displayName": "Robotic Arm Status"
+          },
+          {
+            "@type": "Property",
+            "name": "RoboticArmPowerConsumption",
+            "schema": "double",
+            "displayName": "Robotic Arm Power Consumption"
+          },
+          {
+            "@type": "Property",
+            "name": "RoboticArmOperatingSpeed",
+            "schema": "double",
+            "displayName": "Robotic Arm Operating Speed"
+          },
+          {
+            "@type": "Property",
+            "name": "RoboticArmLoadCapacity",
+            "schema": "double",
+            "displayName": "Robotic Arm Load Capacity"
+          }
+        ]
+      }
     },
     {
       "@type": "Component",
       "name": "ConveyorBelt",
-      "schema": "dtmi:DigitalTwin:ConveyorBelt;1"
+      "schema": {
+        "@id": "dtmi:DigitalTwin:ConveyorBelt;1",
+        "@type": "Interface",
+        "displayName": "ConveyorBelt",
+        "contents": [
+          {
+            "@type": "Property",
+            "name": "ConveyorBeltSpeed",
+            "schema": "double",
+            "displayName": "Conveyor Belt Speed"
+          }
+        ]
+      }
     },
     {
       "@type": "Component",
       "name": "LightCurtainSensor",
-      "schema": "dtmi:DigitalTwin:LightCurtainSensor;1"
+      "schema": {
+        "@id": "dtmi:DigitalTwin:LightCurtainSensor;1",
+        "@type": "Interface",
+        "displayName": "LightCurtainSensor",
+        "contents": [
+          {
+            "@type": "Property",
+            "name": "LightCurtainResolution",
+            "schema": "double",
+            "displayName": "Beam Resolution"
+          },
+          {
+            "@type": "Property",
+            "name": "LightCurtainRange",
+            "schema": "double",
+            "displayName": "Detection Range"
+          }
+        ]
+      }
     },
     {
       "@type": "Component",
       "name": "Pallet",
-      "schema": "dtmi:DigitalTwin:Pallet;1"
+      "schema": {
+        "@id": "dtmi:DigitalTwin:Pallet;1",
+        "@type": "Interface",
+        "displayName": "Pallet",
+        "contents": [
+          {
+            "@type": "Property",
+            "name": "PalletArea",
+            "schema": "double",
+            "displayName": "Pallet Area"
+          }
+        ]
+      }
     },
     {
       "@type": "Component",
       "name": "Door",
-      "schema": "dtmi:DigitalTwin:Door;1"
+      "schema": {
+        "@id": "dtmi:DigitalTwin:Door;1",
+        "@type": "Interface",
+        "displayName": "Door",
+        "contents": [
+          {
+            "@type": "Property",
+            "name": "DoorLastAccessedTime",
+            "schema": "string",
+            "displayName": "Door - Last Accessed Time"
+          },
+          {
+            "@type": "Property",
+            "name": "DoorStatus",
+            "schema": "string",
+            "displayName": "Door Status"
+          }
+        ]
+      }
     },
     {
       "@type": "Component",
       "name": "PalletStretchMachine",
-      "schema": "dtmi:DigitalTwin:PalletStretchMachine;1"
-    },
-    {
-      "@context": [
-        "dtmi:dtdl:context;3",
-        "dtmi:dtdl:extension:quantitativeTypes;1"
-      ],
-      "@id": "dtmi:DigitalTwin:RoboticArm;1",
-      "@type": "Interface",
-      "displayName": "RoboticArm",
-      "contents": [
-        {
-          "@type": "Property",
-          "name": "RoboticArmID",
-          "schema": "string",
-          "displayName": "Robotic Arm ID"
-        },
-        {
-          "@type": "Property",
-          "name": "RoboticArmStatus",
-          "schema": "string",
-          "displayName": "Robotic Arm Status"
-        },
-        {
-          "@type": "Property",
-          "name": "RoboticArmPowerConsumption",
-          "schema": "double",
-          "unit" : "Watts",
-          "displayName": "Robotic Arm Power Consumption (Watts)"
-        },
-        {
-          "@type": "Property",
-          "name": "RoboticArmOperatingSpeed",
-          "schema": "double",
-          "displayName": "Robotic Arm Operating Speed (box/minute)"
-        },
-        {
-          "@type": "Property",
-          "name": "RoboticArmLoadCapacity",
-          "schema": "double",
-          "unit" : "kg",
-          "displayName": "Robotic Arm Load Capacity (kg)"
-        }
-      ]
-    },
-    {
-      "@context": [
-        "dtmi:dtdl:context;3",
-        "dtmi:dtdl:extension:quantitativeTypes;1"
-      ],
-      "@id": "dtmi:DigitalTwin:ConveyorBelt;1",
-      "@type": "Interface",
-      "displayName": "thermostat",
-      "contents": [
-        {
-          "@type": "Property",
-          "name": "ConveyorBeltSpeed",
-          "schema": "double",
-          "unit" : "meterspersecond",
-          "displayName": "Conveyor Belt Speed (m/s)"
-        }
-      ]
-    },
-    {
-      "@context": [
-        "dtmi:dtdl:context;3",
-        "dtmi:dtdl:extension:quantitativeTypes;1"
-      ],
-      "@id": "dtmi:DigitalTwin:LightCurtainSensor;1",
-      "@type": "Interface",
-      "displayName": "thermostat",
-      "contents": [
-        {
-          "@type": "Property",
-          "name": "LightCurtainResolution",
-          "schema": "double",
-          "unit" : "mm",
-          "displayName": "Beam Resolution (mm)"
-        },
-        {
-          "@type": "Property",
-          "name": "LightCurtainRange",
-          "schema": "double",
-          "unit" : "meters",
-          "displayName": "Detection Range (meters)"
-        }
-      ]
-    },
-    {
-      "@context": [
-        "dtmi:dtdl:context;3",
-        "dtmi:dtdl:extension:quantitativeTypes;1"
-      ],
-      "@id": "dtmi:DigitalTwin:Pallet;1",
-      "@type": "Interface",
-      "displayName": "thermostat",
-      "contents": [
-        {
-          "@type": "Property",
-          "name": "PalletArea",
-          "schema": "double",
-          "unit" : "squaremeters",
-          "displayName": "Pallet Area (square meters)"
-        }
-      ]
-    },
-    {
-      "@context": [
-        "dtmi:dtdl:context;3",
-        "dtmi:dtdl:extension:quantitativeTypes;1"
-      ],
-      "@id": "dtmi:DigitalTwin:Door;1",
-      "@type": "Interface",
-      "displayName": "thermostat",
-      "contents": [
-        {
-          "@type": "Property",
-          "name": "DoorLastAccessedTime",
-          "schema": "string",
-          "unit" : "Time",
-          "displayName": "Door - Last Accessed Time"
-        },
-        {
-          "@type": "Property",
-          "name": "DoorStatus",
-          "schema": "string",
-          "displayName": "Door Status(Open/Close)"
-        }
-      ]
-    },
-    {
-      "@context": [
-        "dtmi:dtdl:context;3",
-        "dtmi:dtdl:extension:quantitativeTypes;1"
-      ],
-      "@id": "dtmi:DigitalTwin:PalletStretchMachine;1",
-      "@type": "Interface",
-      "displayName": "thermostat",
-      "contents": [
-        {
-          "@type": "Property",
-          "name": "PalletStretchMachineWrappingSpeed",
-          "schema": "double",
-          "displayName": "Plastic Wrapping Speed (boxes/minute)"
-        },
-        {
-          "@type": "Property",
-          "name": "PalletStretchMachineWrappingFilmRollStatus",
-          "schema": "string",
-          "displayName": "Pallet Stretch Machine Film Roll Status"
-        },
-        {
-          "@type": "Property",
-          "name": "PalletStretchMachineWrappingFilmUsage",
-          "schema": "double",
-          "unit" : "meters",
-          "displayName": "Pallet Stretch Machine Wrapping Film Usage (meters)"
-        }
-      ]
+      "schema": {
+        "@id": "dtmi:DigitalTwin:PalletStretchMachine;1",
+        "@type": "Interface",
+        "displayName": "PalletStretchMachine",
+        "contents": [
+          {
+            "@type": "Property",
+            "name": "PalletStretchMachineWrappingSpeed",
+            "schema": "double",
+            "displayName": "Plastic Wrapping Speed"
+          },
+          {
+            "@type": "Property",
+            "name": "PalletStretchMachineWrappingFilmRollStatus",
+            "schema": "string",
+            "displayName": "Pallet Stretch Machine Film Roll Status"
+          },
+          {
+            "@type": "Property",
+            "name": "PalletStretchMachineWrappingFilmUsage",
+            "schema": "double",
+            "displayName": "Pallet Stretch Machine Wrapping Film Usage"
+          }
+        ]
+      }
     }
   ]
 }
