@@ -2,10 +2,15 @@
   "@id": "dtmi:DigitalTwin:FactoryFloor;1",
   "@type": "Interface",
   "displayName": "FactoryFloor",
-  "extends": "dtmi:DigitalTwin:Building;1",
   "@context": "dtmi:dtdl:context;2",
   "contents": [
     {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains",
+      "target": "dtmi:DigitalTwin:RoboticPalletizer;1",
+      "properties": [
+        {
       "@type": "Property",
       "name": "RoomTemperature",
       "schema": "double",
@@ -30,4 +35,7 @@
       "displayName": "Number of Robot Palletizers"
     }
   ]
+}
+  ]
+
 }

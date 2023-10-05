@@ -76,6 +76,12 @@
       "name": "TotalEnergyConsumption",
       "schema": "double",
       "displayName": "Total Energy Consumption (kW-h)"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains",
+      "target": "dtmi:DigitalTwin:FactoryFloor;1"
     }
   ]
 }
