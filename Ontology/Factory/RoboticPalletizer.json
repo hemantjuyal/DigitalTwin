@@ -5,7 +5,6 @@
     "dtmi:dtdl:context;2",
     "dtmi:dtdl:extension:quantitativeTypes;1"
   ],
-  "extends": "dtmi:DigitalTwin:FactoryFloor;1",
   "displayName": "RoboticPalletizer",
   "contents": [
     {
