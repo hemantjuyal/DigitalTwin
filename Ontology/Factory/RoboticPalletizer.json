@@ -90,17 +90,17 @@
     },
     {
       "@type": "Component",
-      "name": "Pallet",
+      "name": "PalletTurnTable",
       "schema": {
         "@id": "dtmi:DigitalTwin:Pallet;1",
         "@type": "Interface",
-        "displayName": "Pallet",
+        "displayName": "PalletTurnTable",
         "contents": [
           {
             "@type": "Property",
-            "name": "PalletArea",
+            "name": "PalletTurnTableRotationSpeed",
             "schema": "double",
-            "displayName": "Pallet Area"
+            "displayName": "Pallet TurnTable Rotation Speed (rpm)"
           }
         ]
       }
@@ -122,8 +122,8 @@
           {
             "@type": "Property",
             "name": "DoorStatus",
-            "schema": "string",
-            "displayName": "Door Status"
+            "schema": "boolean",
+            "displayName": "Door Status (True- Door Open/False- Door Closed)"
           }
         ]
       }
@@ -145,7 +145,7 @@
           {
             "@type": "Property",
             "name": "PalletStretchMachineWrappingFilmRollStatus",
-            "schema": "string",
+            "schema": "boolean",
             "displayName": "Pallet Stretch Machine Film Roll Status"
           },
           {
