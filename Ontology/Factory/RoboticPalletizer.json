@@ -1,10 +1,7 @@
 {
   "@id": "dtmi:DigitalTwin:RoboticPalletizer;1",
   "@type": "Interface",
-  "@context": [
-    "dtmi:dtdl:context;2",
-    "dtmi:dtdl:extension:quantitativeTypes;1"
-  ],
+  "@context": "dtmi:dtdl:context;2",
   "displayName": "RoboticPalletizer",
   "contents": [
     {
@@ -31,19 +28,19 @@
             "@type": "Property",
             "name": "RoboticArmPowerConsumption",
             "schema": "double",
-            "displayName": "Robotic Arm Power Consumption"
+            "displayName": "Robotic Arm Power Consumption(kW)"
           },
           {
             "@type": "Property",
             "name": "RoboticArmOperatingSpeed",
             "schema": "double",
-            "displayName": "Robotic Arm Operating Speed"
+            "displayName": "Robotic Arm Operating Speed(m/s)"
           },
           {
             "@type": "Property",
             "name": "RoboticArmLoadCapacity",
             "schema": "double",
-            "displayName": "Robotic Arm Load Capacity"
+            "displayName": "Robotic Arm Load Capacity(kg)"
           }
         ]
       }
@@ -60,7 +57,7 @@
             "@type": "Property",
             "name": "ConveyorBeltSpeed",
             "schema": "double",
-            "displayName": "Conveyor Belt Speed"
+            "displayName": "Conveyor Belt Speed(m/s)"
           }
         ]
       }
@@ -77,13 +74,13 @@
             "@type": "Property",
             "name": "LightCurtainResolution",
             "schema": "double",
-            "displayName": "Beam Resolution"
+            "displayName": "Beam Resolution(mm)"
           },
           {
             "@type": "Property",
             "name": "LightCurtainRange",
             "schema": "double",
-            "displayName": "Detection Range"
+            "displayName": "Detection Range(meters)"
           }
         ]
       }
@@ -140,7 +137,7 @@
             "@type": "Property",
             "name": "PalletStretchMachineWrappingSpeed",
             "schema": "double",
-            "displayName": "Plastic Wrapping Speed"
+            "displayName": "Plastic Wrapping Speed(m/s)"
           },
           {
             "@type": "Property",
@@ -152,7 +149,7 @@
             "@type": "Property",
             "name": "PalletStretchMachineWrappingFilmUsage",
             "schema": "double",
-            "displayName": "Pallet Stretch Machine Wrapping Film Usage"
+            "displayName": "Pallet Stretch Machine Wrapping Film Usage(meters)"
           }
         ]
       }
