@@ -1,8 +1,8 @@
 {
   "@id": "dtmi:DigitalTwin:RoboticPalletizer;1",
   "@type": "Interface",
-  "@context": "dtmi:dtdl:context;2",
   "displayName": "RoboticPalletizer",
+  "@context": "dtmi:dtdl:context;2",
   "contents": [
     {
       "@type": "Component",
