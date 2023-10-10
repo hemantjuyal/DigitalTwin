@@ -5,24 +5,6 @@
   "@context": "dtmi:dtdl:context;2",
   "contents": [
     {
-      "@type": "Relationship",
-      "name": "contains",
-      "displayName": "contains",
-      "target": "dtmi:DigitalTwin:RoboticPalletizer;1",
-      "properties": [
-        {
-      "@type": "Property",
-      "name": "RoomTemperature",
-      "schema": "double",
-      "displayName": "Temperature of the Room(°C)"
-    },
-    {
-      "@type": "Property",
-      "name": "RoomHumidity",
-      "schema": "double",
-      "displayName": "Humidity of the Room(%)"
-    },
-    {
       "@type": "Property",
       "name": "RoomArea",
       "schema": "double",
@@ -33,9 +15,13 @@
       "name": "NumberofRobotPalletizers",
       "schema": "integer",
       "displayName": "Number of Robot Palletizers"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains",
+      "target": "dtmi:DigitalTwin:RoboticPalletizer;1"
     }
   ]
 }
-  ]
-
-}
+  

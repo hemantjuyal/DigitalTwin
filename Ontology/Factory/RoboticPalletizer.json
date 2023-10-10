@@ -89,7 +89,7 @@
       "@type": "Component",
       "name": "PalletTurnTable",
       "schema": {
-        "@id": "dtmi:DigitalTwin:Pallet;1",
+        "@id": "dtmi:DigitalTwin:PalletTurnTable;1",
         "@type": "Interface",
         "displayName": "PalletTurnTable",
         "contents": [
