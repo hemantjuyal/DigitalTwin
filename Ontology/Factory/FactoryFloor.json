@@ -17,6 +17,18 @@
       "displayName": "Number of Robot Palletizers"
     },
     {
+      "@type": "Property",
+      "name": "RoomTemperature",
+      "schema": "double",
+      "displayName": "Temperature of the Room(°C)"
+    },
+    {
+      "@type": "Property",
+      "name": "RoomHumidity",
+      "schema": "double",
+      "displayName": "Humidity of the Room(%)"
+    },
+    {
       "@type": "Relationship",
       "name": "contains",
       "displayName": "contains",
