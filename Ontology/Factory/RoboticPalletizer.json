@@ -5,154 +5,46 @@
   "@context": "dtmi:dtdl:context;2",
   "contents": [
     {
-      "@type": "Component",
-      "name": "RoboticArm",
-      "schema": {
-        "@id": "dtmi:DigitalTwin:RoboticArm;1",
-        "@type": "Interface",
-        "displayName": "RoboticArm",
-        "contents": [
-          {
-            "@type": "Property",
-            "name": "RoboticArmID",
-            "schema": "string",
-            "displayName": "Robotic Arm ID"
-          },
-          {
-            "@type": "Property",
-            "name": "RoboticArmStatus",
-            "schema": "string",
-            "displayName": "Robotic Arm Status"
-          },
-          {
-            "@type": "Property",
-            "name": "RoboticArmPowerConsumption",
-            "schema": "double",
-            "displayName": "Robotic Arm Power Consumption(kW)"
-          },
-          {
-            "@type": "Property",
-            "name": "RoboticArmOperatingSpeed",
-            "schema": "double",
-            "displayName": "Robotic Arm Operating Speed(m/s)"
-          },
-          {
-            "@type": "Property",
-            "name": "RoboticArmLoadCapacity",
-            "schema": "double",
-            "displayName": "Robotic Arm Load Capacity(kg)"
-          }
-        ]
-      }
+      "@type": "Property",
+      "name": "RoboticPalletizerID",
+      "schema": "string",
+      "displayName": "Robotic Palletizer ID"
     },
     {
-      "@type": "Component",
-      "name": "ConveyorBelt",
-      "schema": {
-        "@id": "dtmi:DigitalTwin:ConveyorBelt;1",
-        "@type": "Interface",
-        "displayName": "ConveyorBelt",
-        "contents": [
-          {
-            "@type": "Property",
-            "name": "ConveyorBeltSpeed",
-            "schema": "double",
-            "displayName": "Conveyor Belt Speed(m/s)"
-          }
-        ]
-      }
+      "@type": "Relationship",
+      "name": "liftsboxesusing",
+      "displayName": "LiftsBoxesUsing",
+      "target": "dtmi:DigitalTwin:RoboticArm;1"
     },
     {
-      "@type": "Component",
-      "name": "LightCurtainSensor",
-      "schema": {
-        "@id": "dtmi:DigitalTwin:LightCurtainSensor;1",
-        "@type": "Interface",
-        "displayName": "LightCurtainSensor",
-        "contents": [
-          {
-            "@type": "Property",
-            "name": "LightCurtainResolution",
-            "schema": "double",
-            "displayName": "Beam Resolution(mm)"
-          },
-          {
-            "@type": "Property",
-            "name": "LightCurtainRange",
-            "schema": "double",
-            "displayName": "Detection Range(meters)"
-          }
-        ]
-      }
+      "@type": "Relationship",
+      "name": "liftsboxesfrom",
+      "displayName": "LiftsBoxesFrom",
+      "target": "dtmi:DigitalTwin:ConveyorBelt;1"
     },
     {
-      "@type": "Component",
-      "name": "PalletTurnTable",
-      "schema": {
-        "@id": "dtmi:DigitalTwin:PalletTurnTable;1",
-        "@type": "Interface",
-        "displayName": "PalletTurnTable",
-        "contents": [
-          {
-            "@type": "Property",
-            "name": "PalletTurnTableRotationSpeed",
-            "schema": "double",
-            "displayName": "Pallet TurnTable Rotation Speed (rpm)"
-          }
-        ]
-      }
+      "@type": "Relationship",
+      "name": "monitorsboxesusing",
+      "displayName": "MonitorsBoxesUsing",
+      "target": "dtmi:DigitalTwin:LightCurtainSensor;1"
     },
     {
-      "@type": "Component",
-      "name": "Door",
-      "schema": {
-        "@id": "dtmi:DigitalTwin:Door;1",
-        "@type": "Interface",
-        "displayName": "Door",
-        "contents": [
-          {
-            "@type": "Property",
-            "name": "DoorLastAccessedTime",
-            "schema": "string",
-            "displayName": "Door - Last Accessed Time"
-          },
-          {
-            "@type": "Property",
-            "name": "DoorStatus",
-            "schema": "boolean",
-            "displayName": "Door Status (True- Door Open/False- Door Closed)"
-          }
-        ]
-      }
+      "@type": "Relationship",
+      "name": "holdsboxesusing",
+      "displayName": "HoldsBoxesUsing",
+      "target": "dtmi:DigitalTwin:PalletTurnTable;1"
     },
     {
-      "@type": "Component",
-      "name": "PalletStretchMachine",
-      "schema": {
-        "@id": "dtmi:DigitalTwin:PalletStretchMachine;1",
-        "@type": "Interface",
-        "displayName": "PalletStretchMachine",
-        "contents": [
-          {
-            "@type": "Property",
-            "name": "PalletStretchMachineWrappingSpeed",
-            "schema": "double",
-            "displayName": "Plastic Wrapping Speed(m/s)"
-          },
-          {
-            "@type": "Property",
-            "name": "PalletStretchMachineWrappingFilmRollStatus",
-            "schema": "boolean",
-            "displayName": "Pallet Stretch Machine Film Roll Status"
-          },
-          {
-            "@type": "Property",
-            "name": "PalletStretchMachineWrappingFilmUsage",
-            "schema": "double",
-            "displayName": "Pallet Stretch Machine Wrapping Film Usage(meters)"
-          }
-        ]
-      }
+      "@type": "Relationship",
+      "name": "has",
+      "displayName": "Has",
+      "target": "dtmi:DigitalTwin:Door;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "wrapboxesusing",
+      "displayName": "WrapsBoxesUsing",
+      "target": "dtmi:DigitalTwin:PalletStretchMachine;1"
     }
   ]
 }

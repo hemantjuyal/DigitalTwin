@@ -1,0 +1,38 @@
+{
+    "@id": "dtmi:DigitalTwin:RoboticArm;1",
+    "@type": "Interface",
+    "displayName": "RoboticArm",
+    "@context": "dtmi:dtdl:context;2",  
+    "contents": [
+    {
+      "@type": "Property",
+      "name": "RoboticArmID",
+      "schema": "string",
+      "displayName": "Robotic Arm ID"
+    },
+    {
+      "@type": "Property",
+      "name": "RoboticArmStatus",
+      "schema": "string",
+      "displayName": "Robotic Arm Status"
+    },
+    {
+      "@type": "Property",
+      "name": "RoboticArmPowerConsumption",
+      "schema": "double",
+      "displayName": "Robotic Arm Power Consumption(kW)"
+    },
+    {
+      "@type": "Property",
+      "name": "RoboticArmOperatingSpeed",
+      "schema": "double",
+      "displayName": "Robotic Arm Operating Speed(m/s)"
+    },
+    {
+      "@type": "Property",
+      "name": "RoboticArmLoadCapacity",
+      "schema": "double",
+      "displayName": "Robotic Arm Load Capacity(kg)"
+    }
+  ]   
+}

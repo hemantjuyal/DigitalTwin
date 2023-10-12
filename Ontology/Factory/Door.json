@@ -1,0 +1,20 @@
+{
+    "@id": "dtmi:DigitalTwin:Door;1",
+    "@type": "Interface",
+    "displayName": "Door",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "DoorLastAccessedTime",
+            "schema": "string",
+            "displayName": "Door - Last Accessed Time"
+          },
+          {
+            "@type": "Property",
+            "name": "DoorStatus",
+            "schema": "boolean",
+            "displayName": "Door Status (True- Door Open/False- Door Closed)"
+          }
+    ]
+}
