@@ -1,0 +1,20 @@
+{
+    "@id": "dtmi:DigitalTwin:LightCurtainSensor;1",
+    "@type": "Interface",
+    "displayName": "LightCurtainSensor",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "LightCurtainResolution",
+            "schema": "double",
+            "displayName": "Beam Resolution(mm)"
+          },
+          {
+            "@type": "Property",
+            "name": "LightCurtainRange",
+            "schema": "double",
+            "displayName": "Detection Range(meters)"
+          }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "@id": "dtmi:DigitalTwin:PalletTurnTable;1",
+    "@type": "Interface",
+    "displayName": "PalletTurnTable",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "PalletTurnTableRotationSpeed",
+            "schema": "double",
+            "displayName": "Pallet TurnTable Rotation Speed (rpm)"
+        }
+    ]
+}

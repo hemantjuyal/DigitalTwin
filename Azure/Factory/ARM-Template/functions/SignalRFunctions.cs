@@ -15,14 +15,21 @@ namespace SignalRFunctions
 {
     public static class SignalRFunctions
     {
-        public static string turbineId;
-        public static string timeInterval;
-        public static string description;
-        public static int code;
-        public static double windSpeed;
-        public static double temperature;
-        public static double rotorRPM;
-        public static double power = 0.0D;
+        public static string RoboticPalletizerID;
+        public static string RoboticArmID;
+        public static bool RoboticArmStatus;
+        public static double RoboticArmPowerConsumption;
+        public static double RoboticArmOperatingSpeed;
+        public static double RoboticArmLoadCapacity;
+        public static double ConveyorBeltSpeed;
+        public static double LightCurtainResolution;
+        public static double LightCurtainRange;
+        public static double PalletTurnTableRotationSpeed;
+        public static string DoorLastAccessedTime;
+        public static bool DoorStatus;
+        public static double PalletStretchMachineWrappingSpeed;
+        public static bool PalletStretchMachineWrappingFilmRollStatus;
+        public static double PalletStretchMachineWrappingFilmUsage;
         public static bool alert;
 
         [FunctionName("negotiate")]
@@ -61,7 +68,7 @@ namespace SignalRFunctions
             {
                 try
                 {
-                    turbineId = eventGridEvent.Subject;
+                    RoboticPalletizerID = eventGridEvent.Subject;
                     
                     var data = eventGridData.SelectToken("data");
                     var patch = data.SelectToken("patch");
@@ -76,7 +83,7 @@ namespace SignalRFunctions
                     log.LogInformation($"setting alert to: {alert}");
                     var property = new Dictionary<object, object>
                     {
-                        {"TurbineID", turbineId },
+                        {"RoboticPalletizerID", RoboticPalletizerID },
                         {"Alert", alert }
                     };
                     return signalRMessages.AddAsync(

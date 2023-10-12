@@ -40,14 +40,14 @@ namespace My.Function
                 {
                     JObject alertMessage = (JObject)JsonConvert.DeserializeObject(eventGridEvent.Data.ToString());
                     string deviceId = (string)alertMessage["systemProperties"]["iothub-connection-device-id"];
-                    var ID = alertMessage["body"]["TurbineID"];
+                    var RoboticPalletizerID = alertMessage["body"]["RoboticPalletizerID"];
                     var alert = alertMessage["body"]["Alert"];
-                    log.LogInformation($"Device:{deviceId} Device Id is:{ID}");
+                    log.LogInformation($"Device:{deviceId} Device Id is:{RoboticPalletizerID}");
                     log.LogInformation($"Device:{deviceId} Alert Status is:{alert}");
 
                     var updateProperty = new JsonPatchDocument();
                     updateProperty.AppendReplace("/Alert", alert.Value<bool>());
-                    updateProperty.AppendReplace("/TurbineID", ID.Value<string>());
+                    updateProperty.AppendReplace("/RoboticPalletizerID", RoboticPalletizerID.Value<string>());
                     log.LogInformation(updateProperty.ToString());
                     try
                     {
@@ -63,41 +63,64 @@ namespace My.Function
 
                     JObject deviceMessage = (JObject)JsonConvert.DeserializeObject(eventGridEvent.Data.ToString());
                     string deviceId = (string)deviceMessage["systemProperties"]["iothub-connection-device-id"];
-                    var ID = deviceMessage["body"]["TurbineID"];
-                    var TimeInterval = deviceMessage["body"]["TimeInterval"];
-                    var Description = deviceMessage["body"]["Description"];
-                    var Code = deviceMessage["body"]["Code"];
-                    var WindSpeed = deviceMessage["body"]["WindSpeed"];
-                    var Ambient = deviceMessage["body"]["Ambient"];
-                    var Rotor = deviceMessage["body"]["Rotor"];
-                    var Power = deviceMessage["body"]["Power"];
+                    var RoboticPalletizerID = deviceMessage["body"]["RoboticPalletizerID"];
+                    var RoboticArmID = deviceMessage["body"]["RoboticArmID"];
+                    var RoboticArmStatus = deviceMessage["body"]["RoboticArmStatus"];
+                    var RoboticArmPowerConsumption = deviceMessage["body"]["RoboticArmPowerConsumption"];
+                    var RoboticArmOperatingSpeed = deviceMessage["body"]["RoboticArmOperatingSpeed"];
+                    var RoboticArmLoadCapacity = deviceMessage["body"]["RoboticArmLoadCapacity"];
+                    var ConveyorBeltSpeed = deviceMessage["body"]["ConveyorBeltSpeed"];
+                    var LightCurtainResolution = deviceMessage["body"]["LightCurtainResolution"];
+                    var LightCurtainRange = deviceMessage["body"]["LightCurtainRange"];
+                    var PalletTurnTableRotationSpeed = deviceMessage["body"]["PalletTurnTableRotationSpeed"];
+                    var DoorLastAccessedTime = deviceMessage["body"]["DoorLastAccessedTime"];
+                    var DoorStatus = deviceMessage["body"]["DoorStatus"];
+                    var PalletStretchMachineWrappingSpeed = deviceMessage["body"]["PalletStretchMachineWrappingSpeed"];
+                    var PalletStretchMachineWrappingFilmRollStatus = deviceMessage["body"]["PalletStretchMachineWrappingFilmRollStatus"];
+                    var PalletStretchMachineWrappingFilmUsage = deviceMessage["body"]["PalletStretchMachineWrappingFilmUsage"];
+                    
 
-                    log.LogInformation($"Device:{deviceId} Device Id is:{ID}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{TimeInterval}");
-                    log.LogInformation($"Device:{deviceId} Description is:{Description}");
-                    log.LogInformation($"Device:{deviceId} CodeNumber is:{Code}");
-                    log.LogInformation($"Device:{deviceId} WindSpeed is:{WindSpeed}");
-                    log.LogInformation($"Device:{deviceId} Ambient Temperature is:{Ambient}");
-                    log.LogInformation($"Device:{deviceId} Rotor RPM is:{Rotor}");
-                    log.LogInformation($"Device:{deviceId} Power is:{Power}");
+                    log.LogInformation($"Device:{deviceId} Device Id is:{RoboticPalletizerID}");
+                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmID}");
+                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmStatus}");
+                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmPowerConsumption}");
+                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmOperatingSpeed}");
+                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmLoadCapacity}");
+                    log.LogInformation($"Device:{deviceId} Time interval is:{ConveyorBeltSpeed}");
+                    log.LogInformation($"Device:{deviceId} Time interval is:{LightCurtainResolution}");
+                    log.LogInformation($"Device:{deviceId} Time interval is:{LightCurtainRange}");
+                    log.LogInformation($"Device:{deviceId} Time interval is:{PalletTurnTableRotationSpeed}");
+                    log.LogInformation($"Device:{deviceId} Description is:{DoorLastAccessedTime}");
+                    log.LogInformation($"Device:{deviceId} CodeNumber is:{DoorStatus}");
+                    log.LogInformation($"Device:{deviceId} WindSpeed is:{PalletStretchMachineWrappingSpeed}");
+                    log.LogInformation($"Device:{deviceId} Ambient Temperature is:{PalletStretchMachineWrappingFilmRollStatus}");
+                    log.LogInformation($"Device:{deviceId} Rotor RPM is:{PalletStretchMachineWrappingFilmUsage}");
+                    
                     var updateProperty = new JsonPatchDocument();
-                    var turbineTelemetry = new Dictionary<string, Object>()
+                    var RoboticPalletizerTelemetry = new Dictionary<string, Object>()
                     {
-                        ["TurbineID"] = ID,
-                        ["TimeInterval"] = TimeInterval,
-                        ["Description"] = Description,
-                        ["Code"] = Code,
-                        ["WindSpeed"] = WindSpeed,
-                        ["Ambient"] = Ambient,
-                        ["Rotor"] = Rotor,
-                        ["Power"] = Power
+                        ["RoboticPalletizerID"] = RoboticPalletizerID,
+                        ["RoboticArmID"] = RoboticArmID,
+                        ["RoboticArmStatus"] = RoboticArmStatus,
+                        ["RoboticArmPowerConsumption"] = RoboticArmPowerConsumption,
+                        ["RoboticArmOperatingSpeed"] = RoboticArmOperatingSpeed,
+                        ["RoboticArmLoadCapacity"] = RoboticArmLoadCapacity,
+                        ["ConveyorBeltSpeed"] = ConveyorBeltSpeed,
+                        ["LightCurtainResolution"] = LightCurtainResolution,
+                        ["LightCurtainRange"] = LightCurtainRange,
+                        ["PalletTurnTableRotationSpeed"] = PalletTurnTableRotationSpeed,
+                        ["DoorLastAccessedTime"] = DoorLastAccessedTime,
+                        ["DoorStatus"] = DoorStatus,
+                        ["PalletStretchMachineWrappingSpeed"] = PalletStretchMachineWrappingSpeed,
+                        ["PalletStretchMachineWrappingFilmRollStatus"] = PalletStretchMachineWrappingFilmRollStatus,
+                        ["PalletStretchMachineWrappingFilmUsage"] = PalletStretchMachineWrappingFilmUsage
                     };
-                    updateProperty.AppendAdd("/TurbineID", ID.Value<string>());
+                    updateProperty.AppendAdd("/RoboticPalletizerID", RoboticPalletizerID.Value<string>());
 
                     log.LogInformation(updateProperty.ToString());
                     try
                     {
-                        await client.PublishTelemetryAsync(deviceId, Guid.NewGuid().ToString(), JsonConvert.SerializeObject(turbineTelemetry));
+                        await client.PublishTelemetryAsync(deviceId, Guid.NewGuid().ToString(), JsonConvert.SerializeObject(RoboticPalletizerTelemetry));
                     }
                     catch (Exception e)
                     {
