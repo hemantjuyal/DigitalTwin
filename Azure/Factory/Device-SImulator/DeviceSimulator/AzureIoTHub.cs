@@ -17,20 +17,27 @@ namespace DeviceSimulator
         /// Please replace with correct connection string value
         /// The connection string could be got from Azure IoT Hub -> Shared access policies -> iothubowner -> Connection String:
         /// </summary>
-        private const string iotHubConnectionString = "HostName=myprojHubfkelzyohsc.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=F8KWnbDGr1pX1U5jF5cG+VBjHejuFYZMcAIoTD0gr1M=";
-        private const string adtInstanceUrl = "https://myprojadtfkelzyohsc.api.eus.digitaltwins.azure.net";
-        private const string alertTurbineId = "T102";
+        private const string iotHubConnectionString = "";
+        private const string adtInstanceUrl = "";
+        private const string alertRoboticPalletizerID = "RP002";
         private const string alertVariableName = "Alert";
-        private const string alertDescription = "Light icing (rotor bl. ice sensor)";
-        private const double alertTemp = -6.0D;
-        private const double alertPower = 200.0D;
-        private const double alertWindSpeed = 7.0D;
-        private const double alertRotorSpeed = 1.4D;
-        private const double alertTempVariance = 1.0D;
-        private const double alertPowerVariance = 45D;
-        private const double alertWindSpeedVariance = 0.40D;
-        private const double alertRotorVariance = .10D;
-        private const int alertCode = 400;
+        private const string alertRoboticArmID = "RA002";
+        private const bool alertRoboticArmStatus = false;
+        private const double alertRoboticArmPowerConsumption = 1500.65D;
+        private const double alertRoboticArmOperatingSpeed = 0.8D;
+        private const double alertRoboticArmLoadCapacity = 20.0D;
+        private const double alertConveyorBeltSpeed = 0.5D;
+        private const double alertLightCurtainResolution = 0.01D;
+        private const double alertLightCurtainRange = 10.0D;
+        private const double alertPalletTurnTableRotationSpeed = 4.32D;
+        private const string alertDoorLastAccessedTime = "2023-08-22 7:14:54";
+        private const string alertRoboticArmStatus = "Closed";
+        private const double alertPalletStretchMachineWrappingSpeed = 2.67D;
+        private const bool alertPalletStretchMachineWrappingFilmRollStatus = false;
+        private const double alertPalletStretchMachineWrappingFilmRollUsage = 125.0D;
+        private const double alertRoboticArmPowerConsumptionVariance = 100.45D;
+        private const double alertRoboticArmOperatingSpeedVariance = -0.4D;
+        private const double alertRoboticArmLoadCapacityVariance = 0.5D;
         private static List<string> deviceConnectionStrings;
         private static bool alertSent = false;
         private static int alertIndex;
@@ -45,7 +52,7 @@ namespace DeviceSimulator
                 var device = new Device(deviceIds[i]);
                 device = await CreateOrGetDevice(registryManager, device);
                 devices.Add(device);
-                if(device.Id == alertTurbineId)
+                if(device.Id == alertRoboticPalletizerID)
                 {
                     alertIndex = i;
                 }
@@ -91,12 +98,12 @@ namespace DeviceSimulator
                 for (int i = 0; i < deviceClients.Count; i++)
                 {
                     Microsoft.Azure.Devices.Client.Message message = new Microsoft.Azure.Devices.Client.Message();
-                    if (alertSent && data[i + dataIterator].turbineId == alertTurbineId)
+                    if (alertSent && data[i + dataIterator].Robo == alertRoboticPalletizerID)
                     {
                         // This is sending a specified Alert message
                         message = ConstructTelemetryDataPoint(data[i + dataIterator], isAlert: true);
                         PropUpdater propUpdater = new PropUpdater(adtInstanceUrl);
-                        var twinData = await propUpdater.GetTwinData(alertTurbineId);
+                        var twinData = await propUpdater.GetTwinData(alertRoboticPalletizerID);
                         if (twinData.Value<bool>(alertVariableName) == false)
                         {
                             alertSent = false;
@@ -131,24 +138,42 @@ namespace DeviceSimulator
             TelemetryData telData = new TelemetryData(data);
             if(isAlert)
             {
-                telData.eventCodeDescription = alertDescription;
-                telData.eventCode = alertCode;
-                telData.windSpeed = alertWindSpeed + (alertWindSpeedVariance * rand.NextDouble());
-                telData.temperature = alertTemp + (alertTempVariance * rand.NextDouble());
-                telData.rotorSpeed = alertRotorSpeed + (alertRotorVariance * rand.NextDouble());
-                telData.power = alertPower + (alertPowerVariance * rand.NextDouble());
+                
+                telData.RoboticPalletizerID = RoboticPalletizerID;
+                telData.RoboticArmID = RoboticArmID;
+                telData.RoboticArmStatus = RoboticArmStatus;
+                telData.RoboticArmPowerComsumption = alertRoboticArmPowerConsumption+(alertRoboticArmPowerConsumptionVariance +rand.NextDouble());
+                telData.RoboticArmOperatingSpeed = alertRoboticArmOperatingSpeed+(alertRoboticArmOperatingSpeedVariance +rand.NextDouble());
+                telData.RoboticArmLoadCapacity = alertRoboticArmLoadCapacity+(alertRoboticArmLoadCapacityVariance+rand.NextDouble());
+                telData.ConveyerBeltSpeed = ConveyerBeltSpeed;
+                telData.LightCurtainResolution = LightCurtainResolution;
+                telData.LightCurtainRange = LightCurtainRange;
+                telData.PalletTurnTableRotationSpeed = PalletTurnTableRotationSpeed;
+                telData.DoorLastAccessedTime = DoorLastAccessedTime;
+                telData.DoorStatus = DoorStatus;
+                telData.PalletStretchMachineWrappingSpeed = PalletStretchMachineWrappingSpeed;
+                telData.PalletStretchMachineWrappingFilmRollStatus = PalletStretchMachineWrappingFilmRollStatus;
+                telData.PalletStretchMachineWrappingFilmRollUsage = PalletStretchMachineWrappingFilmRollUsage;
+
             }
 
             var payload = new
             {
-                TurbineID = telData.turbineId,
-                TimeInterval = telData.timeInterval,
-                Description = telData.eventCodeDescription,
-                Code = telData.eventCode,
-                WindSpeed = telData.windSpeed,
-                Ambient = telData.temperature,
-                Rotor = telData.rotorSpeed,
-                Power = telData.power
+                RoboticPalletizerID = telData.RoboticPalletizerID,
+		        RoboticArmID = telData.RoboticArmID,
+		        RoboticArmStatus = telData.RoboticArmStatus,
+		        RoboticArmPowerComsumption = telData.RoboticArmPowerComsumption,
+		        RoboticArmOperatingSpeed = telData.RoboticArmOperatingSpeed,
+		        RoboticArmLoadCapacity = telData.RoboticArmLoadCapacity,
+		        ConveyerBeltSpeed = telData.ConveyerBeltSpeed,
+		        LightCurtainResolution = telData.LightCurtainResolution,
+		        LightCurtainRange = telData.LightCurtainRange,
+		        PalletTurnTableRotationSpeed = telData.PalletTurnTableRotationSpeed,
+		        DoorLastAccessedTime = telData.DoorLastAccessedTime,
+		        DoorStatus = telData.DoorStatus,
+		        PalletStretchMachineWrappingSpeed = telData.PalletStretchMachineWrappingSpeed,
+		        PalletStretchMachineWrappingFilmRollStatus = telData.PalletStretchMachineWrappingFilmRollStatus,
+		        PalletStretchMachineWrappingFilmRollUsage = telData.PalletStretchMachineWrappingFilmRollUsage
             };
             var messageString = JsonSerializer.Serialize(payload);
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -166,7 +191,7 @@ namespace DeviceSimulator
             {
                 var payload = new
                 {
-                    TurbineID = alertTurbineId,
+                    RoboticPalletizerID = alertRoboticPalletizerID,
                     Alert = !alertSent
                 };
                 var messageString = JsonSerializer.Serialize(payload);
