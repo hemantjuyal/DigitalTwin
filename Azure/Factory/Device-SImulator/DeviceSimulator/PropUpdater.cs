@@ -16,9 +16,9 @@ namespace DeviceSimulator
         private readonly Uri adtInstanceUri;
         private readonly string azureLoginUrl = "https://login.microsoftonline.com/{0}/oauth2/token"; //{0}: tenantId
 
-        private string clientId = "dbfcbbd7-4f51-448d-b346-08dfefc2a3c7";
-        private string clientSecret = "bmm8Q~OHphH1O9aMLF~MF1GLsQcnroyBz3BJQcGP";
-        private string tenantId = "87d27003-2d2a-4de3-84da-bc7272403190";
+        private string clientId = " ";
+        private string clientSecret = " ";
+        private string tenantId = "";
 
         HttpClient httpClient = null;
         private readonly HttpMethod HTTPMETHOD_PATCH = new HttpMethod("PATCH");

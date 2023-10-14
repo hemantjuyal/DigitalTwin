@@ -17,8 +17,8 @@ namespace DeviceSimulator
         /// Please replace with correct connection string value
         /// The connection string could be got from Azure IoT Hub -> Shared access policies -> iothubowner -> Connection String:
         /// </summary>
-        private const string iotHubConnectionString = "";
-        private const string adtInstanceUrl = "";
+        private const string iotHubConnectionString = " ";
+        private const string adtInstanceUrl = " ";
         private const string alertRoboticPalletizerID = "RP002";
         private const string alertVariableName = "Alert";
         private const string alertRoboticArmID = "RA002";
@@ -31,7 +31,7 @@ namespace DeviceSimulator
         private const double alertLightCurtainRange = 10.0D;
         private const double alertPalletTurnTableRotationSpeed = 4.32D;
         private const string alertDoorLastAccessedTime = "2023-08-22 7:14:54";
-        private const string alertRoboticArmStatus = "Closed";
+        private const string alertDoorStatus = "Closed";
         private const double alertPalletStretchMachineWrappingSpeed = 2.67D;
         private const bool alertPalletStretchMachineWrappingFilmRollStatus = false;
         private const double alertPalletStretchMachineWrappingFilmRollUsage = 125.0D;
@@ -98,7 +98,7 @@ namespace DeviceSimulator
                 for (int i = 0; i < deviceClients.Count; i++)
                 {
                     Microsoft.Azure.Devices.Client.Message message = new Microsoft.Azure.Devices.Client.Message();
-                    if (alertSent && data[i + dataIterator].Robo == alertRoboticPalletizerID)
+                    if (alertSent && data[i + dataIterator].RoboticPalletizerID == alertRoboticPalletizerID)
                     {
                         // This is sending a specified Alert message
                         message = ConstructTelemetryDataPoint(data[i + dataIterator], isAlert: true);
@@ -139,13 +139,13 @@ namespace DeviceSimulator
             if(isAlert)
             {
                 
-                telData.RoboticPalletizerID = RoboticPalletizerID;
+                /*telData.RoboticPalletizerID = RoboticPalletizerID;
                 telData.RoboticArmID = RoboticArmID;
-                telData.RoboticArmStatus = RoboticArmStatus;
+                telData.RoboticArmStatus = RoboticArmStatus;*/
                 telData.RoboticArmPowerComsumption = alertRoboticArmPowerConsumption+(alertRoboticArmPowerConsumptionVariance +rand.NextDouble());
                 telData.RoboticArmOperatingSpeed = alertRoboticArmOperatingSpeed+(alertRoboticArmOperatingSpeedVariance +rand.NextDouble());
                 telData.RoboticArmLoadCapacity = alertRoboticArmLoadCapacity+(alertRoboticArmLoadCapacityVariance+rand.NextDouble());
-                telData.ConveyerBeltSpeed = ConveyerBeltSpeed;
+                /*telData.ConveyerBeltSpeed = ConveyerBeltSpeed;
                 telData.LightCurtainResolution = LightCurtainResolution;
                 telData.LightCurtainRange = LightCurtainRange;
                 telData.PalletTurnTableRotationSpeed = PalletTurnTableRotationSpeed;
@@ -153,7 +153,7 @@ namespace DeviceSimulator
                 telData.DoorStatus = DoorStatus;
                 telData.PalletStretchMachineWrappingSpeed = PalletStretchMachineWrappingSpeed;
                 telData.PalletStretchMachineWrappingFilmRollStatus = PalletStretchMachineWrappingFilmRollStatus;
-                telData.PalletStretchMachineWrappingFilmRollUsage = PalletStretchMachineWrappingFilmRollUsage;
+                telData.PalletStretchMachineWrappingFilmRollUsage = PalletStretchMachineWrappingFilmRollUsage;*/
 
             }
 

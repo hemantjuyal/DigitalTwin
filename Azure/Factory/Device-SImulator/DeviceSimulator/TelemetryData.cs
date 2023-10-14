@@ -33,7 +33,7 @@ public class TelemetryData
 		LightCurtainResolution = data.LightCurtainResolution;
 		LightCurtainRange = data.LightCurtainRange;
 		PalletTurnTableRotationSpeed = data.PalletTurnTableRotationSpeed;
-		DoorLastAccessedTime = ata.DoorLastAccessedTime;
+		DoorLastAccessedTime = data.DoorLastAccessedTime;
 		DoorStatus = data.DoorStatus;
 		PalletStretchMachineWrappingSpeed = data.PalletStretchMachineWrappingSpeed;
 		PalletStretchMachineWrappingFilmRollStatus = data.PalletStretchMachineWrappingFilmRollStatus;
