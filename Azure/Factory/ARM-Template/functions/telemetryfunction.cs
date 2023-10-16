@@ -81,20 +81,20 @@ namespace My.Function
                     
 
                     log.LogInformation($"Device:{deviceId} Device Id is:{RoboticPalletizerID}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmID}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmStatus}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmPowerConsumption}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmOperatingSpeed}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{RoboticArmLoadCapacity}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{ConveyorBeltSpeed}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{LightCurtainResolution}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{LightCurtainRange}");
-                    log.LogInformation($"Device:{deviceId} Time interval is:{PalletTurnTableRotationSpeed}");
-                    log.LogInformation($"Device:{deviceId} Description is:{DoorLastAccessedTime}");
-                    log.LogInformation($"Device:{deviceId} CodeNumber is:{DoorStatus}");
-                    log.LogInformation($"Device:{deviceId} WindSpeed is:{PalletStretchMachineWrappingSpeed}");
-                    log.LogInformation($"Device:{deviceId} Ambient Temperature is:{PalletStretchMachineWrappingFilmRollStatus}");
-                    log.LogInformation($"Device:{deviceId} Rotor RPM is:{PalletStretchMachineWrappingFilmUsage}");
+                    log.LogInformation($"Device:{deviceId} RoboticArmID is:{RoboticArmID}");
+                    log.LogInformation($"Device:{deviceId} RoboticArmStatus is:{RoboticArmStatus}");
+                    log.LogInformation($"Device:{deviceId} RoboticArmPowerConsumption is:{RoboticArmPowerConsumption}");
+                    log.LogInformation($"Device:{deviceId} RoboticArmOperatingSpeed is:{RoboticArmOperatingSpeed}");
+                    log.LogInformation($"Device:{deviceId} RoboticArmLoadCapacity is:{RoboticArmLoadCapacity}");
+                    log.LogInformation($"Device:{deviceId} ConveyorBeltSpeed is:{ConveyorBeltSpeed}");
+                    log.LogInformation($"Device:{deviceId} LightCurtainResolution is:{LightCurtainResolution}");
+                    log.LogInformation($"Device:{deviceId} LightCurtainRange is:{LightCurtainRange}");
+                    log.LogInformation($"Device:{deviceId} PalletTurnTableRotationSpeed is:{PalletTurnTableRotationSpeed}");
+                    log.LogInformation($"Device:{deviceId} DoorLastAccessedTime is:{DoorLastAccessedTime}");
+                    log.LogInformation($"Device:{deviceId} DoorStatus is:{DoorStatus}");
+                    log.LogInformation($"Device:{deviceId} PalletStretchMachineWrappingSpeed is:{PalletStretchMachineWrappingSpeed}");
+                    log.LogInformation($"Device:{deviceId} PalletStretchMachineWrappingFilmRollStatus is:{PalletStretchMachineWrappingFilmRollStatus}");
+                    log.LogInformation($"Device:{deviceId} PalletStretchMachineWrappingFilmUsage is:{PalletStretchMachineWrappingFilmUsage}");
                     
                     var updateProperty = new JsonPatchDocument();
                     var RoboticPalletizerTelemetry = new Dictionary<string, Object>()
