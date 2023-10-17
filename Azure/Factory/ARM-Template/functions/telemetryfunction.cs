@@ -63,21 +63,21 @@ namespace My.Function
 
                     JObject deviceMessage = (JObject)JsonConvert.DeserializeObject(eventGridEvent.Data.ToString());
                     string deviceId = (string)deviceMessage["systemProperties"]["iothub-connection-device-id"];
-                    var RoboticPalletizerID = deviceMessage["body"]["RoboticPalletizerID"];
-                    var RoboticArmID = deviceMessage["body"]["RoboticArmID"];
-                    var RoboticArmStatus = deviceMessage["body"]["RoboticArmStatus"];
-                    var RoboticArmPowerConsumption = deviceMessage["body"]["RoboticArmPowerConsumption"];
-                    var RoboticArmOperatingSpeed = deviceMessage["body"]["RoboticArmOperatingSpeed"];
-                    var RoboticArmLoadCapacity = deviceMessage["body"]["RoboticArmLoadCapacity"];
-                    var ConveyorBeltSpeed = deviceMessage["body"]["ConveyorBeltSpeed"];
-                    var LightCurtainResolution = deviceMessage["body"]["LightCurtainResolution"];
-                    var LightCurtainRange = deviceMessage["body"]["LightCurtainRange"];
-                    var PalletTurnTableRotationSpeed = deviceMessage["body"]["PalletTurnTableRotationSpeed"];
-                    var DoorLastAccessedTime = deviceMessage["body"]["DoorLastAccessedTime"];
-                    var DoorStatus = deviceMessage["body"]["DoorStatus"];
-                    var PalletStretchMachineWrappingSpeed = deviceMessage["body"]["PalletStretchMachineWrappingSpeed"];
-                    var PalletStretchMachineWrappingFilmRollStatus = deviceMessage["body"]["PalletStretchMachineWrappingFilmRollStatus"];
-                    var PalletStretchMachineWrappingFilmUsage = deviceMessage["body"]["PalletStretchMachineWrappingFilmUsage"];
+                    var RoboticPalletizerID = (string)deviceMessage["body"]["RoboticPalletizerID"];
+                    var RoboticArmID = (string)deviceMessage["body"]["RoboticArmID"];
+                    var RoboticArmStatus = (bool)deviceMessage["body"]["RoboticArmStatus"];
+                    var RoboticArmPowerConsumption = (double)deviceMessage["body"]["RoboticArmPowerConsumption"];
+                    var RoboticArmOperatingSpeed = (double)deviceMessage["body"]["RoboticArmOperatingSpeed"];
+                    var RoboticArmLoadCapacity = (double)deviceMessage["body"]["RoboticArmLoadCapacity"];
+                    var ConveyorBeltSpeed = (double)deviceMessage["body"]["ConveyorBeltSpeed"];
+                    var LightCurtainResolution = (double)deviceMessage["body"]["LightCurtainResolution"];
+                    var LightCurtainRange = (double)deviceMessage["body"]["LightCurtainRange"];
+                    var PalletTurnTableRotationSpeed = (double)deviceMessage["body"]["PalletTurnTableRotationSpeed"];
+                    var DoorLastAccessedTime = (string)deviceMessage["body"]["DoorLastAccessedTime"];
+                    var DoorStatus = (bool)deviceMessage["body"]["DoorStatus"];
+                    var PalletStretchMachineWrappingSpeed = (double)deviceMessage["body"]["PalletStretchMachineWrappingSpeed"];
+                    var PalletStretchMachineWrappingFilmRollStatus = (bool)deviceMessage["body"]["PalletStretchMachineWrappingFilmRollStatus"];
+                    var PalletStretchMachineWrappingFilmUsage = (double)deviceMessage["body"]["PalletStretchMachineWrappingFilmUsage"];
                     
 
                     log.LogInformation($"Device:{deviceId} Device Id is:{RoboticPalletizerID}");
@@ -116,6 +116,21 @@ namespace My.Function
                         ["PalletStretchMachineWrappingFilmUsage"] = PalletStretchMachineWrappingFilmUsage
                     };
                     updateProperty.AppendAdd("/RoboticPalletizerID", RoboticPalletizerID.Value<string>());
+                    updateProperty.AppendAdd("/RoboticArmID", RoboticPalletizerID.Value<string>());
+                    updateProperty.AppendAdd("/RoboticArmStatus", RoboticArmStatus.Value<bool>());
+                    updateProperty.AppendAdd("/RoboticArmPowerConsumption", RoboticArmPowerConsumption.Value<double>());
+                    updateProperty.AppendAdd("/RoboticArmOperatingSpeed", RoboticArmOperatingSpeed.Value<double>());
+                    updateProperty.AppendAdd("/RoboticArmLoadCapacity", RoboticArmLoadCapacity.Value<double>());
+                    updateProperty.AppendAdd("/ConveyorBeltSpeed", ConveyorBeltSpeed.Value<double>());
+                    updateProperty.AppendAdd("/LightCurtainResolution", LightCurtainResolution.Value<double>());
+                    updateProperty.AppendAdd("/LightCurtainRange", LightCurtainRange.Value<double>());
+                    updateProperty.AppendAdd("/PalletTurnTableRotationSpeed", PalletTurnTableRotationSpeed.Value<double>());
+                    updateProperty.AppendAdd("/DoorLastAccessedTime", DoorLastAccessedTime.Value<string>());
+                    updateProperty.AppendAdd("/DoorStatus", DoorStatus.Value<bool>());
+                    updateProperty.AppendAdd("/PalletStretchMachineWrappingSpeed", PalletStretchMachineWrappingSpeed.Value<double>());
+                    pdateProperty.AppendAdd("/PalletStretchMachineWrappingFilmRollStatus", PalletStretchMachineWrappingFilmRollStatus.Value<bool>());
+                    pdateProperty.AppendAdd("/PalletStretchMachineWrappingFilmUsage", PalletStretchMachineWrappingFilmUsage.Value<double>());
+                    
 
                     log.LogInformation(updateProperty.ToString());
                     try
