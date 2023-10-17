@@ -128,8 +128,8 @@ namespace My.Function
                     updateProperty.AppendAdd("/DoorLastAccessedTime", DoorLastAccessedTime.Value<string>());
                     updateProperty.AppendAdd("/DoorStatus", DoorStatus.Value<bool>());
                     updateProperty.AppendAdd("/PalletStretchMachineWrappingSpeed", PalletStretchMachineWrappingSpeed.Value<double>());
-                    pdateProperty.AppendAdd("/PalletStretchMachineWrappingFilmRollStatus", PalletStretchMachineWrappingFilmRollStatus.Value<bool>());
-                    pdateProperty.AppendAdd("/PalletStretchMachineWrappingFilmUsage", PalletStretchMachineWrappingFilmUsage.Value<double>());
+                    updateProperty.AppendAdd("/PalletStretchMachineWrappingFilmRollStatus", PalletStretchMachineWrappingFilmRollStatus.Value<bool>());
+                    updateProperty.AppendAdd("/PalletStretchMachineWrappingFilmUsage", PalletStretchMachineWrappingFilmUsage.Value<double>());
                     
 
                     log.LogInformation(updateProperty.ToString());
