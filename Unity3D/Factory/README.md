@@ -1,2 +1,2 @@
-# Faactory Unity 3D Project
+# Factory Unity 3D Project
 Factory
