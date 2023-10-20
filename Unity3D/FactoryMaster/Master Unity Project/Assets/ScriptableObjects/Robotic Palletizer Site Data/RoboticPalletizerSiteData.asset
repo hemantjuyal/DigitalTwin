@@ -18,4 +18,3 @@ MonoBehaviour:
     _longitude: 0
   roboticPalletizerData:
   - {fileID: 11400000, guid: 2482b38380b26404ca3045cff54eb9c5, type: 2}
-  - {fileID: 11400000, guid: 382176552a45045a38d19385b0c72f22, type: 2}

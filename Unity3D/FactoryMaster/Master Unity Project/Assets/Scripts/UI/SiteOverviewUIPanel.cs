@@ -33,7 +33,8 @@ public class SiteOverviewUIPanel : MonoBehaviour
         roboticPalletizerButtons = new Dictionary<RoboticPalletizerScriptableObject, SiteOverviewRoboticPalletizerButton>();
         foreach (var roboticPalletizerData in siteData.roboticPalletizerData)
         {
-            Debug.Log("RoboticPalletizerID "+roboticPalletizerData.roboticPalletizerData.RoboticPalletizerID+"    "+"RoboticArmPowerComsumption "+roboticPalletizerData.roboticPalletizerData.RoboticArmPowerComsumption);
+            Debug.Log("RoboticPalletizerID "+roboticPalletizerData.roboticPalletizerData.RoboticPalletizerID+
+            "    "+"RoboticArmPowerComsumption "+roboticPalletizerData.roboticPalletizerData.RoboticArmPowerComsumption);
             var button = Instantiate(roboticPalletizerButtonPrefab, contentTransform);
             button.siteOverviewPanel = this;
             button.RoboticPalletizerData = roboticPalletizerData;
