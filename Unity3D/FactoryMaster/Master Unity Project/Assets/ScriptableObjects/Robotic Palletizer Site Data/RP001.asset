@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6ca782f7114a54da88d1b751ddaa05, type: 3}
+  m_Name: RP001
+  m_EditorClassIdentifier: 
+  roboticPalletizerData:
+    <RoboticPalletizerID>k__BackingField: RP001
+    <RoboticArmID>k__BackingField: RA001
+    <RoboticArmStatus>k__BackingField: 1
+    <RoboticArmPowerComsumption>k__BackingField: 1400
+    <RoboticArmOperatingSpeed>k__BackingField: 10
+    <RoboticArmLoadCapacity>k__BackingField: 20
+    <ConveyerBeltSpeed>k__BackingField: 5
+    <LightCurtainResolution>k__BackingField: 10
+    <LightCurtainRange>k__BackingField: 20
+    <PalletTurnTableRotationSpeed>k__BackingField: 4
+    <DoorLastAccessedTime>k__BackingField: jbv
+    <DoorStatus>k__BackingField: 1
+    <PalletStretchMachineWrappingSpeed>k__BackingField: 3.01
+    <PalletStretchMachineWrappingFilmRollStatus>k__BackingField: 1
+    <PalletStretchMachineWrappingFilmRollUsage>k__BackingField: 2.39
+  roboticPalletizerMetaData:
+    <BuildingName>k__BackingField: Factory
+    <Latitude>k__BackingField: 0
+    <Longitude>k__BackingField: 0
+    <Altitude>k__BackingField: 0
+    <RobticPalletizerModel>k__BackingField: 
+    <FactoryFloor>k__BackingField: 0
+    <Alert>k__BackingField: 1
