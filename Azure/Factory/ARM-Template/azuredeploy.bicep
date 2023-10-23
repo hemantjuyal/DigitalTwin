@@ -191,9 +191,8 @@ resource appInsights 'Microsoft.Insights/components@2015-05-01' = {
 // Deploy function code from zip
 resource ingestfunction 'Microsoft.Web/sites/extensions@2015-08-01' = {
   name: '${funcApp.name}/ZipDeploy'
-
   properties: {
-packageUri: 'https://raw.githubusercontent.com/garimasrivastavaa/dryrun/6a686965ff522e9c5f68f3f7cd9221b9458ab7e4/blade-functions.zip'
+packageUri: 'https://github.com/garimasrivastavaa/adtrun/raw/main/blade-functions.zip'
 dbType: 'None'
     connectionString: ''
   }
