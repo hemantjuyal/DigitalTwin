@@ -193,7 +193,7 @@ resource ingestfunction 'Microsoft.Web/sites/extensions@2015-08-01' = {
   name: '${funcApp.name}/ZipDeploy'
 
   properties: {
-packageUri: 'https://github.com/MicrosoftDocs/mslearn-mr-adt-in-unity/raw/main/ARM-Template/functions/zipfiles/blade-functions.zip'
+packageUri: 'https://raw.githubusercontent.com/garimasrivastavaa/dryrun/6a686965ff522e9c5f68f3f7cd9221b9458ab7e4/blade-functions.zip'
 dbType: 'None'
     connectionString: ''
   }
