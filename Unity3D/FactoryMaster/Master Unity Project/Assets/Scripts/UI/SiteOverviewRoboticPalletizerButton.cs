@@ -53,7 +53,8 @@ public class SiteOverviewRoboticPalletizerButton : MonoBehaviour, IMixedRealityF
     private void OnRoboticPalletizerDataChanged()
     {
         Debug.Log("Button is generated for the Robotic Palletizer ID "
-        +roboticPalletizerData.roboticPalletizerData.RoboticPalletizerID);
+        +roboticPalletizerData.roboticPalletizerData.RoboticPalletizerID+" and the status of alert is "
+        +roboticPalletizerData.roboticPalletizerMetaData.Alert);
         roboticPalletizerNameLabel.text = 
         $"Robotic Palletizer {roboticPalletizerData.roboticPalletizerData.RoboticPalletizerID}";
         progressController.CurrentValue = roboticPalletizerData.roboticPalletizerData.RoboticArmPowerComsumption;

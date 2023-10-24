@@ -54,6 +54,7 @@ public class SiteOverviewUIPanel : MonoBehaviour
     {
         if (hoverPanel)
         {
+            Debug.Log("Button is Hovered");
             hoverPanel.gameObject.SetActive(true);
             hoverPanel.SetRoboticPalletizerData(roboticPalletizerData);
         }
