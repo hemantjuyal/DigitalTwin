@@ -6,10 +6,10 @@ public class TelemetryData
 	public string RoboticPalletizerID;
 	public string RoboticArmID;
 	public bool RoboticArmStatus;
-	public double RoboticArmPowerComsumption;
+	public double RoboticArmPowerConsumption;
 	public double RoboticArmOperatingSpeed;
 	public double RoboticArmLoadCapacity;
-	public double ConveyerBeltSpeed;
+	public double ConveyorBeltSpeed;
 	public double LightCurtainResolution;
 	public double LightCurtainRange;
 	public double PalletTurnTableRotationSpeed;
@@ -17,7 +17,7 @@ public class TelemetryData
 	public bool DoorStatus;
 	public double PalletStretchMachineWrappingSpeed;
 	public bool PalletStretchMachineWrappingFilmRollStatus;
-	public double PalletStretchMachineWrappingFilmRollUsage;
+	public double PalletStretchMachineWrappingFilmUsage;
 
 	public TelemetryData() { }
     
