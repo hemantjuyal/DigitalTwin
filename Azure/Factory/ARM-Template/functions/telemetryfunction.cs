@@ -62,8 +62,7 @@ namespace My.Function
                 {
 
                     JObject deviceMessage = (JObject)JsonConvert.DeserializeObject(eventGridEvent.Data.ToString());
-                    log.LogInformation(deviceMessage.ToString());
-                    string deviceId = deviceMessage["systemProperties"]["iothub-connection-device-id"].ToString();
+                    string deviceId = (string)deviceMessage["systemProperties"]["iothub-connection-device-id"];
                     var ID = deviceMessage["body"]["RoboticPalletizerID"];
                     var RoboticArmID = deviceMessage["body"]["RoboticArmID"];
                     var RoboticArmStatus = deviceMessage["body"]["RoboticArmStatus"];

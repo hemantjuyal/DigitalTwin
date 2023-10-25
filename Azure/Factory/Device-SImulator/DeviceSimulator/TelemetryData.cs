@@ -26,10 +26,10 @@ public class TelemetryData
 		RoboticPalletizerID = data.RoboticPalletizerID;
 		RoboticArmID = data.RoboticArmID;
 		RoboticArmStatus = data.RoboticArmStatus;
-		RoboticArmPowerComsumption = data.RoboticArmPowerComsumption;
+		RoboticArmPowerConsumption = data.RoboticArmPowerConsumption;
 		RoboticArmOperatingSpeed = data.RoboticArmOperatingSpeed;
 		RoboticArmLoadCapacity = data.RoboticArmLoadCapacity;
-		ConveyerBeltSpeed = data.ConveyerBeltSpeed;
+		ConveyorBeltSpeed = data.ConveyorBeltSpeed;
 		LightCurtainResolution = data.LightCurtainResolution;
 		LightCurtainRange = data.LightCurtainRange;
 		PalletTurnTableRotationSpeed = data.PalletTurnTableRotationSpeed;
@@ -37,6 +37,6 @@ public class TelemetryData
 		DoorStatus = data.DoorStatus;
 		PalletStretchMachineWrappingSpeed = data.PalletStretchMachineWrappingSpeed;
 		PalletStretchMachineWrappingFilmRollStatus = data.PalletStretchMachineWrappingFilmRollStatus;
-		PalletStretchMachineWrappingFilmRollUsage = data.PalletStretchMachineWrappingFilmRollUsage;
+		PalletStretchMachineWrappingFilmUsage = data.PalletStretchMachineWrappingFilmUsage;
     }
 }

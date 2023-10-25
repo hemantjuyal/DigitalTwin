@@ -17,8 +17,8 @@ namespace DeviceSimulator
         /// Please replace with correct connection string value
         /// The connection string could be got from Azure IoT Hub -> Shared access policies -> iothubowner -> Connection String:
         /// </summary>
-        private const string iotHubConnectionString = " ";
-        private const string adtInstanceUrl = " ";
+        private const string iotHubConnectionString = "HostName=myprojHubn7hcpbdan2.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=7Sc23MbjKI5JrGOgpofJ13Oc3VBwbeamyAIoTOzA6j0=";
+        private const string adtInstanceUrl = "https://myprojadtn7hcpbdan2.api.eus.digitaltwins.azure.net";
         private const string alertRoboticPalletizerID = "RP002";
         private const string alertVariableName = "Alert";
         private const string alertRoboticArmID = "RA002";
@@ -34,7 +34,7 @@ namespace DeviceSimulator
         private const string alertDoorStatus = "Closed";
         private const double alertPalletStretchMachineWrappingSpeed = 2.67D;
         private const bool alertPalletStretchMachineWrappingFilmRollStatus = false;
-        private const double alertPalletStretchMachineWrappingFilmRollUsage = 125.0D;
+        private const double alertPalletStretchMachineWrappingFilmUsage = 125.0D;
         private const double alertRoboticArmPowerConsumptionVariance = 100.45D;
         private const double alertRoboticArmOperatingSpeedVariance = -0.4D;
         private const double alertRoboticArmLoadCapacityVariance = 0.5D;
@@ -142,10 +142,10 @@ namespace DeviceSimulator
                 /*telData.RoboticPalletizerID = RoboticPalletizerID;
                 telData.RoboticArmID = RoboticArmID;
                 telData.RoboticArmStatus = RoboticArmStatus;*/
-                telData.RoboticArmPowerComsumption = alertRoboticArmPowerConsumption+(alertRoboticArmPowerConsumptionVariance +rand.NextDouble());
+                telData.RoboticArmPowerConsumption = alertRoboticArmPowerConsumption+(alertRoboticArmPowerConsumptionVariance +rand.NextDouble());
                 telData.RoboticArmOperatingSpeed = alertRoboticArmOperatingSpeed+(alertRoboticArmOperatingSpeedVariance +rand.NextDouble());
                 telData.RoboticArmLoadCapacity = alertRoboticArmLoadCapacity+(alertRoboticArmLoadCapacityVariance+rand.NextDouble());
-                /*telData.ConveyerBeltSpeed = ConveyerBeltSpeed;
+                /*telData.ConveyorBeltSpeed = ConveyorBeltSpeed;
                 telData.LightCurtainResolution = LightCurtainResolution;
                 telData.LightCurtainRange = LightCurtainRange;
                 telData.PalletTurnTableRotationSpeed = PalletTurnTableRotationSpeed;
@@ -153,7 +153,7 @@ namespace DeviceSimulator
                 telData.DoorStatus = DoorStatus;
                 telData.PalletStretchMachineWrappingSpeed = PalletStretchMachineWrappingSpeed;
                 telData.PalletStretchMachineWrappingFilmRollStatus = PalletStretchMachineWrappingFilmRollStatus;
-                telData.PalletStretchMachineWrappingFilmRollUsage = PalletStretchMachineWrappingFilmRollUsage;*/
+                telData.PalletStretchMachineWrappingFilmUsage = PalletStretchMachineWrappingFilmUsage;*/
 
             }
 
@@ -162,10 +162,10 @@ namespace DeviceSimulator
                 RoboticPalletizerID = telData.RoboticPalletizerID,
 		        RoboticArmID = telData.RoboticArmID,
 		        RoboticArmStatus = telData.RoboticArmStatus,
-		        RoboticArmPowerComsumption = telData.RoboticArmPowerComsumption,
+		        RoboticArmPowerConsumption = telData.RoboticArmPowerConsumption,
 		        RoboticArmOperatingSpeed = telData.RoboticArmOperatingSpeed,
 		        RoboticArmLoadCapacity = telData.RoboticArmLoadCapacity,
-		        ConveyerBeltSpeed = telData.ConveyerBeltSpeed,
+		        ConveyorBeltSpeed = telData.ConveyorBeltSpeed,
 		        LightCurtainResolution = telData.LightCurtainResolution,
 		        LightCurtainRange = telData.LightCurtainRange,
 		        PalletTurnTableRotationSpeed = telData.PalletTurnTableRotationSpeed,
@@ -173,7 +173,7 @@ namespace DeviceSimulator
 		        DoorStatus = telData.DoorStatus,
 		        PalletStretchMachineWrappingSpeed = telData.PalletStretchMachineWrappingSpeed,
 		        PalletStretchMachineWrappingFilmRollStatus = telData.PalletStretchMachineWrappingFilmRollStatus,
-		        PalletStretchMachineWrappingFilmRollUsage = telData.PalletStretchMachineWrappingFilmRollUsage
+		        PalletStretchMachineWrappingFilmUsage = telData.PalletStretchMachineWrappingFilmUsage
             };
             var messageString = JsonSerializer.Serialize(payload);
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -229,7 +229,9 @@ namespace DeviceSimulator
                     Console.WriteLine($"Message received. Partition: {partitionEvent.Partition.PartitionId} Data: '{data}'");
                 }
             }
-            catch (TaskCanceledException) { } // do nothing
+            catch (TaskCanceledException) { 
+                Console.WriteLine($"..");
+            } // do nothing
             catch (Exception ex)
             {
                 Console.WriteLine($"Error reading event: {ex}");
