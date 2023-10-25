@@ -14,7 +14,7 @@ public class TelemetryMessage
     public double RoboticArmPowerComsumption { get; set; }
     public double RoboticArmOperatingSpeed { get; set; }
     public double RoboticArmLoadCapacity { get; set; }
-    public double ConveyerBeltSpeed { get; set; }
+    public double ConveyorBeltSpeed { get; set; }
     public double LightCurtainResolution { get; set; }
     public double LightCurtainRange { get; set; }
     public double PalletTurnTableRotationSpeed { get; set; }
@@ -22,5 +22,5 @@ public class TelemetryMessage
     public bool DoorStatus { get; set; }
     public double PalletStretchMachineWrappingSpeed { get; set; }
     public bool PalletStretchMachineWrappingFilmRollStatus { get; set; }
-    public double PalletStretchMachineWrappingFilmRollUsage { get; set; }
+    public double PalletStretchMachineWrappingFilmUsage { get; set; }
 }

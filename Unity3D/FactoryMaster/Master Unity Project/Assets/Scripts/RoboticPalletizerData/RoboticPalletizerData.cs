@@ -37,7 +37,7 @@ public class RoboticPalletizerData
 
  
     [field: SerializeField]
-    public double ConveyerBeltSpeed { get; set; }
+    public double ConveyorBeltSpeed { get; set; }
 
 
     [field: SerializeField]
@@ -69,7 +69,7 @@ public class RoboticPalletizerData
 
 
     [field: SerializeField]
-    public double PalletStretchMachineWrappingFilmRollUsage { get; set; }
+    public double PalletStretchMachineWrappingFilmUsage { get; set; }
 
 
 }

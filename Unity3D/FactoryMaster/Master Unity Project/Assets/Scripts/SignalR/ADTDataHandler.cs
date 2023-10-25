@@ -67,7 +67,7 @@ public class ADTDataHandler : MonoBehaviour
             RoboticArmPowerComsumption = message.RoboticArmPowerComsumption,
             RoboticArmOperatingSpeed = message.RoboticArmOperatingSpeed,
             RoboticArmLoadCapacity = message.RoboticArmLoadCapacity,
-            ConveyerBeltSpeed = message.ConveyerBeltSpeed,
+            ConveyorBeltSpeed = message.ConveyorBeltSpeed,
             LightCurtainResolution = message.LightCurtainResolution,
             LightCurtainRange = message.LightCurtainRange,
             PalletTurnTableRotationSpeed = message.PalletTurnTableRotationSpeed,
@@ -75,9 +75,8 @@ public class ADTDataHandler : MonoBehaviour
             DoorStatus = message.DoorStatus,
             PalletStretchMachineWrappingSpeed = message.PalletStretchMachineWrappingSpeed,
             PalletStretchMachineWrappingFilmRollStatus = message.PalletStretchMachineWrappingFilmRollStatus,
-            PalletStretchMachineWrappingFilmRollUsage = message.PalletStretchMachineWrappingFilmRollUsage
+            PalletStretchMachineWrappingFilmUsage = message.PalletStretchMachineWrappingFilmUsage
         };
-
         return data;
     }
 

@@ -19,3 +19,11 @@ MonoBehaviour:
   roboticPalletizerData:
   - {fileID: 11400000, guid: 2482b38380b26404ca3045cff54eb9c5, type: 2}
   - {fileID: 11400000, guid: 382176552a45045a38d19385b0c72f22, type: 2}
+  - {fileID: 11400000, guid: 5abd2667828e54e45879268295b9d237, type: 2}
+  - {fileID: 11400000, guid: 167f3adbfd933405ea8be40cfa07be4b, type: 2}
+  - {fileID: 11400000, guid: dee3302b51475454fbb3d6d024892abe, type: 2}
+  - {fileID: 11400000, guid: 3a0c19c3893c74c7aa8134f192bb0521, type: 2}
+  - {fileID: 11400000, guid: d4c42d22d9ba5420ebc9071efda3cf78, type: 2}
+  - {fileID: 11400000, guid: fcb56f315de4e41de950606e5e31a178, type: 2}
+  - {fileID: 11400000, guid: 4a8ae636468234856849bef79ee41bac, type: 2}
+  - {fileID: 11400000, guid: 382176552a45045a38d19385b0c72f22, type: 2}
