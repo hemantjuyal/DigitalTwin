@@ -30,10 +30,10 @@ public class RoboticPalletizerUIPanel : MonoBehaviour
     [Header("UI Components")]
     public TextMeshProUGUI roboticPalletizerNameLabel;
 
-    public ProgressController progressControllerRoboticArmPowerComsumption;
-    public ProgressController progressControllerRoboticArmPowerComsumptionBar;
+    public ProgressController progressControllerRoboticArmPowerConsumption;
+    public ProgressController progressControllerRoboticArmPowerConsumptionBar;
     public ProgressController progressControllerRoboticArmOperatingSpeed;
-    public ProgressController progressControllerConveyerBeltSpeed;
+    public ProgressController progressControllerConveyorBeltSpeed;
     public ProgressController progressControllerPalletTurnTableRotationSpeed;
     public TextMeshProUGUI dataValueDoorStatus;
     public TextMeshProUGUI dataValueRoboticArmStatus;
@@ -130,14 +130,14 @@ public class RoboticPalletizerUIPanel : MonoBehaviour
             elapsedTime = Time.time - startTime;
             var t = elapsedTime / valueTransitionTime;
 
-            progressControllerRoboticArmPowerComsumption.CurrentValue = Mathf.Lerp(
-                (float)progressControllerRoboticArmPowerComsumption.CurrentValue,
-                (float)roboticPalletizerData.roboticPalletizerData.RoboticArmPowerComsumption, t);
+            progressControllerRoboticArmPowerConsumption.CurrentValue = Mathf.Lerp(
+                (float)progressControllerRoboticArmPowerConsumption.CurrentValue,
+                (float)roboticPalletizerData.roboticPalletizerData.RoboticArmPowerConsumption, t);
             progressControllerRoboticArmOperatingSpeed.CurrentValue = Mathf.Lerp(
                 (float)progressControllerRoboticArmOperatingSpeed.CurrentValue,
                 (float)roboticPalletizerData.roboticPalletizerData.RoboticArmOperatingSpeed, t);
-            progressControllerConveyerBeltSpeed.CurrentValue = Mathf.Lerp(
-                (float)progressControllerConveyerBeltSpeed.CurrentValue,
+            progressControllerConveyorBeltSpeed.CurrentValue = Mathf.Lerp(
+                (float)progressControllerConveyorBeltSpeed.CurrentValue,
                 (float)roboticPalletizerData.roboticPalletizerData.ConveyorBeltSpeed, t);
             progressControllerPalletTurnTableRotationSpeed.CurrentValue = Mathf.Lerp(
                 (float)progressControllerPalletTurnTableRotationSpeed.CurrentValue,
@@ -151,9 +151,9 @@ public class RoboticPalletizerUIPanel : MonoBehaviour
 
     private void SetUIValues()
     {
-        progressControllerRoboticArmPowerComsumptionBar.CurrentValue = roboticPalletizerData.roboticPalletizerData.RoboticArmPowerComsumption;
+        progressControllerRoboticArmPowerConsumptionBar.CurrentValue = roboticPalletizerData.roboticPalletizerData.RoboticArmPowerConsumption;
         progressControllerRoboticArmOperatingSpeed.CurrentValue = roboticPalletizerData.roboticPalletizerData.RoboticArmOperatingSpeed;
-        progressControllerConveyerBeltSpeed.CurrentValue = roboticPalletizerData.roboticPalletizerData.ConveyorBeltSpeed;
+        progressControllerConveyorBeltSpeed.CurrentValue = roboticPalletizerData.roboticPalletizerData.ConveyorBeltSpeed;
         progressControllerPalletTurnTableRotationSpeed.CurrentValue = roboticPalletizerData.roboticPalletizerData.PalletStretchMachineWrappingSpeed;
     }
 

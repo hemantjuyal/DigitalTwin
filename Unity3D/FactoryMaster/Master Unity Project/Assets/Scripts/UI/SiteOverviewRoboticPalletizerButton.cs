@@ -57,7 +57,7 @@ public class SiteOverviewRoboticPalletizerButton : MonoBehaviour, IMixedRealityF
         +roboticPalletizerData.roboticPalletizerMetaData.Alert);
         roboticPalletizerNameLabel.text = 
         $"Robotic Palletizer {roboticPalletizerData.roboticPalletizerData.RoboticPalletizerID}";
-        progressController.CurrentValue = roboticPalletizerData.roboticPalletizerData.RoboticArmPowerComsumption;
+        progressController.CurrentValue = roboticPalletizerData.roboticPalletizerData.RoboticArmPowerConsumption;
         ShowWarningIndicator(roboticPalletizerData.roboticPalletizerMetaData.Alert);
     }
 

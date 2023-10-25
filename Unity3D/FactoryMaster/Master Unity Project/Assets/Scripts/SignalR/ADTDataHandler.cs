@@ -64,7 +64,7 @@ public class ADTDataHandler : MonoBehaviour
             RoboticPalletizerID = message.RoboticPalletizerID,
             RoboticArmID = message.RoboticArmID,
             RoboticArmStatus = message.RoboticArmStatus,
-            RoboticArmPowerComsumption = message.RoboticArmPowerComsumption,
+            RoboticArmPowerConsumption = message.RoboticArmPowerConsumption,
             RoboticArmOperatingSpeed = message.RoboticArmOperatingSpeed,
             RoboticArmLoadCapacity = message.RoboticArmLoadCapacity,
             ConveyorBeltSpeed = message.ConveyorBeltSpeed,

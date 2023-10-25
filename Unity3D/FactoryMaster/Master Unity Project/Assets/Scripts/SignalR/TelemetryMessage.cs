@@ -11,7 +11,7 @@ public class TelemetryMessage
     public string RoboticPalletizerID { get; set; }
     public string RoboticArmID { get; set; }
     public bool RoboticArmStatus { get; set; }
-    public double RoboticArmPowerComsumption { get; set; }
+    public double RoboticArmPowerConsumption { get; set; }
     public double RoboticArmOperatingSpeed { get; set; }
     public double RoboticArmLoadCapacity { get; set; }
     public double ConveyorBeltSpeed { get; set; }

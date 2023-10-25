@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -849,7 +849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1145582944917196436, guid: 9ffca06bacfb2a348b5a5fe7b6ccadcf, type: 3}
       propertyPath: url
-      value: https://banjotprojfuncapppiytqw3vm4.azurewebsites.net/api/
+      value: https://myprojfuncappn7hcpbdan2.azurewebsites.net/api
       objectReference: {fileID: 0}
     - target: {fileID: 1145582944917196436, guid: 9ffca06bacfb2a348b5a5fe7b6ccadcf, type: 3}
       propertyPath: roboticPalletizerSiteData
@@ -2493,7 +2493,7 @@ PrefabInstance:
     - target: {fileID: 3662538929699620729, guid: aac34a5aff86c3e43bb347f3fb39bc21, type: 3}
       propertyPath: adtConnectionInfo
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 02d2d2b2fa459a447a5566a9a1c446eb, type: 2}
     - target: {fileID: 3662538929699620735, guid: aac34a5aff86c3e43bb347f3fb39bc21, type: 3}
       propertyPath: m_Name
       value: ADTRoboticPalletizerAlertController

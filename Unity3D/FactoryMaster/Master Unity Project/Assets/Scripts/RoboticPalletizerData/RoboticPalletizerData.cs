@@ -25,7 +25,7 @@ public class RoboticPalletizerData
 
    
     [field: SerializeField]
-    public double RoboticArmPowerComsumption { get; set; }
+    public double RoboticArmPowerConsumption { get; set; }
 
  
     [field: SerializeField]

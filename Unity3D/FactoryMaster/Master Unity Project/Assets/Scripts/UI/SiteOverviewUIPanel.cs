@@ -34,7 +34,7 @@ public class SiteOverviewUIPanel : MonoBehaviour
         foreach (var roboticPalletizerData in siteData.roboticPalletizerData)
         {
             Debug.Log("RoboticPalletizerID "+roboticPalletizerData.roboticPalletizerData.RoboticPalletizerID+
-            "    "+"RoboticArmPowerComsumption "+roboticPalletizerData.roboticPalletizerData.RoboticArmPowerComsumption);
+            "    "+"RoboticArmPowerConsumption "+roboticPalletizerData.roboticPalletizerData.RoboticArmPowerConsumption);
             var button = Instantiate(roboticPalletizerButtonPrefab, contentTransform);
             button.siteOverviewPanel = this;
             button.RoboticPalletizerData = roboticPalletizerData;
@@ -46,7 +46,7 @@ public class SiteOverviewUIPanel : MonoBehaviour
 
     private void UpdateTotalPowerOutput()
     {
-        var averagePower = siteData.roboticPalletizerData.Select(roboticPalletizerData => roboticPalletizerData.roboticPalletizerData.RoboticArmPowerComsumption).Average();
+        var averagePower = siteData.roboticPalletizerData.Select(roboticPalletizerData => roboticPalletizerData.roboticPalletizerData.RoboticArmPowerConsumption).Average();
         powerOutputBar.CurrentValue = averagePower;
     }
 
