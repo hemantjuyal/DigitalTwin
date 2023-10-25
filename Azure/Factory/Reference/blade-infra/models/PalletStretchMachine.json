@@ -1,0 +1,26 @@
+{
+    "@id": "dtmi:DigitalTwin:PalletStretchMachine;1",
+    "@type": "Interface",
+    "displayName": "PalletStretchMachine",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "PalletStretchMachineWrappingSpeed",
+            "schema": "double",
+            "displayName": "Plastic Wrapping Speed(m/s)"
+          },
+          {
+            "@type": "Property",
+            "name": "PalletStretchMachineWrappingFilmRollStatus",
+            "schema": "boolean",
+            "displayName": "Pallet Stretch Machine Film Roll Status"
+          },
+          {
+            "@type": "Property",
+            "name": "PalletStretchMachineWrappingFilmUsage",
+            "schema": "double",
+            "displayName": "Pallet Stretch Machine Wrapping Film Usage(meters)"
+          }
+    ]
+}

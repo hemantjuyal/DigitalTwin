@@ -1,0 +1,14 @@
+{
+    "@id": "dtmi:DigitalTwin:ConveyorBelt;1",
+    "@type": "Interface",
+    "displayName": "ConveyorBelt",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "ConveyorBeltSpeed",
+            "schema": "double",
+            "displayName": "Conveyor Belt Speed(m/s)"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+  "@id": "dtmi:DigitalTwin:FactoryFloor;1",
+  "@type": "Interface",
+  "displayName": "FactoryFloor",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "RoomArea",
+      "schema": "double",
+      "displayName": "Area of the Room(sq. meters)"
+    },
+    {
+      "@type": "Property",
+      "name": "NumberofRobotPalletizers",
+      "schema": "integer",
+      "displayName": "Number of Robot Palletizers"
+    },
+    {
+      "@type": "Property",
+      "name": "RoomTemperature",
+      "schema": "double",
+      "displayName": "Temperature of the Room(°C)"
+    },
+    {
+      "@type": "Property",
+      "name": "RoomHumidity",
+      "schema": "double",
+      "displayName": "Humidity of the Room(%)"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains",
+      "target": "dtmi:DigitalTwin:RoboticPalletizer;1"
+    }
+  ]
+}
+  
