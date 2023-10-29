@@ -841,6 +841,14 @@
       <Project>{C7AEBCC3-D526-753E-F06C-0CD98957177A}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="8BitGoose.AsciiFBXExporter.csproj">
+      <Project>{5310CFC1-DC2D-03B7-1B1C-B315B8395116}</Project>
+      <Name>8BitGoose.AsciiFBXExporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="8BitGoose.AsciiFBXExporter.Editor.csproj">
+      <Project>{103A6D96-F4D0-6BA4-B418-52C156440D6D}</Project>
+      <Name>8BitGoose.AsciiFBXExporter.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
