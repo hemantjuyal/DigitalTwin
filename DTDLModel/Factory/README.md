@@ -1,2 +1,0 @@
-# DTDL Model Project
-
