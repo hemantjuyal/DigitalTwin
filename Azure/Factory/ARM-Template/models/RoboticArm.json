@@ -13,7 +13,7 @@
     {
       "@type": "Property",
       "name": "RoboticArmStatus",
-      "schema": "string",
+      "schema": "boolean",
       "displayName": "Robotic Arm Status"
     },
     {
