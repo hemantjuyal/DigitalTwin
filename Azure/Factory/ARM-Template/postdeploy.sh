@@ -26,18 +26,18 @@ az config set extension.use_dynamic_install=yes_without_prompt
 az extension add --name azure-iot -y
 
 # echo 'retrieve files'
-git clone https://github.com/garimasrivastavaa/blade-infra.git
+git clone https://github.com/hemantjuyal/DigitalTwinReference.git
 
 # echo 'input model'
-Numberoffloors=$(az dt model create -n $adtname --models ./blade-infra/models/Building.json --query [].id -o tsv)
-NumberofRobotPalletizers=$(az dt model create -n $adtname --models ./blade-infra/models/FactoryFloor.json --query [].id -o tsv)
-RoboticPalletizerID=$(az dt model create -n $adtname --models ./blade-infra/models/RoboticPalletizer.json --query [].id -o tsv)
-RoboticArmID=$(az dt model create -n $adtname --models ./blade-infra/models/RoboticArm.json --query [].id -o tsv)
-ConveyorBeltSpeed=$(az dt model create -n $adtname --models ./blade-infra/models/ConveyorBelt.json --query [].id -o tsv)
-LightCurtainResolution=$(az dt model create -n $adtname --models ./blade-infra/models/LightCurtainSensor.json --query [].id -o tsv)
-PalletTurnTableRotationSpeed=$(az dt model create -n $adtname --models ./blade-infra/models/PalletTurnTable.json --query [].id -o tsv)
-DoorLastAccessedTime=$(az dt model create -n $adtname --models ./blade-infra/models/Door.json --query [].id -o tsv)
-PalletStretchMachineWrappingSpeed=$(az dt model create -n $adtname --models ./blade-infra/models/PalletStretchMachine.json --query [].id -o tsv)
+Numberoffloors=$(az dt model create -n $adtname --models ./DigitalTwinReference/blade-infra/models/Building.json --query [].id -o tsv)
+NumberofRobotPalletizers=$(az dt model create -n $adtname --models ./DigitalTwinReference/blade-infra/models/FactoryFloor.json --query [].id -o tsv)
+RoboticPalletizerID=$(az dt model create -n $adtname --models ./DigitalTwinReference/blade-infra/models/RoboticPalletizer.json --query [].id -o tsv)
+RoboticArmID=$(az dt model create -n $adtname --models ./DigitalTwinReference/blade-infra/models/RoboticArm.json --query [].id -o tsv)
+ConveyorBeltSpeed=$(az dt model create -n $adtname --models ./DigitalTwinReference/blade-infra/models/ConveyorBelt.json --query [].id -o tsv)
+LightCurtainResolution=$(az dt model create -n $adtname --models ./DigitalTwinReference/blade-infra/models/LightCurtainSensor.json --query [].id -o tsv)
+PalletTurnTableRotationSpeed=$(az dt model create -n $adtname --models ./DigitalTwinReference/blade-infra/models/PalletTurnTable.json --query [].id -o tsv)
+DoorLastAccessedTime=$(az dt model create -n $adtname --models ./DigitalTwinReference/blade-infra/models/Door.json --query [].id -o tsv)
+PalletStretchMachineWrappingSpeed=$(az dt model create -n $adtname --models ./DigitalTwinReference/blade-infra/models/PalletStretchMachine.json --query [].id -o tsv)
 
 # echo 'instantiate ADT Instances'
 #1
@@ -110,4 +110,4 @@ az dt route create --dt-name $adtname --endpoint-name "$egname-ep" --route-name 
 az eventgrid event-subscription create --name "$egname-broadcast-sub" --source-resource-id $egid --endpoint "$funcappid/functions/broadcast" --endpoint-type azurefunction
 
 # Retrieve and Upload models to blob storage
-az storage blob upload-batch --account-name $storagename -d $containername -s "./blade-infra/assets"
+az storage blob upload-batch --account-name $storagename -d $containername -s "./DigitalTwinReference/blade-infra/assets"
