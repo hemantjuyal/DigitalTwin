@@ -18,7 +18,7 @@ public class RoboticArmOperatingSpeedColor : MonoBehaviour
     void Update()
     {
        if(roboticPalletizerScriptableObject.roboticPalletizerData.RoboticArmOperatingSpeed > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.RoboticArmOperatingSpeed<=20){
-        mycolor= new Color(1,0.64,0,1);
+        mycolor= new Color(1,1,0,1);
         ren.material.color=mycolor;
        }
 

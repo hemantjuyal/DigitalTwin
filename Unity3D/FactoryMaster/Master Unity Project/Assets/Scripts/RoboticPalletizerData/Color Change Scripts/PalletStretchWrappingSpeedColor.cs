@@ -17,7 +17,7 @@ public class PalletStretchWrappingSpeedColor : MonoBehaviour
     void Update()
     {
        if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed<=19){
-        mycolor= new Color(1,0.64,0,1);
+        mycolor= new Color(1,1,0,1);
         ren.material.color=mycolor;
        }
 

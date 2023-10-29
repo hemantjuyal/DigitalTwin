@@ -17,7 +17,7 @@ public class LightCurtainBeamResolutionColor : MonoBehaviour
     void Update()
     {
        if(roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution<=0.99){
-        mycolor= new Color(1,0.64,0,1);
+        mycolor= new Color(1,1,0,1);
         ren.material.color=mycolor;
        }
 

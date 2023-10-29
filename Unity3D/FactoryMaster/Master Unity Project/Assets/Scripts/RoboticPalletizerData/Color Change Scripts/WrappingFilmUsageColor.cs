@@ -17,7 +17,7 @@ public class WrappingFilmUsageColor : MonoBehaviour
     void Update()
     {
        if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage<=3.9){
-        mycolor= new Color(1,0.64,0,1);
+        mycolor= new Color(1,1,0,1);
         ren.material.color=mycolor;
        }
 
