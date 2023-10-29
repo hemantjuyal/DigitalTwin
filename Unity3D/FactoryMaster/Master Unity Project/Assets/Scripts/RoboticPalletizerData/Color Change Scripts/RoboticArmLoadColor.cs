@@ -22,11 +22,6 @@ public class RoboticArmLoadColor : MonoBehaviour
         ren.material.color=mycolor;
        }
 
-       else if(roboticPalletizerScriptableObject.roboticPalletizerData.RoboticArmLoadCapacity > 20 && roboticPalletizerScriptableObject.roboticPalletizerData.RoboticArmLoadCapacity<=40){
-        mycolor= new Color(1,1,0,1);
-        ren.material.color=mycolor;
-       }
-
        else{
         mycolor= new Color(1,0,0,1);
         ren.material.color=mycolor;

@@ -16,13 +16,13 @@ public class PalletStretchWrappingSpeedColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed<=20){
-        mycolor= new Color(0,1,0,1);
+       if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed<=19){
+        mycolor= new Color(1,0.64,0,1);
         ren.material.color=mycolor;
        }
 
-       else if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed > 20 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed<=40){
-        mycolor= new Color(1,1,0,1);
+       else if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed > 19 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingSpeed<=30){
+        mycolor= new Color(0,1,0,1);
         ren.material.color=mycolor;
        }
 

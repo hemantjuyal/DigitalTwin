@@ -16,13 +16,13 @@ public class WrappingFilmUsageColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage<=20){
-        mycolor= new Color(0,1,0,1);
+       if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage<=3.9){
+        mycolor= new Color(1,0.64,0,1);
         ren.material.color=mycolor;
        }
 
-       else if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage > 20 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage<=40){
-        mycolor= new Color(1,1,0,1);
+       else if(roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage > 3.9 && roboticPalletizerScriptableObject.roboticPalletizerData.PalletStretchMachineWrappingFilmUsage<=4.5){
+        mycolor= new Color(0,1,0,1);
         ren.material.color=mycolor;
        }
 

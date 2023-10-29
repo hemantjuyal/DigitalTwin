@@ -16,13 +16,13 @@ public class LightCurtainBeamResolutionColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution<=20){
-        mycolor= new Color(0,1,0,1);
+       if(roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution > 0 && roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution<=0.99){
+        mycolor= new Color(1,0.64,0,1);
         ren.material.color=mycolor;
        }
 
-       else if(roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution > 20 && roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution<=40){
-        mycolor= new Color(1,1,0,1);
+       else if(roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution > 1 && roboticPalletizerScriptableObject.roboticPalletizerData.LightCurtainResolution<=2){
+        mycolor= new Color(0,1,0,1);
         ren.material.color=mycolor;
        }
 
