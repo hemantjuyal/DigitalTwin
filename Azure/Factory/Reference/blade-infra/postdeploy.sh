@@ -26,7 +26,7 @@ az config set extension.use_dynamic_install=yes_without_prompt
 az extension add --name azure-iot -y
 
 # echo 'retrieve files'
-git clone https://github.com/garimasrivastavaa/blade-infra.git
+git clone https://github.com/hemantjuyal/DigitalTwinReference.git
 
 # echo 'input model'
 Numberoffloors=$(az dt model create -n $adtname --models ./blade-infra/models/Building.json --query [].id -o tsv)

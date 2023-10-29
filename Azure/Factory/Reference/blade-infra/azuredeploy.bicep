@@ -192,7 +192,7 @@ resource appInsights 'Microsoft.Insights/components@2015-05-01' = {
 resource ingestfunction 'Microsoft.Web/sites/extensions@2015-08-01' = {
   name: '${funcApp.name}/ZipDeploy'
   properties: {
-packageUri: 'https://github.com/garimasrivastavaa/adtrun/raw/main/blade-functions.zip'
+packageUri: 'https://github.com/hemantjuyal/DigitalTwinReference/raw/main/blade-functions.zip'
 dbType: 'None'
     connectionString: ''
   }
@@ -342,7 +342,7 @@ resource PostDeploymentscript 'Microsoft.Resources/deploymentScripts@2020-10-01'
     forceUpdateTag: utcValue
     azCliVersion: '2.15.0'
     arguments: '${iot.name} ${adt.name} ${resourceGroup().name} ${location} ${eventGridChangeLogTopic.name} ${eventGridChangeLogTopic.id} ${funcApp.id} ${storage.name} ${fileContainerName}'
-    primaryScriptUri: 'https://raw.githubusercontent.com/garimasrivastavaa/adtrun/main/postdeploy.sh'
+    primaryScriptUri: 'https://raw.githubusercontent.com/hemantjuyal/DigitalTwinReference/main/postdeploy.sh'
     supportingScriptUris: []
     timeout: 'PT30M'
     cleanupPreference: 'OnExpiration'

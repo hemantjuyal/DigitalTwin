@@ -20,7 +20,7 @@
             "@type": "Property",
             "name": "PalletStretchMachineWrappingFilmUsage",
             "schema": "double",
-            "displayName": "Pallet Stretch Machine Wrapping Film Usage(meters)"
+            "displayName": "Pallet Stretch Machine Wrapping Film Usage(metres)"
           }
     ]
 }
