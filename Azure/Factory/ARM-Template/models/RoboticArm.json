@@ -20,13 +20,13 @@
       "@type": "Property",
       "name": "RoboticArmPowerConsumption",
       "schema": "double",
-      "displayName": "Robotic Arm Power Consumption(kW)"
+      "displayName": "Robotic Arm Power Consumption(kWh)"
     },
     {
       "@type": "Property",
       "name": "RoboticArmOperatingSpeed",
       "schema": "double",
-      "displayName": "Robotic Arm Operating Speed(m/s)"
+      "displayName": "Robotic Arm Operating Speed(box/min)"
     },
     {
       "@type": "Property",
