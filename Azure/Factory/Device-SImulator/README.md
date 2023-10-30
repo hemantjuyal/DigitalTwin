@@ -2,9 +2,9 @@
 
 ## Verification of Previous Steps from the ARM Template README
 
-1. Verify that adtInstanceUrl and iotHubConnectionString in AzureIoTHub.cs file under DeviceSimulator directory is configured properly as described in the ARM-Template README file.
+1. Verify that **adtInstanceUrl** and **iotHubConnectionString** in **AzureIoTHub.cs** file under DeviceSimulator directory is configured properly as described in the ARM-Template README file.
 
-2. Verify that clientId, clientSecret, and, tenantId in PropUpdater.cs file under DeviceSimulator directory is configured properly as described in the ARM-Template README file.
+2. Verify that **clientId, clientSecret, and, tenantId** in **PropUpdater.cs** file under DeviceSimulator directory is configured properly as described in the ARM-Template README file.
 
 ##  Begin the Digital Twin Project Simulation
 
