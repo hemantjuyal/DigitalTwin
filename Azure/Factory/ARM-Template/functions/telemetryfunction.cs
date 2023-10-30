@@ -14,8 +14,6 @@ using System.Collections.Generic;
 
 namespace My.Function
 {
-    // This class processes telemetry events from IoT Hub, reads temperature of a device
-    // and sets the "Temperature" property of the device with the value of the telemetry.
     public class telemetryfunction
     {
         private static readonly HttpClient httpClient = new HttpClient();

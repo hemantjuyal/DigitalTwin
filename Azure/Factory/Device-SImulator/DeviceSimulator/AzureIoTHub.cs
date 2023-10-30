@@ -17,11 +17,11 @@ namespace DeviceSimulator
         /// Please replace with correct connection string value
         /// The connection string could be got from Azure IoT Hub -> Shared access policies -> iothubowner -> Connection String:
         /// </summary>
-        private const string iotHubConnectionString = "HostName=myprojHubn7hcpbdan2.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=qzEPaTC8IfUlC4OhqeP0/LQaAhKnplgWSAIoTMCgwU8=";
+        private const string iotHubConnectionString = "HostName=myprojHubn7hcpbdan2.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=7G8QLoinqf8cQS4xe0Yl4hz+/KH+QvO0UAIoTHkRxaM=";
         private const string adtInstanceUrl = "https://myprojadtn7hcpbdan2.api.eus.digitaltwins.azure.net";
         private const string alertRoboticPalletizerID = "DT-RP002";
         private const string alertVariableName = "Alert";
-        private const string alertRoboticArmID = "DT-RP002-RA002";
+        private const string alertRoboticArmID = "DT-RP002-RA-002";
         private const bool alertRoboticArmStatus = false;
         private const double alertRoboticArmPowerConsumption = 1500.65D;
         private const double alertRoboticArmOperatingSpeed = 0.8D;
@@ -31,7 +31,7 @@ namespace DeviceSimulator
         private const double alertLightCurtainRange = 10.0D;
         private const double alertPalletTurnTableRotationSpeed = 4.32D;
         private const string alertDoorLastAccessedTime = "2023-08-22 7:14:54";
-        private const string alertDoorStatus = "Closed";
+        private const bool alertDoorStatus = false;
         private const double alertPalletStretchMachineWrappingSpeed = 2.67D;
         private const bool alertPalletStretchMachineWrappingFilmRollStatus = false;
         private const double alertPalletStretchMachineWrappingFilmUsage = 125.0D;

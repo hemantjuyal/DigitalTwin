@@ -6,7 +6,6 @@ param utcValue string = utcNow()
 var location = resourceGroup().location
 
 var unique = substring(uniqueString(resourceGroup().id),3)
-//var unique = ''
 
 var iotHubName = '${projectName}Hub${unique}'
 var adtName = '${projectName}adt${unique}'
