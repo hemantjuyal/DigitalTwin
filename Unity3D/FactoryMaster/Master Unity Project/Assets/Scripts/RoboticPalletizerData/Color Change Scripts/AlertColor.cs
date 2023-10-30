@@ -20,7 +20,7 @@ public class AlertColor : MonoBehaviour
     void Update()
     {
        if(roboticPalletizerScriptableObject.roboticPalletizerMetaData.Alert == true){
-        mycolor= new Color(1,0,0,1);
+        mycolor= new Color(1,0.64f,0,1);
         ren.material.color= mycolor;
        }
 
