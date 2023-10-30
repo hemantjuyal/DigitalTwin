@@ -1,0 +1,1416 @@
+{
+    "$schema": "https://github.com/microsoft/iot-cardboard-js/tree/main/schemas/3DScenesConfiguration/v1.0.0/3DScenesConfiguration.schema.json",
+    "configuration": {
+        "scenes": [
+            {
+                "id": "018b999384f04f4fa6b3e7e986929d00",
+                "displayName": "FactoryFloor",
+                "description": "",
+                "elements": [
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "c227321a4ccb44c398eb056515c79267",
+                        "displayName": "Door1",
+                        "primaryTwinID": "Door1",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.002",
+                            "hekpaal030_Material #28741_0.002"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "92b45851cf5846e0beee8e95d0155731",
+                        "displayName": "Door10",
+                        "primaryTwinID": "Door10",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.009",
+                            "hekpaal030_Material #28741_0.009"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "842489403b2b47e289f8ca32c83e55e4",
+                        "displayName": "Door2",
+                        "primaryTwinID": "Door2",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.003",
+                            "hekpaal030_Material #28741_0.003"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "77f1efdd766a451c999287611ba5ba01",
+                        "displayName": "Door3",
+                        "primaryTwinID": "Door3",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.001",
+                            "hekpaal030_Material #28741_0.001"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "0e55b44a02eb43e6913b60258c6d47a5",
+                        "displayName": "Door4",
+                        "primaryTwinID": "Door4",
+                        "objectIDs": [
+                            "Object029_Material #28741_0",
+                            "hekpaal030_Material #28741_0"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "428cc73bfe214558817862765cb93ff9",
+                        "displayName": "Door5",
+                        "primaryTwinID": "Door5",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.004",
+                            "hekpaal030_Material #28741_0.004"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "1c25d116e5ee40748f064c0297ac0664",
+                        "displayName": "Door6",
+                        "primaryTwinID": "Door6",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.008",
+                            "hekpaal030_Material #28741_0.008"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "1219d9e4986e48d981443cb63226d600",
+                        "displayName": "Door7",
+                        "primaryTwinID": "Door7",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.007",
+                            "hekpaal030_Material #28741_0.007"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "5be4455b04cd44548c31574aeaf2e1e7",
+                        "displayName": "Door8",
+                        "primaryTwinID": "Door8",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.005",
+                            "hekpaal030_Material #28741_0.005"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "8c3947335c2049f18b68b4e20653544a",
+                        "displayName": "Door9",
+                        "primaryTwinID": "Door9",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.006",
+                            "hekpaal030_Material #28741_0.006"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "070d1567084b48c7af812fce51dcdd71",
+                        "displayName": "LightCurtainSensor1",
+                        "primaryTwinID": "LightCurtainSensor1",
+                        "objectIDs": [
+                            "Box117_Material #2039_0.002",
+                            "Box119_Material #2039_0.002"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "2b5e4033eeef4e46b5b6967da8323522",
+                        "displayName": "LightCurtainSensor10",
+                        "primaryTwinID": "LightCurtainSensor10",
+                        "objectIDs": [
+                            "Box117_Material #2039_0.009",
+                            "Box119_Material #2039_0.009"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "a7c8a80485734958836c26d464e6a328",
+                        "displayName": "LightCurtainSensor2",
+                        "primaryTwinID": "LightCurtainSensor2",
+                        "objectIDs": [
+                            "Box117_Material #2039_0.003",
+                            "Box119_Material #2039_0.003"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "c6e7d87fa8bf4ad38d46ff8ad3fe30f6",
+                        "displayName": "LightCurtainSensor3",
+                        "primaryTwinID": "LightCurtainSensor3",
+                        "objectIDs": [
+                            "Box117_Material #2039_0.001",
+                            "Box119_Material #2039_0.001"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "ad1cbf24e35c4bb9b2d88a563d5dc7a6",
+                        "displayName": "LightCurtainSensor4",
+                        "primaryTwinID": "LightCurtainSensor4",
+                        "objectIDs": [
+                            "Box117_Material #2039_0",
+                            "Box119_Material #2039_0"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "cb6698f13b734189942f3f4cc34aba2d",
+                        "displayName": "LightCurtainSensor5",
+                        "primaryTwinID": "LightCurtainSensor5",
+                        "objectIDs": [
+                            "Box117_Material #2039_0.004",
+                            "Box119_Material #2039_0.004"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "1611e31cf5a84784b3a1edab9a3c10c1",
+                        "displayName": "LightCurtainSensor6",
+                        "primaryTwinID": "LightCurtainSensor6",
+                        "objectIDs": [
+                            "Box117_Material #2039_0.008",
+                            "Box119_Material #2039_0.008"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "51b955866c7c44a2b02da2987de33428",
+                        "displayName": "LightCurtainSensor7",
+                        "primaryTwinID": "LightCurtainSensor7",
+                        "objectIDs": [
+                            "Box117_Material #2039_0.007",
+                            "Box119_Material #2039_0.007"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "8d347a3c33ae46e182655287482c8b51",
+                        "displayName": "LightCurtainSensor8",
+                        "primaryTwinID": "LightCurtainSensor8",
+                        "objectIDs": [
+                            "Box117_Material #2039_0.005",
+                            "Box119_Material #2039_0.005"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "892502094d2447cbb549bdf1d9c14040",
+                        "displayName": "LightCurtainSensor9",
+                        "primaryTwinID": "LightCurtainSensor9",
+                        "objectIDs": [
+                            "Box117_Material #2039_0.006",
+                            "Box119_Material #2039_0.006"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "174696a3f5344f3e8f4ec75533cff201",
+                        "displayName": "PalletStretchMachine10",
+                        "primaryTwinID": "PalletStretchMachine10",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0.009",
+                            "Component#7_001_dbl_Layer0_055_0.009",
+                            "Cylinder025_Material #2057_0.009"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "e9210c7b49274466b0f044c098e63e6b",
+                        "displayName": "PalletStretchMachine2",
+                        "primaryTwinID": "PalletStretchMachine2",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0.003",
+                            "Component#7_001_dbl_Layer0_055_0.003",
+                            "Cylinder025_Material #2057_0.003"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "6f53a18fa3ab40b9bcec9509927f7ae3",
+                        "displayName": "PalletStretchMachine3",
+                        "primaryTwinID": "PalletStretchMachine3",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0.001",
+                            "Component#7_001_dbl_Layer0_055_0.001",
+                            "Cylinder025_Material #2057_0.001"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "75f4736321664dffa6ed63bffb9e6a6c",
+                        "displayName": "PalletStretchMachine4",
+                        "primaryTwinID": "PalletStretchMachine4",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0",
+                            "Component#7_001_dbl_Component#2_002_0",
+                            "Component#7_001_dbl_Layer0_055_0",
+                            "Cylinder025_Material #2057_0"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "607545274e464c9e8714d2eb799b23ff",
+                        "displayName": "PalletStretchMachine5",
+                        "primaryTwinID": "PalletStretchMachine5",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0.004",
+                            "Component#7_001_dbl_Layer0_055_0.004",
+                            "Cylinder025_Material #2057_0.004"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "cc5dc1520e9b4ad59a85d38f78acf3b5",
+                        "displayName": "PalletStretchMachine6",
+                        "primaryTwinID": "PalletStretchMachine6",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0.008",
+                            "Cylinder025_Material #2057_0.008"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "29d9a14141334abb9a241655317cfdc6",
+                        "displayName": "PalletStretchMachine7",
+                        "primaryTwinID": "PalletStretchMachine7",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0.007",
+                            "Component#7_001_dbl_Layer0_055_0.007",
+                            "Cylinder025_Material #2057_0.007"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "63c074628ccc4d788d80675bb7071ad8",
+                        "displayName": "PalletStretchMachine8",
+                        "primaryTwinID": "PalletStretchMachine8",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0.005",
+                            "Component#7_001_dbl_Layer0_055_0.005",
+                            "Cylinder025_Material #2057_0.005"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "93b41ac0a85c49c180cbb832ebe3088d",
+                        "displayName": "PalletStretchMachine9",
+                        "primaryTwinID": "PalletStretchMachine9",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0.006",
+                            "Component#7_001_dbl_Layer0_055_0.006",
+                            "Cylinder025_Material #2057_0.006"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "03e9ccfa5af74bea88475ab710e9ebc5",
+                        "displayName": "PalletStretchMachine1",
+                        "primaryTwinID": "PalletStretchMachine1",
+                        "objectIDs": [
+                            "Component#2_001_dbl_Component#2_002_0.002",
+                            "Component#7_001_dbl_Layer0_055_0.002",
+                            "Cylinder025_Material #2057_0.002"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "6f153c87845f4fc385c800a52997e945",
+                        "displayName": "RoboticArm4",
+                        "primaryTwinID": "RoboticArm4",
+                        "objectIDs": [
+                            "basis2_Material #2040_0",
+                            "basis3_Material #2040_0",
+                            "basis4_Material #2040_0",
+                            "basis5_Material #2040_0",
+                            "basis6_Material #2040_0",
+                            "basis_Material #2040_0",
+                            "voet_Material #2040_0"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "1e3325864223459a82707dce20c6bfce",
+                        "displayName": "RoboticArm3",
+                        "primaryTwinID": "RoboticArm3",
+                        "objectIDs": [
+                            "basis2_Material #2040_0.001",
+                            "basis3_Material #2040_0.002",
+                            "basis4_Material #2040_0.001",
+                            "basis5_Material #2040_0.001",
+                            "basis6_Material #2040_0.001",
+                            "basis_Material #2040_0.001",
+                            "voet_Material #2040_0.001"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "62ad9ba3c816424d9ef657610a1c91c3",
+                        "displayName": "RoboticArm5",
+                        "primaryTwinID": "RoboticArm5",
+                        "objectIDs": [
+                            "basis2_Material #2040_0.004",
+                            "basis3_Material #2040_0.008",
+                            "basis4_Material #2040_0.004",
+                            "basis5_Material #2040_0.004",
+                            "basis6_Material #2040_0.004",
+                            "basis_Material #2040_0.004",
+                            "voet_Material #2040_0.004"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "68d011e95a404801a7eed9ad05fc1727",
+                        "displayName": "RoboticArm6",
+                        "primaryTwinID": "RoboticArm6",
+                        "objectIDs": [
+                            "basis2_Material #2040_0.008",
+                            "basis3_Material #2040_0.016",
+                            "basis4_Material #2040_0.008",
+                            "basis5_Material #2040_0.008",
+                            "basis6_Material #2040_0.008",
+                            "basis_Material #2040_0.008",
+                            "voet_Material #2040_0.008"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "2317101960054b499c1b8e2f9ec59172",
+                        "displayName": "RoboticArm7",
+                        "primaryTwinID": "RoboticArm7",
+                        "objectIDs": [
+                            "basis2_Material #2040_0.007",
+                            "basis3_Material #2040_0.014",
+                            "basis4_Material #2040_0.007",
+                            "basis5_Material #2040_0.007",
+                            "basis6_Material #2040_0.007",
+                            "basis_Material #2040_0.007",
+                            "voet_Material #2040_0.007"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "3266f228d7084f01b459346c2729ff1f",
+                        "displayName": "RoboticArm8",
+                        "primaryTwinID": "RoboticArm8",
+                        "objectIDs": [
+                            "basis2_Material #2040_0.005",
+                            "basis3_Material #2040_0.010",
+                            "basis4_Material #2040_0.005",
+                            "basis_Material #2040_0.005",
+                            "voet_Material #2040_0.005"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "78c762d2866c4393a3fa9ea880a119a8",
+                        "displayName": "RoboticArm9",
+                        "primaryTwinID": "RoboticArm9",
+                        "objectIDs": [
+                            "basis2_Material #2040_0.006",
+                            "basis3_Material #2040_0.012",
+                            "basis4_Material #2040_0.006",
+                            "basis5_Material #2040_0.006",
+                            "basis_Material #2040_0.006",
+                            "voet_Material #2040_0.006"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "cf92a36f17334bfb9e6959d53afc0e29",
+                        "displayName": "RoboticArm1",
+                        "primaryTwinID": "RoboticArm1",
+                        "objectIDs": [
+                            "basis2_Material #2040_0.002",
+                            "basis3_Material #2040_0.004",
+                            "basis3_Material #2040_0.005",
+                            "basis4_Material #2040_0.002",
+                            "basis5_Material #2040_0.002",
+                            "basis6_Material #2040_0.002",
+                            "basis_Material #2040_0.002",
+                            "voet_Material #2040_0.002"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "a477c6579869494a9ae10bdae3e50760",
+                        "displayName": "RoboticArm2",
+                        "primaryTwinID": "RoboticArm2",
+                        "objectIDs": [
+                            "basis2_Material #2040_0.003",
+                            "basis3_Material #2040_0.006",
+                            "basis4_Material #2040_0.003",
+                            "basis5_Material #2040_0.003",
+                            "basis_Material #2040_0.003",
+                            "voet_Material #2040_0.003"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "18687b1a91724c77a106573f013ccc38",
+                        "displayName": "RoboticArm10",
+                        "primaryTwinID": "RoboticArm10",
+                        "objectIDs": [
+                            "basis2_Material #2040_0.009",
+                            "basis3_Material #2040_0.018",
+                            "basis4_Material #2040_0.009",
+                            "basis5_Material #2040_0.009",
+                            "basis6_Material #2040_0.009",
+                            "basis_Material #2040_0.009",
+                            "voet_Material #2040_0.009"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "4ad0eec1db2f497f9a8cb7545d467633",
+                        "displayName": "PalletTurnTable4",
+                        "primaryTwinID": "PalletTurnTable4",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "6484830de334408b9b4978cc4e2e6c98",
+                        "displayName": "PalletTurnTable1",
+                        "primaryTwinID": "PalletTurnTable1",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0.002"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "abb5669b6d2546b991c53b5d5d693113",
+                        "displayName": "PalletTurnTable10",
+                        "primaryTwinID": "PalletTurnTable10",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0.009"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "f6c7c88c526246cab9ecc8a1552de37b",
+                        "displayName": "PalletTurnTable2",
+                        "primaryTwinID": "PalletTurnTable2",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0.003"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "7fe23603e5644a539f28695310b05aad",
+                        "displayName": "PalletTurnTable3",
+                        "primaryTwinID": "PalletTurnTable3",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0.001"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "c27d72b273014a82ac60abf6c82edc47",
+                        "displayName": "PalletTurnTable5",
+                        "primaryTwinID": "PalletTurnTable5",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0.004"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "bcddd2bf727b4bbcaa6424b0be5e5f91",
+                        "displayName": "PalletTurnTable6",
+                        "primaryTwinID": "PalletTurnTable6",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0.008"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "42762cb752934b40bfc25cbdc9e8b9e1",
+                        "displayName": "PalletTurnTable7",
+                        "primaryTwinID": "PalletTurnTable7",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0.007"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "d9e654a527a04942b52c1c344d1fea1a",
+                        "displayName": "PalletTurnTable8",
+                        "primaryTwinID": "PalletTurnTable8",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0.005"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "86247f7d6743461baa0243f16ad709ec",
+                        "displayName": "PalletTurnTable9",
+                        "primaryTwinID": "PalletTurnTable9",
+                        "objectIDs": [
+                            "Component#6_001_Material #20_0.006"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "1c1ec66595854a83ab66ab6124cb7f64",
+                        "displayName": "ConveyorBelt2",
+                        "primaryTwinID": "ConveyorBelt2",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0.003"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "039ccbacb44141e994232b5555fb0099",
+                        "displayName": "ConveyerBelt1",
+                        "primaryTwinID": "ConveyerBelt1",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0.002"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "9ec0c7bfc53c461280de2886c4dfe586",
+                        "displayName": "ConveyorBelt10",
+                        "primaryTwinID": "ConveyorBelt10",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0.009"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "44938b1586f84300b9e58962e98c28f8",
+                        "displayName": "ConveyorBelt3",
+                        "primaryTwinID": "ConveyorBelt3",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0.001"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "3f78949dfce14a66bfa1134b628fe287",
+                        "displayName": "ConveyorBelt4",
+                        "primaryTwinID": "ConveyorBelt4",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "92e2a983a6c141bb8472d654b982db0a",
+                        "displayName": "ConveyorBelt5",
+                        "primaryTwinID": "ConveyorBelt5",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0.004"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "00a6602b0afe4ec28ff2a8a57ca1310c",
+                        "displayName": "ConveyorBelt9",
+                        "primaryTwinID": "ConveyorBelt9",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0.006"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "3c5f5a94f9584cf58d138ed318d82905",
+                        "displayName": "ConveyorBelt8",
+                        "primaryTwinID": "ConveyorBelt8",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0.005"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "b00476295d5944a686fcb40325c25104",
+                        "displayName": "ConveyorBelt7",
+                        "primaryTwinID": "ConveyorBelt7",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0.007"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "ae5aed5c07d14a95a56eca53e86434b7",
+                        "displayName": "ConveyorBelt6",
+                        "primaryTwinID": "ConveyorBelt6",
+                        "objectIDs": [
+                            "rollerbandenkel001_Material #2030_0.008"
+                        ]
+                    }
+                ],
+                "behaviorIDs": [
+                    "e0ae0cf8733f4e5db16dce98515c62f5",
+                    "1c854322be644eacbbc823416525b762",
+                    "6f5b13442a2448ed940bf5160c342d0b",
+                    "1008d65b24354fb38b54d47f999f3536",
+                    "d63416984ab94f8c87c8b848bde4f77e",
+                    "5cb9759a225d4b119779a68de9393e92",
+                    "271b2b1bbe464e47b44dab6f5fe6ade2",
+                    "e33525ce595c491195f13911ed8aab10",
+                    "af11f5bf138047b797355b633b77c13e",
+                    "e83e2a48294e4beb9dfa4716949f4030",
+                    "baf3de170cb04283ae0b8a58f69e50b1"
+                ],
+                "assets": [
+                    {
+                        "type": "3DAsset",
+                        "url": "https://storagescene.blob.core.windows.net/storagecontainer/3DSceneFactoryFloor (1).glb"
+                    }
+                ]
+            }
+        ],
+        "behaviors": [
+            {
+                "id": "e0ae0cf8733f4e5db16dce98515c62f5",
+                "displayName": "OperatingSpeed",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "59a5c7b0c3eb4c779ffb3c3f00a4c396",
+                            "41e1f591cc5c4c25a7577acd6825549d",
+                            "6f153c87845f4fc385c800a52997e945",
+                            "62ad9ba3c816424d9ef657610a1c91c3",
+                            "1e3325864223459a82707dce20c6bfce",
+                            "68d011e95a404801a7eed9ad05fc1727",
+                            "2317101960054b499c1b8e2f9ec59172",
+                            "3266f228d7084f01b459346c2729ff1f",
+                            "78c762d2866c4393a3fa9ea880a119a8",
+                            "18dd8e8f73874b80b089d2e128fb53dd",
+                            "82f692a49435483cb2b422e3d1e242b7",
+                            "df6f2924fd9b4a9892cea3380d8f490a",
+                            "cf92a36f17334bfb9e6959d53afc0e29",
+                            "a477c6579869494a9ae10bdae3e50760",
+                            "18687b1a91724c77a106573f013ccc38"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "31367f5db94a4e51941fbd3778a4acaa",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.RoboticArmOperatingSpeed",
+                        "valueRanges": [
+                            {
+                                "id": "2fd2aba28a4b431c869151d6e5a05f25",
+                                "values": [
+                                    0,
+                                    20
+                                ],
+                                "visual": {
+                                    "color": "#F79824",
+                                    "labelExpression": "Operating Speed Need Attention"
+                                }
+                            },
+                            {
+                                "id": "7bab39d8f8784f1c9366678071b52ffc",
+                                "values": [
+                                    21,
+                                    40
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Operating Speed Normal"
+                                }
+                            },
+                            {
+                                "id": "e3ad627152c343b7966302dac8ac0bf7",
+                                "values": [
+                                    41,
+                                    "Infinity"
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Operating Speed Abnormal"
+                                }
+                            }
+                        ],
+                        "expressionType": "NumericRange",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "valueRangeType": "integer",
+                        "displayName": "RoboticArmOperatingSpeed"
+                    }
+                ]
+            },
+            {
+                "id": "1c854322be644eacbbc823416525b762",
+                "displayName": "PowerConsumption",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "41e1f591cc5c4c25a7577acd6825549d",
+                            "62ad9ba3c816424d9ef657610a1c91c3",
+                            "59a5c7b0c3eb4c779ffb3c3f00a4c396",
+                            "6f153c87845f4fc385c800a52997e945",
+                            "1e3325864223459a82707dce20c6bfce",
+                            "68d011e95a404801a7eed9ad05fc1727",
+                            "2317101960054b499c1b8e2f9ec59172",
+                            "3266f228d7084f01b459346c2729ff1f",
+                            "78c762d2866c4393a3fa9ea880a119a8",
+                            "18dd8e8f73874b80b089d2e128fb53dd",
+                            "82f692a49435483cb2b422e3d1e242b7",
+                            "f2a722402306486e8c61c779ac48746c",
+                            "cf92a36f17334bfb9e6959d53afc0e29",
+                            "a477c6579869494a9ae10bdae3e50760",
+                            "18687b1a91724c77a106573f013ccc38"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "548c2a89ba6041feb0fe4be41583eca2",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.RoboticArmPowerConsumption",
+                        "valueRanges": [
+                            {
+                                "id": "5189077a0b424c6f9c7aec4d960dcbea",
+                                "values": [
+                                    0,
+                                    25
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Power Consumption Normal"
+                                }
+                            },
+                            {
+                                "id": "be91ec4eca094ac3928db6dca5489ff2",
+                                "values": [
+                                    26,
+                                    30
+                                ],
+                                "visual": {
+                                    "color": "#F79824",
+                                    "labelExpression": "Power Consumption Need Attention"
+                                }
+                            },
+                            {
+                                "id": "d5fad93a7a2f4df380bd8ddb9c7f8ef3",
+                                "values": [
+                                    30,
+                                    "Infinity"
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Power Consumption Abnormal"
+                                }
+                            }
+                        ],
+                        "expressionType": "NumericRange",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "displayName": "RoboticArmPowerConsumption",
+                        "valueRangeType": "integer"
+                    }
+                ]
+            },
+            {
+                "id": "6f5b13442a2448ed940bf5160c342d0b",
+                "displayName": "LoadCapacity",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "59a5c7b0c3eb4c779ffb3c3f00a4c396",
+                            "41e1f591cc5c4c25a7577acd6825549d",
+                            "6f153c87845f4fc385c800a52997e945",
+                            "1e3325864223459a82707dce20c6bfce",
+                            "62ad9ba3c816424d9ef657610a1c91c3",
+                            "68d011e95a404801a7eed9ad05fc1727",
+                            "2317101960054b499c1b8e2f9ec59172",
+                            "3266f228d7084f01b459346c2729ff1f",
+                            "78c762d2866c4393a3fa9ea880a119a8",
+                            "18dd8e8f73874b80b089d2e128fb53dd",
+                            "82f692a49435483cb2b422e3d1e242b7",
+                            "f1fc62b91c164a179f419b4f48d586e9",
+                            "cf92a36f17334bfb9e6959d53afc0e29",
+                            "a477c6579869494a9ae10bdae3e50760",
+                            "18687b1a91724c77a106573f013ccc38"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "f3b6d67a5cc44f1fbd4a74bacb5d4f3c",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.RoboticArmLoadCapacity",
+                        "valueRanges": [
+                            {
+                                "id": "328a61c040e948e6828ce5de829c1493",
+                                "values": [
+                                    2,
+                                    20
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Load Capacity Normal"
+                                }
+                            },
+                            {
+                                "id": "ed58becf0c9443f6ae50b68bd143f60e",
+                                "values": [
+                                    21,
+                                    "Infinity"
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Load Capacity Abnormal"
+                                }
+                            },
+                            {
+                                "id": "a23bf0a504f642d8827b796c0c4df92c",
+                                "values": [
+                                    0,
+                                    1
+                                ],
+                                "visual": {
+                                    "color": "#F79824",
+                                    "labelExpression": "Load Capacity Need Attention"
+                                }
+                            }
+                        ],
+                        "expressionType": "NumericRange",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "displayName": "RoboticArmLoadCapacity",
+                        "valueRangeType": "integer"
+                    }
+                ]
+            },
+            {
+                "id": "1008d65b24354fb38b54d47f999f3536",
+                "displayName": "PalletTurnTableRotationSpeed",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "4ad0eec1db2f497f9a8cb7545d467633",
+                            "6484830de334408b9b4978cc4e2e6c98",
+                            "abb5669b6d2546b991c53b5d5d693113",
+                            "f6c7c88c526246cab9ecc8a1552de37b",
+                            "7fe23603e5644a539f28695310b05aad",
+                            "c27d72b273014a82ac60abf6c82edc47",
+                            "bcddd2bf727b4bbcaa6424b0be5e5f91",
+                            "42762cb752934b40bfc25cbdc9e8b9e1",
+                            "d9e654a527a04942b52c1c344d1fea1a",
+                            "86247f7d6743461baa0243f16ad709ec"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "68ac9f5ca5d34e68917787ded17c0af7",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.PalletTurnTableRotationSpeed",
+                        "valueRanges": [
+                            {
+                                "id": "cd0b20a833944ef6a4cff27c24cd3b66",
+                                "values": [
+                                    2,
+                                    10
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Table Rotation Speed Normal"
+                                }
+                            },
+                            {
+                                "id": "d36bf52f77234eb4b517f21b7d5df985",
+                                "values": [
+                                    11,
+                                    "Infinity"
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Table Rotation Speed Abnormal"
+                                }
+                            },
+                            {
+                                "id": "1242a285f8f3455886cacb83b5b31e8d",
+                                "values": [
+                                    0,
+                                    1
+                                ],
+                                "visual": {
+                                    "color": "#F79824",
+                                    "labelExpression": "Table Rotation Speed Need Attention"
+                                }
+                            }
+                        ],
+                        "expressionType": "NumericRange",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "displayName": "PalletTurnTableRotationSpeed",
+                        "valueRangeType": "integer"
+                    }
+                ]
+            },
+            {
+                "id": "d63416984ab94f8c87c8b848bde4f77e",
+                "displayName": "ConveyorBeltSpeed",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "1c1ec66595854a83ab66ab6124cb7f64",
+                            "039ccbacb44141e994232b5555fb0099",
+                            "9ec0c7bfc53c461280de2886c4dfe586",
+                            "44938b1586f84300b9e58962e98c28f8",
+                            "3f78949dfce14a66bfa1134b628fe287",
+                            "92e2a983a6c141bb8472d654b982db0a",
+                            "00a6602b0afe4ec28ff2a8a57ca1310c",
+                            "3c5f5a94f9584cf58d138ed318d82905",
+                            "b00476295d5944a686fcb40325c25104",
+                            "ae5aed5c07d14a95a56eca53e86434b7"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "2b89f964a7154858806cc04b4f53e12b",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.ConveyorBeltSpeed",
+                        "valueRanges": [
+                            {
+                                "id": "aeafb72053394100a9fc464a642373ed",
+                                "values": [
+                                    0.2,
+                                    0.8
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Belt Speed Normal"
+                                }
+                            },
+                            {
+                                "id": "627da4d72bc44f1590a95d96a3566de6",
+                                "values": [
+                                    0.9,
+                                    "Infinity"
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Belt Speed Abnormal"
+                                }
+                            },
+                            {
+                                "id": "9e5ef28fff0246c0bb71085af1b5c168",
+                                "values": [
+                                    0,
+                                    0.1
+                                ],
+                                "visual": {
+                                    "color": "#F79824",
+                                    "labelExpression": "Belt Speed Need Attention"
+                                }
+                            }
+                        ],
+                        "expressionType": "NumericRange",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "displayName": "ConveyorBeltSpeed",
+                        "valueRangeType": "integer"
+                    }
+                ]
+            },
+            {
+                "id": "5cb9759a225d4b119779a68de9393e92",
+                "displayName": "LightCurtainRange",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "070d1567084b48c7af812fce51dcdd71",
+                            "2b5e4033eeef4e46b5b6967da8323522",
+                            "a7c8a80485734958836c26d464e6a328",
+                            "c6e7d87fa8bf4ad38d46ff8ad3fe30f6",
+                            "ad1cbf24e35c4bb9b2d88a563d5dc7a6",
+                            "cb6698f13b734189942f3f4cc34aba2d",
+                            "1611e31cf5a84784b3a1edab9a3c10c1",
+                            "51b955866c7c44a2b02da2987de33428",
+                            "8d347a3c33ae46e182655287482c8b51",
+                            "892502094d2447cbb549bdf1d9c14040"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "ce629f75f4094a02938c24c1c5fff715",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.LightCurtainRange",
+                        "valueRanges": [
+                            {
+                                "id": "c5a699032d0e4be68b9a94e3f39d36f3",
+                                "values": [
+                                    0,
+                                    0.99
+                                ],
+                                "visual": {
+                                    "color": "#F79824",
+                                    "labelExpression": "Detection Need Attention"
+                                }
+                            },
+                            {
+                                "id": "015ea3c22aa44e2d91b7e63063e26482",
+                                "values": [
+                                    1,
+                                    2
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Detection Normal"
+                                }
+                            },
+                            {
+                                "id": "e70a768383e64f5fbc801139c44c839d",
+                                "values": [
+                                    2.1,
+                                    "Infinity"
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Detection Abnormal"
+                                }
+                            }
+                        ],
+                        "expressionType": "NumericRange",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "displayName": "LightCurtainRange",
+                        "valueRangeType": "integer"
+                    }
+                ]
+            },
+            {
+                "id": "271b2b1bbe464e47b44dab6f5fe6ade2",
+                "displayName": "PalletStretchMachineWrappingFilmUsage",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "03e9ccfa5af74bea88475ab710e9ebc5",
+                            "174696a3f5344f3e8f4ec75533cff201",
+                            "e9210c7b49274466b0f044c098e63e6b",
+                            "6f53a18fa3ab40b9bcec9509927f7ae3",
+                            "75f4736321664dffa6ed63bffb9e6a6c",
+                            "607545274e464c9e8714d2eb799b23ff",
+                            "cc5dc1520e9b4ad59a85d38f78acf3b5",
+                            "29d9a14141334abb9a241655317cfdc6",
+                            "63c074628ccc4d788d80675bb7071ad8",
+                            "93b41ac0a85c49c180cbb832ebe3088d"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "1c38dc3009704ba6aee97cf72656060a",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.PalletStretchMachineWrappingFilmUsage",
+                        "valueRanges": [
+                            {
+                                "id": "f8e3f879297c4a52833fc64ed0bd5485",
+                                "values": [
+                                    4,
+                                    4.5
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Film Usage Normal"
+                                }
+                            },
+                            {
+                                "id": "726c8a3a81954bb1b1671e25e803e87f",
+                                "values": [
+                                    0,
+                                    3.9
+                                ],
+                                "visual": {
+                                    "color": "#F79824",
+                                    "labelExpression": "Film Usage Need Attention"
+                                }
+                            },
+                            {
+                                "id": "db43fc5075f34dfa9e2f899e48c43359",
+                                "values": [
+                                    4.6,
+                                    "Infinity"
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Film Usage Abnormal"
+                                }
+                            }
+                        ],
+                        "expressionType": "NumericRange",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "displayName": "PalletStretchMachineWrappingFilmUsage",
+                        "valueRangeType": "integer"
+                    }
+                ]
+            },
+            {
+                "id": "e33525ce595c491195f13911ed8aab10",
+                "displayName": "PalletStretchMachineWrappingFilmRollStatus",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "03e9ccfa5af74bea88475ab710e9ebc5",
+                            "174696a3f5344f3e8f4ec75533cff201",
+                            "e9210c7b49274466b0f044c098e63e6b",
+                            "6f53a18fa3ab40b9bcec9509927f7ae3",
+                            "75f4736321664dffa6ed63bffb9e6a6c",
+                            "607545274e464c9e8714d2eb799b23ff",
+                            "cc5dc1520e9b4ad59a85d38f78acf3b5",
+                            "29d9a14141334abb9a241655317cfdc6",
+                            "63c074628ccc4d788d80675bb7071ad8",
+                            "93b41ac0a85c49c180cbb832ebe3088d"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "245425eae5fc43208fcca474d912e5c2",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.PalletStretchMachineWrappingFilmRollStatus",
+                        "valueRanges": [
+                            {
+                                "id": "da21e6b17c8a46048a6010989c77ffb6",
+                                "values": [
+                                    false
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Stretch Machine Not Working",
+                                    "iconName": "Warning"
+                                }
+                            },
+                            {
+                                "id": "7f6b33b9ec1f48a4bfb2277e2e0317cf",
+                                "values": [
+                                    true
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Stretch Machine Working",
+                                    "iconName": "Accept"
+                                }
+                            }
+                        ],
+                        "expressionType": "CategoricalValues",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "valueRangeType": "boolean",
+                        "displayName": "PalletStretchMachineWrappingFilmRollStatus"
+                    }
+                ]
+            },
+            {
+                "id": "af11f5bf138047b797355b633b77c13e",
+                "displayName": "DoorStatus",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "c227321a4ccb44c398eb056515c79267",
+                            "92b45851cf5846e0beee8e95d0155731",
+                            "842489403b2b47e289f8ca32c83e55e4",
+                            "77f1efdd766a451c999287611ba5ba01",
+                            "0e55b44a02eb43e6913b60258c6d47a5",
+                            "428cc73bfe214558817862765cb93ff9",
+                            "1c25d116e5ee40748f064c0297ac0664",
+                            "1219d9e4986e48d981443cb63226d600",
+                            "5be4455b04cd44548c31574aeaf2e1e7",
+                            "8c3947335c2049f18b68b4e20653544a"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "ceb2f50546104f6fb2f123c0ab5a0c1c",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.DoorStatus",
+                        "valueRanges": [
+                            {
+                                "id": "fd8a0e123e2d41b3ad60c5ca9c4ab7a6",
+                                "values": [
+                                    false
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Door Opeen",
+                                    "iconName": "Warning"
+                                }
+                            },
+                            {
+                                "id": "4f73f20216af44c99b38e4f9e0df120e",
+                                "values": [
+                                    true
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Door Closed",
+                                    "iconName": "Accept"
+                                }
+                            }
+                        ],
+                        "expressionType": "CategoricalValues",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "displayName": "DoorStatus",
+                        "valueRangeType": "boolean"
+                    }
+                ]
+            },
+            {
+                "id": "e83e2a48294e4beb9dfa4716949f4030",
+                "displayName": "LightCurtainResolution",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "070d1567084b48c7af812fce51dcdd71",
+                            "2b5e4033eeef4e46b5b6967da8323522",
+                            "a7c8a80485734958836c26d464e6a328",
+                            "c6e7d87fa8bf4ad38d46ff8ad3fe30f6",
+                            "ad1cbf24e35c4bb9b2d88a563d5dc7a6",
+                            "cb6698f13b734189942f3f4cc34aba2d",
+                            "1611e31cf5a84784b3a1edab9a3c10c1",
+                            "51b955866c7c44a2b02da2987de33428",
+                            "8d347a3c33ae46e182655287482c8b51",
+                            "892502094d2447cbb549bdf1d9c14040"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "eefaf5467ba94796b89b8373573193d9",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.LightCurtainResolution",
+                        "valueRanges": [
+                            {
+                                "id": "dbd156b3ed2b46b5809378deb8fe4111",
+                                "values": [
+                                    0.08,
+                                    0.1
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Beam Normal"
+                                }
+                            },
+                            {
+                                "id": "26ba0a11c76941dba7d6bd76c7b39f98",
+                                "values": [
+                                    0,
+                                    0.07
+                                ],
+                                "visual": {
+                                    "color": "#F79824",
+                                    "labelExpression": "Beam Need Attention"
+                                }
+                            },
+                            {
+                                "id": "7da7fbb53bbe487ca50f92bc5830bc45",
+                                "values": [
+                                    0.11,
+                                    "Infinity"
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Beam Abnormal"
+                                }
+                            }
+                        ],
+                        "expressionType": "NumericRange",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "displayName": "LightCurtainResolution",
+                        "valueRangeType": "integer"
+                    }
+                ]
+            },
+            {
+                "id": "baf3de170cb04283ae0b8a58f69e50b1",
+                "displayName": "PalletStretchMachineWrappingSpeed",
+                "datasources": [
+                    {
+                        "type": "ElementTwinToObjectMappingDataSource",
+                        "elementIDs": [
+                            "03e9ccfa5af74bea88475ab710e9ebc5"
+                        ]
+                    }
+                ],
+                "visuals": [
+                    {
+                        "id": "8bf50fbb331445548ddcd15d6fdafddd",
+                        "type": "ExpressionRangeVisual",
+                        "valueExpression": "PrimaryTwin.PalletStretchMachineWrappingSpeed",
+                        "valueRanges": [
+                            {
+                                "id": "63161f6291694a2a9467f8ff234b621c",
+                                "values": [
+                                    0,
+                                    19
+                                ],
+                                "visual": {
+                                    "color": "#F79824",
+                                    "labelExpression": "Wrapping Speed Need Attention"
+                                }
+                            },
+                            {
+                                "id": "d595e62ef4014a708749d068dec4541b",
+                                "values": [
+                                    20,
+                                    30
+                                ],
+                                "visual": {
+                                    "color": "#26C485",
+                                    "labelExpression": "Wrapping Speed Normal"
+                                }
+                            },
+                            {
+                                "id": "03f9463105fe4a7b80ad30c2ec5111ee",
+                                "values": [
+                                    31,
+                                    "Infinity"
+                                ],
+                                "visual": {
+                                    "color": "#C32F27",
+                                    "labelExpression": "Wrapping Speed Abnormal"
+                                }
+                            }
+                        ],
+                        "expressionType": "NumericRange",
+                        "objectIDs": {
+                            "expression": "objectIDs"
+                        },
+                        "displayName": "PalletStretchMachineWrappingSpeed",
+                        "valueRangeType": "integer"
+                    }
+                ]
+            }
+        ],
+        "layers": []
+    }
+}
