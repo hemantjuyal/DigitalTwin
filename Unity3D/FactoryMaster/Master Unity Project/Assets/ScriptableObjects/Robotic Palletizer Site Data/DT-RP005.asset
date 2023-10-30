@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DT-RP005
   m_EditorClassIdentifier: 
   roboticPalletizerData:
-    <RoboticPalletizerID>k__BackingField: RP005
-    <RoboticArmID>k__BackingField: RA005
+    <RoboticPalletizerID>k__BackingField: DT-RP005
+    <RoboticArmID>k__BackingField: DT-RP005-RA-005
     <RoboticArmStatus>k__BackingField: 1
     <RoboticArmPowerConsumption>k__BackingField: 2
     <RoboticArmOperatingSpeed>k__BackingField: 2
@@ -30,8 +30,8 @@ MonoBehaviour:
     <PalletStretchMachineWrappingFilmUsage>k__BackingField: 131
   roboticPalletizerMetaData:
     <BuildingName>k__BackingField: Factory
-    <Latitude>k__BackingField: 0
-    <Longitude>k__BackingField: 0
+    <Latitude>k__BackingField: 48.7075
+    <Longitude>k__BackingField: 9.0044
     <Altitude>k__BackingField: 0
     <RobticPalletizerModel>k__BackingField: 
     <FactoryFloor>k__BackingField: 1

@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: DT-RP007
   m_EditorClassIdentifier: 
   roboticPalletizerData:
-    <RoboticPalletizerID>k__BackingField: RP007
-    <RoboticArmID>k__BackingField: RA007
+    <RoboticPalletizerID>k__BackingField: DT-RP007
+    <RoboticArmID>k__BackingField: DT-RP007-RA-007
     <RoboticArmStatus>k__BackingField: 1
-    <RoboticArmPowerComsumption>k__BackingField: 1200
+    <RoboticArmPowerConsumption>k__BackingField: 0
     <RoboticArmOperatingSpeed>k__BackingField: 0
     <RoboticArmLoadCapacity>k__BackingField: 20
-    <ConveyerBeltSpeed>k__BackingField: 5
+    <ConveyorBeltSpeed>k__BackingField: 0
     <LightCurtainResolution>k__BackingField: 10
     <LightCurtainRange>k__BackingField: 10
     <PalletTurnTableRotationSpeed>k__BackingField: 4
@@ -27,11 +27,11 @@ MonoBehaviour:
     <DoorStatus>k__BackingField: 1
     <PalletStretchMachineWrappingSpeed>k__BackingField: 2.86
     <PalletStretchMachineWrappingFilmRollStatus>k__BackingField: 1
-    <PalletStretchMachineWrappingFilmRollUsage>k__BackingField: 2.39
+    <PalletStretchMachineWrappingFilmUsage>k__BackingField: 0
   roboticPalletizerMetaData:
     <BuildingName>k__BackingField: Factory
-    <Latitude>k__BackingField: 0
-    <Longitude>k__BackingField: 0
+    <Latitude>k__BackingField: 48.7075
+    <Longitude>k__BackingField: 9.0044
     <Altitude>k__BackingField: 0
     <RobticPalletizerModel>k__BackingField: 
     <FactoryFloor>k__BackingField: 1
