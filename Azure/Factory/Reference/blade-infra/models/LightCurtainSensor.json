@@ -14,7 +14,7 @@
             "@type": "Property",
             "name": "LightCurtainRange",
             "schema": "double",
-            "displayName": "Detection Range(meters)"
+            "displayName": "Detection Range(metres)"
           }
     ]
 }
