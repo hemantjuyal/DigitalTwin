@@ -19,9 +19,9 @@ namespace DeviceSimulator
         /// </summary>
         private const string iotHubConnectionString = "HostName=myprojHubn7hcpbdan2.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=qzEPaTC8IfUlC4OhqeP0/LQaAhKnplgWSAIoTMCgwU8=";
         private const string adtInstanceUrl = "https://myprojadtn7hcpbdan2.api.eus.digitaltwins.azure.net";
-        private const string alertRoboticPalletizerID = "RP002";
+        private const string alertRoboticPalletizerID = "DT-RP002";
         private const string alertVariableName = "Alert";
-        private const string alertRoboticArmID = "RA002";
+        private const string alertRoboticArmID = "DT-RP002-RA002";
         private const bool alertRoboticArmStatus = false;
         private const double alertRoboticArmPowerConsumption = 1500.65D;
         private const double alertRoboticArmOperatingSpeed = 0.8D;
