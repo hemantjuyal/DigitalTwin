@@ -54,16 +54,16 @@ done
 #3
 for i in {01..10}
 do
-    echo "Create RoboticPalletizer RP0$i"
-    az dt twin create -n $adtname --dtmi $RoboticPalletizerID --twin-id "RP0$i"
-    az dt twin update -n $adtname --twin-id "RP0$i" --json-patch '[{"op":"add", "path":"/RoboticPalletizerID", "value": "'"RP0$i"'"},{"op":"add", "path":"/Alert", "value": false}]'
+    echo "Create RoboticPalletizer DT-RP0$i"
+    az dt twin create -n $adtname --dtmi $RoboticPalletizerID --twin-id "DT-RP0$i"
+    az dt twin update -n $adtname --twin-id "DT-RP0$i" --json-patch '[{"op":"add", "path":"/RoboticPalletizerID", "value": "'"DT-RP0$i"'"},{"op":"add", "path":"/Alert", "value": false}]'
 done
 #4p1
 for i in {01..10}
 do
-    echo "Create RoboticArm RA0$i"
-    az dt twin create -n $adtname --dtmi $RoboticArmID --twin-id "RA0$i"
-    az dt twin update -n $adtname --twin-id "RA0$i" --json-patch '[{"op":"add", "path":"/RoboticArmID", "value": "'"RA0$i"'"}]'
+    echo "Create RoboticArm DT-RP0$i-RA-0$i"
+    az dt twin create -n $adtname --dtmi $RoboticArmID --twin-id "DT-RP0$i-RA-0$i"
+    az dt twin update -n $adtname --twin-id "DT-RP0$i-RA-0$i" --json-patch '[{"op":"add", "path":"/RoboticArmID", "value": "'"DT-RP0$i-RA-0$i"'"}]'
 done
 #5p2
 for i in {01..10}
