@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b6ca782f7114a54da88d1b751ddaa05, type: 3}
-  m_Name: RP008
+  m_Name: DT-RP004
   m_EditorClassIdentifier: 
   roboticPalletizerData:
-    <RoboticPalletizerID>k__BackingField: RP008
-    <RoboticArmID>k__BackingField: RA008
+    <RoboticPalletizerID>k__BackingField: RP004
+    <RoboticArmID>k__BackingField: RA004
     <RoboticArmStatus>k__BackingField: 1
     <RoboticArmPowerComsumption>k__BackingField: 1200
     <RoboticArmOperatingSpeed>k__BackingField: 0

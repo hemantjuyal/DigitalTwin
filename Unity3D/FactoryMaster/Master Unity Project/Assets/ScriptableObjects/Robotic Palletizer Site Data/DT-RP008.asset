@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b6ca782f7114a54da88d1b751ddaa05, type: 3}
-  m_Name: RP005
+  m_Name: DT-RP008
   m_EditorClassIdentifier: 
   roboticPalletizerData:
-    <RoboticPalletizerID>k__BackingField: RP005
-    <RoboticArmID>k__BackingField: RA005
+    <RoboticPalletizerID>k__BackingField: RP008
+    <RoboticArmID>k__BackingField: RA008
     <RoboticArmStatus>k__BackingField: 1
-    <RoboticArmPowerConsumption>k__BackingField: 2
-    <RoboticArmOperatingSpeed>k__BackingField: 2
-    <RoboticArmLoadCapacity>k__BackingField: 2
-    <ConveyorBeltSpeed>k__BackingField: 2
-    <LightCurtainResolution>k__BackingField: 2
-    <LightCurtainRange>k__BackingField: 2
-    <PalletTurnTableRotationSpeed>k__BackingField: 2
-    <DoorLastAccessedTime>k__BackingField: 14-05-2023 16:30
+    <RoboticArmPowerComsumption>k__BackingField: 1200
+    <RoboticArmOperatingSpeed>k__BackingField: 0
+    <RoboticArmLoadCapacity>k__BackingField: 20
+    <ConveyerBeltSpeed>k__BackingField: 5
+    <LightCurtainResolution>k__BackingField: 10
+    <LightCurtainRange>k__BackingField: 10
+    <PalletTurnTableRotationSpeed>k__BackingField: 4
+    <DoorLastAccessedTime>k__BackingField: jbv
     <DoorStatus>k__BackingField: 1
-    <PalletStretchMachineWrappingSpeed>k__BackingField: 2.4
+    <PalletStretchMachineWrappingSpeed>k__BackingField: 2.86
     <PalletStretchMachineWrappingFilmRollStatus>k__BackingField: 1
-    <PalletStretchMachineWrappingFilmUsage>k__BackingField: 131
+    <PalletStretchMachineWrappingFilmRollUsage>k__BackingField: 2.39
   roboticPalletizerMetaData:
     <BuildingName>k__BackingField: Factory
     <Latitude>k__BackingField: 0

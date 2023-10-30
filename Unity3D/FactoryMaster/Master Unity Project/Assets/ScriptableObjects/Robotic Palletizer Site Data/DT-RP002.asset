@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b6ca782f7114a54da88d1b751ddaa05, type: 3}
-  m_Name: RP010
+  m_Name: DT-RP002
   m_EditorClassIdentifier: 
   roboticPalletizerData:
-    <RoboticPalletizerID>k__BackingField: RP010
-    <RoboticArmID>k__BackingField: RA010
+    <RoboticPalletizerID>k__BackingField: RP002
+    <RoboticArmID>k__BackingField: RA002
     <RoboticArmStatus>k__BackingField: 1
     <RoboticArmPowerComsumption>k__BackingField: 1200
     <RoboticArmOperatingSpeed>k__BackingField: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
     <PalletStretchMachineWrappingFilmRollStatus>k__BackingField: 1
     <PalletStretchMachineWrappingFilmRollUsage>k__BackingField: 2.39
   roboticPalletizerMetaData:
-   <BuildingName>k__BackingField: Factory
+    <BuildingName>k__BackingField: Factory
     <Latitude>k__BackingField: 0
     <Longitude>k__BackingField: 0
     <Altitude>k__BackingField: 0
