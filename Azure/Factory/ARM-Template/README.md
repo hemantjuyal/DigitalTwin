@@ -24,7 +24,6 @@
 2. Set the App Registration name, which can be a maximum of 14 characters. This value is the name of the application registration for your mixed reality app.
    
    ```powershell
-   
    $appreg="myappreg"
 
 ## Create the App Registration
