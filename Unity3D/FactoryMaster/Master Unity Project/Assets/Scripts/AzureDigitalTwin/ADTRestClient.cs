@@ -64,6 +64,7 @@ namespace BladeMR.ADT
             this.clientId = clientId;
             this.clientSecret = clientSecret;
             this.tenantId = tenantId;
+            Debug.Log("Rest Client Data Updated");
         }
 
         /// <summary>
