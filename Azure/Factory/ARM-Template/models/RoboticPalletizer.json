@@ -11,6 +11,13 @@
       "displayName": "Robotic Palletizer ID"
     },
     {
+      "@type": "Property",
+      "name": "Alert",
+      "displayName": "Alert",
+      "writable": true,
+      "schema": "boolean"
+    },
+    {
       "@type": "Relationship",
       "name": "liftsboxesusing",
       "displayName": "LiftsBoxesUsing",
