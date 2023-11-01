@@ -24,7 +24,7 @@
 
 1. The output folders bin and obj will generate in the same directory as BladeFunctionsApps.sln -
 
-![bin-obj folders](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/e79b9f55-3e94-44aa-bc4a-05b6a8743496)
+![bin&obj folder](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2c91339e-f29f-41bb-aa15-f3c4ec3bc73b)
 
 2. Within the bin folder, the path to the recently generated BladeFunctionsApps.dll and BladeFunctionsApps.sln files is -
    
