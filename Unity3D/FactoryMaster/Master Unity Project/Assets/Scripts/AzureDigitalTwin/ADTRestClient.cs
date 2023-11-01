@@ -104,6 +104,7 @@ namespace BladeMR.ADT
         public async Task<HttpStatusCode> SetAlertOnTwin(string twinId)
         {
             return await UpdateBoolProperty(twinId, Constants.RoboticPalletizer.ADT_ROBOTICPALLETIZER_ALERT_PROPERTY, true);
+            Debug.Log("Alert is set with Twin ID "+twinId);
         }
 
         /// <summary>
@@ -114,6 +115,7 @@ namespace BladeMR.ADT
         public async Task<HttpStatusCode> ClearAlertOnTwin(string twinId)
         {
             return await UpdateBoolProperty(twinId, Constants.RoboticPalletizer.ADT_ROBOTICPALLETIZER_ALERT_PROPERTY, false);
+            Debug.Log("Alert is cleared with Twin ID "+twinId);
         }
 
         #endregion App Logic

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79126711}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 627a7adbbf5d049c6b2c1afd05d8edfe, type: 3}
   m_Name: 
@@ -3062,9 +3062,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3662538929699620729, guid: aac34a5aff86c3e43bb347f3fb39bc21, type: 3}
+      propertyPath: RoboticPalletizer
+      value: 
+      objectReference: {fileID: 11400000, guid: 382176552a45045a38d19385b0c72f22, type: 2}
+    - target: {fileID: 3662538929699620729, guid: aac34a5aff86c3e43bb347f3fb39bc21, type: 3}
       propertyPath: adtConnectionInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 02d2d2b2fa459a447a5566a9a1c446eb, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3662538929699620735, guid: aac34a5aff86c3e43bb347f3fb39bc21, type: 3}
       propertyPath: m_Name
       value: ADTRoboticPalletizerAlertController
@@ -6125,7 +6129,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -7341528874150048799, guid: a8aa6109627e04e41a657ac4ac3e2111, type: 3}
   m_PrefabInstance: {fileID: 623246742}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1625668742
+--- !u!114 &1625668739
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6134,7 +6138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1625668738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f10bc594d90a42d296d0f1953e5e942, type: 3}
+  m_Script: {fileID: 11500000, guid: 32b6ddbeb893f4ccab2071ed79474a4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   roboticPalletizerScriptableObject: {fileID: 11400000, guid: 382176552a45045a38d19385b0c72f22, type: 2}

@@ -65,6 +65,7 @@ namespace BladeMR.ADT
                 OnADTRestAuthenticate = OnADTAuthenticated,
                 OnADTRestAuthenticationFailed = OnADTOnADTAuthenticationFailed
             };
+            Debug.Log("REST API Connection is Esablished");
             if(alertAudioSource == null)
             {
                 alertAudioSource = GetComponent<AudioSource>();

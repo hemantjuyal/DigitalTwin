@@ -16,13 +16,13 @@ MonoBehaviour:
     <RoboticPalletizerID>k__BackingField: DT-RP002
     <RoboticArmID>k__BackingField: DT-RP002-RA-002
     <RoboticArmStatus>k__BackingField: 1
-    <RoboticArmPowerConsumption>k__BackingField: 0
-    <RoboticArmOperatingSpeed>k__BackingField: 0
-    <RoboticArmLoadCapacity>k__BackingField: 20
+    <RoboticArmPowerConsumption>k__BackingField: 23
+    <RoboticArmOperatingSpeed>k__BackingField: 1
+    <RoboticArmLoadCapacity>k__BackingField: 0
     <ConveyorBeltSpeed>k__BackingField: 0
-    <LightCurtainResolution>k__BackingField: 10
-    <LightCurtainRange>k__BackingField: 10
-    <PalletTurnTableRotationSpeed>k__BackingField: 4
+    <LightCurtainResolution>k__BackingField: 0
+    <LightCurtainRange>k__BackingField: 0
+    <PalletTurnTableRotationSpeed>k__BackingField: 9
     <DoorLastAccessedTime>k__BackingField: jbv
     <DoorStatus>k__BackingField: 1
     <PalletStretchMachineWrappingSpeed>k__BackingField: 2.86

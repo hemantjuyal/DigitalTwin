@@ -19,6 +19,8 @@ public class RoboticPalletizerAlert : MonoBehaviour
     /// <param name="eventData"></param>
     public void ShowAlertMessageForRoboticPalletizer(ADTRoboticPalletizerEventData eventData)
     {
+        Debug.Log(eventData);
+        Debug.Log($"Robotic Palletizer: {eventData.roboticPalletizerData.RoboticPalletizerID} has an alert");
         text.text = $"Robotic Palletizer: {eventData.roboticPalletizerData.RoboticPalletizerID} has an alert";
 
     }

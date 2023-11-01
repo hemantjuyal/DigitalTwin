@@ -78,6 +78,7 @@ public class RoboticPalletizerController : MonoBehaviour, IMixedRealityPointerHa
     public void SetAlertStatus(bool showAlert)
     {
         alertIndicator.SetActive(showAlert);
+        Debug.Log("Alert is set(RoboticPalletizerController.cs)");
         var color = showAlert ? alertOverrideColor : roboticPalletizerMaterial.GetColor(ColorShaderID);
         colorOverride.SetColor(ColorShaderID, color);
         foreach (var roboticPalletizerMesh in roboticPalletizerMeshes)

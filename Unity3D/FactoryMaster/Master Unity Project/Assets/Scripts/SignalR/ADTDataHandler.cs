@@ -90,6 +90,7 @@ public class ADTDataHandler : MonoBehaviour
     {
         UnityDispatcher.InvokeOnAppThread(() =>
         {
+            Debug.Log(message);
             var matchingRoboticPalletizers = roboticPalletizerSiteData.roboticPalletizers.Where(t => t.Key.roboticPalletizerData.RoboticPalletizerID == message.RoboticPalletizerID);
             if (!matchingRoboticPalletizers.Any())
             {
@@ -115,7 +116,8 @@ public class ADTDataHandler : MonoBehaviour
 
     private void HandleConnected(string obj)
     {
-        Debug.Log("Connected");
+        Debug.Log("Connected, Connected to Azure Digital Twin");
+
     }
 
     private void HandleDisconnected()
