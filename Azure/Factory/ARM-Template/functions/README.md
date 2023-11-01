@@ -48,3 +48,15 @@
    
    ```powershell
    DigitalTwin\Azure\Factory\ARM-Template\functions\zipfiles
+
+## Replacement of blade-functions.zip file in DigitalTwinReference repository
+
+   Since, azuredeploy.bicep file obtains the blade-functions.zip file from DigitalTwinReference repository, we will have replace the older zip file with the recently created zip file.
+   
+   ![azuredeploy.bicep](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/d8c0556b-8723-4f70-b60b-1898d1118e25)
+
+   Path for the file to be replaced -
+   
+   ```powershell
+   DigitalTwinReference\blade-infra\functions\zipfiles
+
