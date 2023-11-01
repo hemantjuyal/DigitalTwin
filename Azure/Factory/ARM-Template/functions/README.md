@@ -18,7 +18,7 @@
    
 6. On the menu bar, select Build > Build Current Document(BladeFunctionsApps.csproj)
 
-![Building BladeFunctionApps.csproj](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c922fcf0-0127-4acd-80af-e6dea131c7e1)
+![Building BladeFunctionApps.csproj](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/4caa3c2b-98c1-41b8-8a5f-81d3302ad255)
 
 ## Accessing the recently generated the DLL File
 
