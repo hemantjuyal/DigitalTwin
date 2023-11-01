@@ -41,3 +41,10 @@
 2. Select all files and generate a zip file named as blade-functions.zip
 
 ![blade-functions.zip](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/92f944c8-2ced-4600-9447-8e04816ee5cb)
+
+3. Replace the blade-functions.zip file with the recently generated blade-functions.zip file.
+   
+   Path for the file to be replaced -
+   
+   ```powershell
+   DigitalTwin\Azure\Factory\ARM-Template\functions\zipfiles
