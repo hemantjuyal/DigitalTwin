@@ -9,106 +9,6 @@
                 "elements": [
                     {
                         "type": "TwinToObjectMapping",
-                        "id": "c227321a4ccb44c398eb056515c79267",
-                        "displayName": "Door1",
-                        "primaryTwinID": "Door1",
-                        "objectIDs": [
-                            "Object029_Material #28741_0.002",
-                            "hekpaal030_Material #28741_0.002"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
-                        "id": "92b45851cf5846e0beee8e95d0155731",
-                        "displayName": "Door10",
-                        "primaryTwinID": "Door10",
-                        "objectIDs": [
-                            "Object029_Material #28741_0.009",
-                            "hekpaal030_Material #28741_0.009"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
-                        "id": "842489403b2b47e289f8ca32c83e55e4",
-                        "displayName": "Door2",
-                        "primaryTwinID": "Door2",
-                        "objectIDs": [
-                            "Object029_Material #28741_0.003",
-                            "hekpaal030_Material #28741_0.003"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
-                        "id": "77f1efdd766a451c999287611ba5ba01",
-                        "displayName": "Door3",
-                        "primaryTwinID": "Door3",
-                        "objectIDs": [
-                            "Object029_Material #28741_0.001",
-                            "hekpaal030_Material #28741_0.001"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
-                        "id": "0e55b44a02eb43e6913b60258c6d47a5",
-                        "displayName": "Door4",
-                        "primaryTwinID": "Door4",
-                        "objectIDs": [
-                            "Object029_Material #28741_0",
-                            "hekpaal030_Material #28741_0"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
-                        "id": "428cc73bfe214558817862765cb93ff9",
-                        "displayName": "Door5",
-                        "primaryTwinID": "Door5",
-                        "objectIDs": [
-                            "Object029_Material #28741_0.004",
-                            "hekpaal030_Material #28741_0.004"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
-                        "id": "1c25d116e5ee40748f064c0297ac0664",
-                        "displayName": "Door6",
-                        "primaryTwinID": "Door6",
-                        "objectIDs": [
-                            "Object029_Material #28741_0.008",
-                            "hekpaal030_Material #28741_0.008"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
-                        "id": "1219d9e4986e48d981443cb63226d600",
-                        "displayName": "Door7",
-                        "primaryTwinID": "Door7",
-                        "objectIDs": [
-                            "Object029_Material #28741_0.007",
-                            "hekpaal030_Material #28741_0.007"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
-                        "id": "5be4455b04cd44548c31574aeaf2e1e7",
-                        "displayName": "Door8",
-                        "primaryTwinID": "Door8",
-                        "objectIDs": [
-                            "Object029_Material #28741_0.005",
-                            "hekpaal030_Material #28741_0.005"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
-                        "id": "8c3947335c2049f18b68b4e20653544a",
-                        "displayName": "Door9",
-                        "primaryTwinID": "Door9",
-                        "objectIDs": [
-                            "Object029_Material #28741_0.006",
-                            "hekpaal030_Material #28741_0.006"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
                         "id": "070d1567084b48c7af812fce51dcdd71",
                         "displayName": "LightCurtainSensor1",
                         "primaryTwinID": "LightCurtainSensor1",
@@ -536,17 +436,6 @@
                     },
                     {
                         "type": "TwinToObjectMapping",
-                        "id": "607545274e464c9e8714d2eb799b23ff",
-                        "displayName": "PalletStretchMachine5",
-                        "primaryTwinID": "PalletStretchMachine5",
-                        "objectIDs": [
-                            "Component#2_001_dbl_Component#2_002_0.004",
-                            "Component#7_001_dbl_Layer0_055_0.004",
-                            "Cylinder025_Material #2057_0.004"
-                        ]
-                    },
-                    {
-                        "type": "TwinToObjectMapping",
                         "id": "03e9ccfa5af74bea88475ab710e9ebc5",
                         "displayName": "PalletStretchMachine1",
                         "primaryTwinID": "PalletStretchMachine1",
@@ -642,6 +531,116 @@
                             "Component#2_001_dbl_Component#2_002_0.006",
                             "Component#7_001_dbl_Layer0_055_0.006",
                             "Cylinder025_Material #2057_0.006"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "06bf96752f13466a87573d867e4be65f",
+                        "displayName": "PalletStretchMachine5",
+                        "primaryTwinID": "PalletStretchMachine5",
+                        "objectIDs": [
+                            "Component#7_001_dbl_Layer0_055_0.004",
+                            "Cylinder025_Material #2057_0.004"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "1fa53359d4fb46538d11201fe9e7ed4f",
+                        "displayName": "Door5",
+                        "primaryTwinID": "Door5",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.004",
+                            "hekpaal030_Material #28741_0.004"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "546f0fd968f64110a622e58ab3a2c6d3",
+                        "displayName": "Door3",
+                        "primaryTwinID": "Door3",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.001",
+                            "hekpaal030_Material #28741_0.001"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "0a4f124a4cff4ae29b74b088191cf176",
+                        "displayName": "Door1",
+                        "primaryTwinID": "Door1",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.002",
+                            "hekpaal030_Material #28741_0.002"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "b1536446dfd442aea9f82f28538f5e61",
+                        "displayName": "Door2",
+                        "primaryTwinID": "Door2",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.003",
+                            "hekpaal030_Material #28741_0.003"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "5c4f9de029424629af30e0caf475a5d1",
+                        "displayName": "Door4",
+                        "primaryTwinID": "Door4",
+                        "objectIDs": [
+                            "Object029_Material #28741_0",
+                            "hekpaal030_Material #28741_0"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "a631002952c9474bb391ec01ae51d760",
+                        "displayName": "Door8",
+                        "primaryTwinID": "Door8",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.005",
+                            "hekpaal030_Material #28741_0.005"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "6da907a17980427490625150515d1379",
+                        "displayName": "Door7",
+                        "primaryTwinID": "Door7",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.007",
+                            "hekpaal030_Material #28741_0.007"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "2a60ccba3d8c4f25957e07fed4b33fe2",
+                        "displayName": "Door6",
+                        "primaryTwinID": "Door6",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.008",
+                            "hekpaal030_Material #28741_0.008"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "0d8efe1072d24b89956c3824ded24999",
+                        "displayName": "Door10",
+                        "primaryTwinID": "Door10",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.009",
+                            "hekpaal030_Material #28741_0.009"
+                        ]
+                    },
+                    {
+                        "type": "TwinToObjectMapping",
+                        "id": "cbef72c856dc42d0949cff949807ce58",
+                        "displayName": "Door9",
+                        "primaryTwinID": "Door9",
+                        "objectIDs": [
+                            "Object029_Material #28741_0.006",
+                            "hekpaal030_Material #28741_0.006"
                         ]
                     }
                 ],
@@ -1112,7 +1111,8 @@
                             "cc5dc1520e9b4ad59a85d38f78acf3b5",
                             "29d9a14141334abb9a241655317cfdc6",
                             "63c074628ccc4d788d80675bb7071ad8",
-                            "93b41ac0a85c49c180cbb832ebe3088d"
+                            "93b41ac0a85c49c180cbb832ebe3088d",
+                            "06bf96752f13466a87573d867e4be65f"
                         ]
                     }
                 ],
@@ -1181,7 +1181,8 @@
                             "cc5dc1520e9b4ad59a85d38f78acf3b5",
                             "29d9a14141334abb9a241655317cfdc6",
                             "63c074628ccc4d788d80675bb7071ad8",
-                            "93b41ac0a85c49c180cbb832ebe3088d"
+                            "93b41ac0a85c49c180cbb832ebe3088d",
+                            "06bf96752f13466a87573d867e4be65f"
                         ]
                     }
                 ],
@@ -1239,7 +1240,17 @@
                             "1c25d116e5ee40748f064c0297ac0664",
                             "1219d9e4986e48d981443cb63226d600",
                             "5be4455b04cd44548c31574aeaf2e1e7",
-                            "8c3947335c2049f18b68b4e20653544a"
+                            "8c3947335c2049f18b68b4e20653544a",
+                            "1fa53359d4fb46538d11201fe9e7ed4f",
+                            "546f0fd968f64110a622e58ab3a2c6d3",
+                            "0a4f124a4cff4ae29b74b088191cf176",
+                            "b1536446dfd442aea9f82f28538f5e61",
+                            "5c4f9de029424629af30e0caf475a5d1",
+                            "a631002952c9474bb391ec01ae51d760",
+                            "6da907a17980427490625150515d1379",
+                            "2a60ccba3d8c4f25957e07fed4b33fe2",
+                            "0d8efe1072d24b89956c3824ded24999",
+                            "cbef72c856dc42d0949cff949807ce58"
                         ]
                     }
                 ],
@@ -1351,66 +1362,6 @@
                 ]
             },
             {
-                "id": "baf3de170cb04283ae0b8a58f69e50b1",
-                "displayName": "PalletStretchMachineWrappingSpeed",
-                "datasources": [
-                    {
-                        "type": "ElementTwinToObjectMappingDataSource",
-                        "elementIDs": [
-                            "03e9ccfa5af74bea88475ab710e9ebc5"
-                        ]
-                    }
-                ],
-                "visuals": [
-                    {
-                        "id": "8bf50fbb331445548ddcd15d6fdafddd",
-                        "type": "ExpressionRangeVisual",
-                        "valueExpression": "PrimaryTwin.PalletStretchMachineWrappingSpeed",
-                        "valueRanges": [
-                            {
-                                "id": "63161f6291694a2a9467f8ff234b621c",
-                                "values": [
-                                    0,
-                                    19
-                                ],
-                                "visual": {
-                                    "color": "#F79824",
-                                    "labelExpression": "Wrapping Speed Need Attention"
-                                }
-                            },
-                            {
-                                "id": "d595e62ef4014a708749d068dec4541b",
-                                "values": [
-                                    20,
-                                    30
-                                ],
-                                "visual": {
-                                    "color": "#26C485",
-                                    "labelExpression": "Wrapping Speed Normal"
-                                }
-                            },
-                            {
-                                "id": "03f9463105fe4a7b80ad30c2ec5111ee",
-                                "values": [
-                                    31,
-                                    "Infinity"
-                                ],
-                                "visual": {
-                                    "color": "#C32F27",
-                                    "labelExpression": "Wrapping Speed Abnormal"
-                                }
-                            }
-                        ],
-                        "expressionType": "NumericRange",
-                        "objectIDs": {
-                            "expression": "objectIDs"
-                        },
-                        "displayName": "PalletStretchMachineWrappingSpeed",
-                        "valueRangeType": "integer"
-                    }
-                ]
-            },
-            {
                 "id": "0db5bbd3eab344258b45b812f5507073",
                 "displayName": "PalletStretchMachineWrappingSpeed",
                 "datasources": [
@@ -1426,7 +1377,8 @@
                             "cc5dc1520e9b4ad59a85d38f78acf3b5",
                             "29d9a14141334abb9a241655317cfdc6",
                             "63c074628ccc4d788d80675bb7071ad8",
-                            "93b41ac0a85c49c180cbb832ebe3088d"
+                            "93b41ac0a85c49c180cbb832ebe3088d",
+                            "06bf96752f13466a87573d867e4be65f"
                         ]
                     }
                 ],
