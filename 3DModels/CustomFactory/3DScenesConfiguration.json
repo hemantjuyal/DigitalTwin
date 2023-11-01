@@ -1267,7 +1267,7 @@
                                 ],
                                 "visual": {
                                     "color": "#C32F27",
-                                    "labelExpression": "Door Opeen",
+                                    "labelExpression": "Door Open",
                                     "iconName": "Warning"
                                 }
                             },
