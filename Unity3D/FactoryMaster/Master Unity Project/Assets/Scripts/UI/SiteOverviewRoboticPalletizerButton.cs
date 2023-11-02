@@ -47,14 +47,15 @@ public class SiteOverviewRoboticPalletizerButton : MonoBehaviour, IMixedRealityF
 
     private void ShowWarningIndicator(bool show)
     {
+        Debug.Log("Warning Indicator activated in SiteOverviewRoboticPalletizerButton");
         warningIndicator.gameObject.SetActive(show);
     }
 
     private void OnRoboticPalletizerDataChanged()
     {
-        Debug.Log("Button is generated for the Robotic Palletizer ID "
+        /*Debug.Log("Button is generated for the Robotic Palletizer ID "
         +roboticPalletizerData.roboticPalletizerData.RoboticPalletizerID+" and the status of alert is "
-        +roboticPalletizerData.roboticPalletizerMetaData.Alert);
+        +roboticPalletizerData.roboticPalletizerMetaData.Alert);*/
         roboticPalletizerNameLabel.text = 
         $"Robotic Palletizer {roboticPalletizerData.roboticPalletizerData.RoboticPalletizerID}";
         progressController.CurrentValue = roboticPalletizerData.roboticPalletizerData.RoboticArmPowerConsumption;

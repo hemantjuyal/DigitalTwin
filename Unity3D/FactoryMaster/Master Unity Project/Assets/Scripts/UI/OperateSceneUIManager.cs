@@ -64,7 +64,7 @@ public class OperateSceneUIManager : MonoBehaviour
         {
             alertPopup = Instantiate(alertPopupPrefab);
         }
-
+        Debug.Log("Alert Received at OperateSceneUIManager.cs");
         alertPopup.gameObject.SetActive(true);
         alertPopup.ShowAlertMessageForRoboticPalletizer(eventData);
     }
