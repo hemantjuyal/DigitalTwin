@@ -71,3 +71,21 @@ Since, azuredeploy.bicep file obtains the blade-functions.zip file from DigitalT
 The postdeploy.sh file obtains the blade-functions.zip file from blade-infra directory within the DigitalTwinReference repository - 
 
 ![postdeploy.sh](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/79d995e4-9833-4ceb-a51f-579f32dc64d1)
+
+## GitHub Links provided in our project 
+
+1. Within postdeploy.sh file
+   
+   Link - https://github.com/hemantjuyal/DigitalTwinReference.git
+
+   ![Refpostdeploy.sh](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/feb24775-4971-41d9-86b0-7dda6ef8d6a0)
+
+2. Within azuredeploy.bicep file
+   
+   a. Link - https://github.com/hemantjuyal/DigitalTwinReference/raw/main/blade-functions.zip
+
+   ![blade-fns](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/f2b69021-dcab-49b4-ab19-c22b5225ac7a)
+
+   b. Link - https://raw.githubusercontent.com/hemantjuyal/DigitalTwinReference/main/postdeploy.sh
+
+   ![DTRpost](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/cabef679-4c62-489e-88f5-3c7ff60a0645)
