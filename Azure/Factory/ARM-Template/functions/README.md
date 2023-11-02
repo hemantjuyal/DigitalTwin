@@ -76,7 +76,7 @@ The postdeploy.sh file obtains the blade-functions.zip file from blade-infra dir
 
 1. Within postdeploy.sh file
    
-   Link - https://github.com/hemantjuyal/DigitalTwinReference.git
+   Link - https://github.com/hemantjuyal/DigitalTwinReference
 
    ![Refpostdeploy.sh](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/feb24775-4971-41d9-86b0-7dda6ef8d6a0)
 
