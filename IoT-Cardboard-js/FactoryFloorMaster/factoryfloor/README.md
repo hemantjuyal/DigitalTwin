@@ -1,4 +1,4 @@
-# IoT Cardboard Application
+# Factory Floor Application
 
 A React Application created using create react template for [@microsoft/iot-cardboard-js](https://www.npmjs.com/package/@microsoft/iot-cardboard-js)
 
@@ -109,5 +109,3 @@ This application a /server folder which is used as the client build output and c
 You should create an Azure WebApp using Node 16 LTS, and set the SCM_DO_BUILD_DURING_DEPLOYMENT=true Application Setting on it.
 This causes the post-deployment build steps to run (including npm install) so you should not deploy /server/node_modules
 There are no other build steps for /server (no Webpack)
-
-Alex Hayward & Paul Tallett, Microsoft UK, May 2022
