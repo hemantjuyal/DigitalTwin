@@ -17,6 +17,8 @@ Our Digital Twins Factory consists of a Building containing 2 Factory Floors com
    DigitalTwin\Ontology\Factory
 
   ![jsonupload](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/4ef83498-f074-48eb-879c-45c742906453)
+
+  After successfully uploading the files, you will receive a message - 
   
   ![uploaded](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/008eaaba-abd1-47ff-a65f-e7404dc7c80a)
 
