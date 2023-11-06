@@ -17,6 +17,7 @@ public class SiteOverviewUIPanel : MonoBehaviour
     
     [SerializeField]
     private ProgressController powerOutputBar;
+    public GameObject loadedAsset;
     
     private Dictionary<RoboticPalletizerScriptableObject, SiteOverviewRoboticPalletizerButton> roboticPalletizerButtons;
 
@@ -26,6 +27,7 @@ public class SiteOverviewUIPanel : MonoBehaviour
         PopulateUIMenu();
         OnHoverRoboticPalletizerEnd();
         UpdateTotalPowerOutput();
+        InstantiateRoboticPalletizer();
     }
 
     private void PopulateUIMenu()
@@ -84,4 +86,13 @@ public class SiteOverviewUIPanel : MonoBehaviour
             }
         }
     }
+    
+    private void InstantiateRoboticPalletizer()
+    {
+
+       foreach (var roboticPalletizerData in siteData.roboticPalletizerData)
+        {
+        siteData.AddRoboticPalletizer(roboticPalletizerData, loadedAsset);
+    }
+}
 }

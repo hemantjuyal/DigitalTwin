@@ -6532,6 +6532,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roboticPalletizerScriptableObject: {fileID: 11400000, guid: 5abd2667828e54e45879268295b9d237, type: 2}
+--- !u!1 &1770256693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1188757371117618930, guid: 396044f50a6a041279e18aed1ab2f9ba, type: 3}
+  m_PrefabInstance: {fileID: 560801984}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1770256694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770256693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f0d392dc6b8548b0bd0128e53398139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roboticPalletizerSiteData: {fileID: 11400000, guid: d3ece50683bc4491997a0169ab22c68d, type: 2}
+  mapRenderer: {fileID: 0}
+  mapAnimationSpeed: 25
+  mapAnimationType: 2
+  roboticPalletizerAssetReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+  onRoboticPalletizerLoaded: {fileID: 11400000, guid: 204ed458aeb57d54595976733b37f031, type: 2}
+  onRoboticPalletizerSelected: {fileID: 11400000, guid: b5198af0592966e448e9dfd2b4cfe906, type: 2}
+  onRoboticPalletizerHoverStart: {fileID: 11400000, guid: 1d81f0e857e450c49a494a0fbc9c484f, type: 2}
+  onRoboticPalletizerHoverEnd: {fileID: 11400000, guid: a4583aaa1b3b6b049bf3418f6a02ff21, type: 2}
 --- !u!114 &1804648751 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3618384816090156174, guid: a890699454ac93c4395e6de9456c3835, type: 3}
