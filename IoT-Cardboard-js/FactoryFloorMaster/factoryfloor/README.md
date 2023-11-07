@@ -13,12 +13,6 @@ You can add your own [pages](./src/pages/) to the application by adding them to 
 
 You may want to use PowerBI to do reporting on Azure Data Explorer (ADX) data, so see the included a PowerBI component to help with that.
 
-See this link for enabling [ADX historisation](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-use-data-history)  
-You can also [query ADT from Kusto](https://docs.microsoft.com/en-us/azure/digital-twins/concepts-data-explorer-plugin)  
-And use [Grafana with ADX](https://techcommunity.microsoft.com/t5/internet-of-things-blog/creating-dashboards-with-azure-digital-twins-azure-data-explorer/ba-p/3277879)  
-Check out the [International Space Station demo](https://docs.microsoft.com/en-us/shows/internet-of-things-show/model-and-track-the-international-space-station-with-azure-digital-twins-and-data-explorer)
-
-
 
 ## Getting Started
 
@@ -109,3 +103,5 @@ This application a /server folder which is used as the client build output and c
 You should create an Azure WebApp using Node 16 LTS, and set the SCM_DO_BUILD_DURING_DEPLOYMENT=true Application Setting on it.
 This causes the post-deployment build steps to run (including npm install) so you should not deploy /server/node_modules
 There are no other build steps for /server (no Webpack)
+
+Go to your storage account, under Blob Service, add http://localhost:3000 as Allowed Origins, and add "Authorization,Content-Type,Content-Length,x-ms-version,x-ms-blob-type,x-ms-copy-source,x-ms-requires-sync" for Allowed headers.
