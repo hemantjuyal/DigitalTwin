@@ -47,7 +47,6 @@ public class SiteOverviewRoboticPalletizerButton : MonoBehaviour, IMixedRealityF
 
     private void ShowWarningIndicator(bool show)
     {
-        Debug.Log("Warning Indicator activated in SiteOverviewRoboticPalletizerButton");
         warningIndicator.gameObject.SetActive(show);
     }
 

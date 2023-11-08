@@ -25,7 +25,6 @@ public class RoboticPalletizerSiteData : ScriptableObject
 
     public void AddRoboticPalletizer(RoboticPalletizerScriptableObject data, GameObject gameObject)
     {
-        Debug.Log("Palletizer Added to Dictionary with ID "+data.roboticPalletizerData.RoboticPalletizerID);
         roboticPalletizers.Add(data, gameObject);
     }
 

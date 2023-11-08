@@ -18,6 +18,8 @@ public class SiteOverviewUIPanel : MonoBehaviour
     [SerializeField]
     private ProgressController powerOutputBar;
     public GameObject loadedAsset;
+    public MapPinIndicator indicatorPrefab;
+    
     
     private Dictionary<RoboticPalletizerScriptableObject, SiteOverviewRoboticPalletizerButton> roboticPalletizerButtons;
 

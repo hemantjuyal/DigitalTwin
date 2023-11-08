@@ -629,6 +629,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roboticPalletizerScriptableObject: {fileID: 11400000, guid: 167f3adbfd933405ea8be40cfa07be4b, type: 2}
+--- !u!1 &201464332 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7999906135256079672, guid: a890699454ac93c4395e6de9456c3835, type: 3}
+  m_PrefabInstance: {fileID: 493910886}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &208864606 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6909690149403286823, guid: a8aa6109627e04e41a657ac4ac3e2111, type: 3}
@@ -1581,19 +1586,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 674135345697021442, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_Color.b
-      value: 0.12745099
+      value: 0.07563175
       objectReference: {fileID: 0}
     - target: {fileID: 674135345697021442, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_Color.g
-      value: 0.66339874
+      value: 0.8280686
       objectReference: {fileID: 0}
     - target: {fileID: 674135345697021442, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.32021025
       objectReference: {fileID: 0}
     - target: {fileID: 674135345697021442, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_FillAmount
-      value: 0.78
+      value: 0.64000005
       objectReference: {fileID: 0}
     - target: {fileID: 741630987189600208, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_Name
@@ -2121,7 +2126,7 @@ PrefabInstance:
       objectReference: {fileID: 1804648751}
     - target: {fileID: 4382669095761998117, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_text
-      value: 15.00
+      value: 10.00
       objectReference: {fileID: 0}
     - target: {fileID: 4414867646059272315, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2153,7 +2158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5002530052951587044, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_FillAmount
-      value: 0.64000005
+      value: 0.75200003
       objectReference: {fileID: 0}
     - target: {fileID: 5018099615957130105, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_Type
@@ -2276,6 +2281,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: d3ece50683bc4491997a0169ab22c68d, type: 2}
     - target: {fileID: 5765130297724046732, guid: a890699454ac93c4395e6de9456c3835, type: 3}
+      propertyPath: loadedAsset
+      value: 
+      objectReference: {fileID: 201464332}
+    - target: {fileID: 5765130297724046732, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: roboticPalletizerButtonPrefab
       value: 
       objectReference: {fileID: 1675259156}
@@ -2329,7 +2338,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: b5198af0592966e448e9dfd2b4cfe906, type: 2}
     - target: {fileID: 6251996672779608219, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_text
-      value: 1000.00
+      value: 1200.00
       objectReference: {fileID: 0}
     - target: {fileID: 6319437235325783013, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: m_Name
@@ -2368,13 +2377,21 @@ PrefabInstance:
       value: Site Overview Robotic Palletizer Button (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
+      propertyPath: onResetCommandSent
+      value: 
+      objectReference: {fileID: 11400000, guid: 77e4111ca16eee84fb9e7b3a1057c105, type: 2}
+    - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: dataValueDoorStatus
       value: 
       objectReference: {fileID: 177973585}
     - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
+      propertyPath: lineRendererConnector
+      value: 
+      objectReference: {fileID: 576874710}
+    - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: roboticPalletizerData
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 2482b38380b26404ca3045cff54eb9c5, type: 2}
     - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: dataValueRoboticArmStatus
       value: 
@@ -2392,6 +2409,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 175447230}
     - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
+      propertyPath: progressControllerConveyorBeltSpeed
+      value: 
+      objectReference: {fileID: 175447230}
+    - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: progressControllerRoboticArmOperatingSpeed
       value: 
       objectReference: {fileID: 663516139}
@@ -2400,6 +2421,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 266865365}
     - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
+      propertyPath: progressControllerRoboticArmPowerConsumption
+      value: 
+      objectReference: {fileID: 1584440891}
+    - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: progressControllerPalletTurnTableRotationSpeed
       value: 
       objectReference: {fileID: 1966067742}
@@ -2407,6 +2432,10 @@ PrefabInstance:
       propertyPath: progressControllerRoboticArmPowerComsumptionBar
       value: 
       objectReference: {fileID: 1584440891}
+    - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
+      propertyPath: progressControllerRoboticArmPowerConsumptionBar
+      value: 
+      objectReference: {fileID: 1284354302}
     - target: {fileID: 7041713654933701157, guid: a890699454ac93c4395e6de9456c3835, type: 3}
       propertyPath: descriptionTextPalletStretchMachineWrappingFilmRollStatus
       value: 
@@ -5323,6 +5352,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roboticPalletizerScriptableObject: {fileID: 11400000, guid: 3a0c19c3893c74c7aa8134f192bb0521, type: 2}
+--- !u!114 &1284354302 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8595995559358550272, guid: a890699454ac93c4395e6de9456c3835, type: 3}
+  m_PrefabInstance: {fileID: 493910886}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b149898c98a8a4140b6b75f4837cced4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1285747102 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8121870070018825431, guid: a8aa6109627e04e41a657ac4ac3e2111, type: 3}
@@ -5516,6 +5556,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 127.938, z: 0}
+--- !u!1 &1381229422 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4161787056875515086, guid: a890699454ac93c4395e6de9456c3835, type: 3}
+  m_PrefabInstance: {fileID: 493910886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1381229428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381229422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4344640897c8d427e9b06aab0f03fa4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  siteData: {fileID: 11400000, guid: d3ece50683bc4491997a0169ab22c68d, type: 2}
+  indicatorPrefab: {fileID: 0}
+  indicatorRadius: 1
+  indicatorHeight: 0.2
 --- !u!1 &1400370949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 791562382235353666, guid: a8aa6109627e04e41a657ac4ac3e2111, type: 3}
@@ -6317,7 +6378,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5365666634312286696, guid: a890699454ac93c4395e6de9456c3835, type: 3}
   m_PrefabInstance: {fileID: 493910886}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 201464332}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 274f8220955545246bc27bde8acabda1, type: 3}
@@ -6532,35 +6593,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roboticPalletizerScriptableObject: {fileID: 11400000, guid: 5abd2667828e54e45879268295b9d237, type: 2}
---- !u!1 &1770256693 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1188757371117618930, guid: 396044f50a6a041279e18aed1ab2f9ba, type: 3}
-  m_PrefabInstance: {fileID: 560801984}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1770256694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770256693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f0d392dc6b8548b0bd0128e53398139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roboticPalletizerSiteData: {fileID: 11400000, guid: d3ece50683bc4491997a0169ab22c68d, type: 2}
-  mapRenderer: {fileID: 0}
-  mapAnimationSpeed: 25
-  mapAnimationType: 2
-  roboticPalletizerAssetReference:
-    m_AssetGUID: 
-    m_SubObjectName: 
-    m_SubObjectType: 
-  onRoboticPalletizerLoaded: {fileID: 11400000, guid: 204ed458aeb57d54595976733b37f031, type: 2}
-  onRoboticPalletizerSelected: {fileID: 11400000, guid: b5198af0592966e448e9dfd2b4cfe906, type: 2}
-  onRoboticPalletizerHoverStart: {fileID: 11400000, guid: 1d81f0e857e450c49a494a0fbc9c484f, type: 2}
-  onRoboticPalletizerHoverEnd: {fileID: 11400000, guid: a4583aaa1b3b6b049bf3418f6a02ff21, type: 2}
 --- !u!114 &1804648751 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3618384816090156174, guid: a890699454ac93c4395e6de9456c3835, type: 3}
