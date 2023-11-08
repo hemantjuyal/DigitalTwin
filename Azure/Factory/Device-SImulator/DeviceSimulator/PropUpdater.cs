@@ -17,7 +17,7 @@ namespace DeviceSimulator
         private readonly string azureLoginUrl = "https://login.microsoftonline.com/{0}/oauth2/token"; //{0}: tenantId
 
         private string clientId = "4403adc2-c4c4-417e-bf93-85756e96f5ab";
-        private string clientSecret = "mcD8Q~G~3qSh9H7KSOnJlYAK~JlhEfbKmCs4xbax";
+        private string clientSecret = "kSA8Q~kUcHkhBrTs5O~hG22Jl6Qb0aurI1kZ_bgf";
         private string tenantId = "16ca35d1-bd3b-427e-af99-541904e9e926";
 
         HttpClient httpClient = null;

@@ -17,11 +17,11 @@ namespace DeviceSimulator
         /// Please replace with correct connection string value
         /// The connection string could be got from Azure IoT Hub -> Shared access policies -> iothubowner -> Connection String:
         /// </summary>
-        private const string iotHubConnectionString = "HostName=myprojHubn7hcpbdan2.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=7G8QLoinqf8cQS4xe0Yl4hz+/KH+QvO0UAIoTHkRxaM=";
+        private const string iotHubConnectionString = "HostName=myprojHubn7hcpbdan2.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=E9KjB6vPkAahaxpa/FeBlDjcHCV5FccmoAIoTNHYJoQ=";
         private const string adtInstanceUrl = "https://myprojadtn7hcpbdan2.api.eus.digitaltwins.azure.net";
-        private const string alertRoboticPalletizerID = "DT-RP002";
+        private const string alertRoboticPalletizerID = "DT-RP001";
         private const string alertVariableName = "Alert";
-        private const string alertRoboticArmID = "DT-RP002-RA-002";
+        private const string alertRoboticArmID = "DT-RP001-RA-001";
         private const bool alertRoboticArmStatus = false;
         private const double alertRoboticArmPowerConsumption = 1500.65D;
         private const double alertRoboticArmOperatingSpeed = 0.8D;
@@ -215,22 +215,31 @@ namespace DeviceSimulator
         {
             try
             {
+                //Console.ForegroundColor = ConsoleColor.Yellow;
+                //Console.WriteLine($"Receiving data and Cancel token is - {cancelToken}");
                 string eventHubConnectionString = await IotHubConnection.GetEventHubsConnectionStringAsync(iotHubConnectionString);
                 await using var consumerClient = new EventHubConsumerClient(
                     EventHubConsumerClient.DefaultConsumerGroupName,
                     eventHubConnectionString);
+                //Console.ForegroundColor = ConsoleColor.Green;
+                //Console.WriteLine("Receiving data ENDED");
+                //Console.WriteLine($"consumerClient is {consumerClient.ReadEventsAsync(cancelToken)}");
 
                 await foreach (PartitionEvent partitionEvent in consumerClient.ReadEventsAsync(cancelToken))
                 {
+                    //Console.WriteLine("ENTERED LOOP");
+                    //Console.WriteLine($"partitionEvent.Data {Encoding.UTF8.GetString(partitionEvent.Data.Body.ToArray())}");
                     if (partitionEvent.Data == null) continue;
 
                     string data = Encoding.UTF8.GetString(partitionEvent.Data.Body.ToArray());
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"Message received. Partition: {partitionEvent.Partition.PartitionId} Data: '{data}'");
+                    //Console.WriteLine("EXITED LOOP");
                 }
             }
             catch (TaskCanceledException) { 
-                Console.WriteLine($"..");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("...");
             } // do nothing
             catch (Exception ex)
             {
