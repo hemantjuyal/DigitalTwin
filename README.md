@@ -15,29 +15,43 @@ Each Robotic Palletizer has the following properties -
 Each Robotic Palletizer has 6 components having individual properties - 
 
 1. Robotic Arm
+   
    a. Robotic Arm ID : It uniquely identifies each Robotic Arm.
-   b. Robotic Arm Status : 
+   
+   b. Robotic Arm Status :
+   
    c. Robotic Arm Power Consumption
+   
    d. Robotic Arm Operating Speed
+   
    e. Robotic Arm Load Capacity
 
 2. Conveyor Belt
+   
    a. Conveyor Belt Speed
 
 3. Light Curtain Sensor
+   
    a. Beam Resolution
+   
    b. Detection Range
 
 4. Pallet Turn Table
+   
    a. Pallet TurnTable Rotation Speed
 
 5. Door
+    
    a. Door - Last Accessed Time
+   
    b. Door Status
 
 6. Pallet Stretch Machine
+    
    a. Plastic Wrapping Speed
+   
    b. Pallet Stretch Machine Film Roll Status
+   
    c. Pallet Stretch Machine Wrapping Film Usage
    
 During a live project demonstration, real-time data changes are reflected on Unity 3D. 
