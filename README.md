@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The project is a Digital Twin representation of a Factory. It has the following components -  
+This project is a Digital Twin representation of a Factory. It has the following components -  
 
 1. Building
 2. 2 Factory Floors
