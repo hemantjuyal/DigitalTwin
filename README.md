@@ -19,7 +19,8 @@ During a live project demonstration, real-time data changes are reflected on Uni
 6. Run the scene in Unity 3D
 7. Now, use the following command in the terminal to start the simulation -
 
-   ```dotnet run
+   ```powershell
+   dotnet run
 
 8. You can see real-time data changes in Unity 3D.
 9. An alert can be sent using the space bar. 
