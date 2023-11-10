@@ -10,49 +10,49 @@ The project is a Digital Twin representation of a Factory. It has the following 
 
 Each Robotic Palletizer has the following properties - 
 1. RoboticPalletizerID : It uniquely identifies each Robotic Palletizer.
-2. Alert : 
+2. Alert : Raises a warning when alert is sent from the local machine. The alert can be observed by a change in color of the Robotic Palletizer when certain components of the Palletizer display values in an abormal range. 
 
 Each Robotic Palletizer has 6 components having individual properties - 
 
 1. Robotic Arm
    
-   a. Robotic Arm ID : It uniquely identifies each Robotic Arm.
+   a. Robotic Arm ID : A unique identifier assigned to each robotic arm for identification.
    
-   b. Robotic Arm Status :
+   b. Robotic Arm Status : Indicates the current operational state of the robotic arm, whether it is active or idle.
    
-   c. Robotic Arm Power Consumption
+   c. Robotic Arm Power Consumption : The amount of electrical power consumed by the robotic arm during its operation, measured in watts.
    
-   d. Robotic Arm Operating Speed
+   d. Robotic Arm Operating Speed : The speed at which the robotic arm performs its tasks, determining the velocity of its movements.
    
-   e. Robotic Arm Load Capacity
+   e. Robotic Arm Load Capacity : The maximum weight or load that the robotic arm is designed to carry or manipulate without exceeding its specified limits.
 
 2. Conveyor Belt
    
-   a. Conveyor Belt Speed
+   a. Conveyor Belt Speed : The rate at which the conveyor belt moves, determining the speed of material or objects being transported.
 
 3. Light Curtain Sensor
    
-   a. Beam Resolution
+   a. Beam Resolution : The level of detail or granularity in the light curtain sensor's detection, influencing its precision.
    
-   b. Detection Range
+   b. Detection Range : The maximum distance over which the light curtain sensor can detect objects or interruptions in the beam.
 
 4. Pallet Turn Table
    
-   a. Pallet TurnTable Rotation Speed
+   a. Pallet TurnTable Rotation Speed : The speed at which the pallet turn table rotates, influencing the efficiency of pallet handling.
 
 5. Door
     
-   a. Door - Last Accessed Time
+   a. Door - Last Accessed Time : The timestamp indicating the most recent time the door was accessed or opened. 
    
-   b. Door Status
+   b. Door Status : The current state of the door, such as "Open" or "Closed".
 
 6. Pallet Stretch Machine
     
-   a. Plastic Wrapping Speed
+   a. Plastic Wrapping Speed : The speed at which the pallet stretch machine wraps plastic around the pallet.
    
-   b. Pallet Stretch Machine Film Roll Status
+   b. Pallet Stretch Machine Film Roll Status : Indicates whether the film roll used for wrapping is available or needs replacement.
    
-   c. Pallet Stretch Machine Wrapping Film Usage
+   c. Pallet Stretch Machine Wrapping Film Usage : The amount of wrapping film consumed by the pallet stretch machine during operations.
    
 During a live project demonstration, real-time data changes are reflected on Unity 3D. 
 
