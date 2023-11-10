@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "06f746c2-64cb-41a2-9d71-5410aec9ea9c",
+		"name": "Azure Digital Twin Data Update API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30945052"
+	},
+	"item": [
+		{
+			"name": "DigitalTwins Update (RoboticArm)",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"op\": \"replace\",\n    \"path\": \"/RoboticArmPowerConsumption\",\n    \"value\": 24\n  },\n  {\n    \"op\": \"replace\",\n    \"path\": \"/RoboticArmOperatingSpeed\",\n    \"value\": 15\n  },\n  {\n    \"op\": \"replace\",\n    \"path\": \"/RoboticArmLoadCapacity\",\n    \"value\": 17\n  }\n]\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{digitaltwins-hostname}}/digitaltwins/RoboticArm5?api-version=2020-10-31",
+					"protocol": "https",
+					"host": [
+						"{{digitaltwins-hostname}}"
+					],
+					"path": [
+						"digitaltwins",
+						"RoboticArm5"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2020-10-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DigitalTwins Update (PalletStretchMachine)",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"op\": \"replace\",\n    \"path\": \"/PalletStretchMachineWrappingSpeed\",\n    \"value\": 17\n  },\n  {\n    \"op\": \"replace\",\n    \"path\": \"/PalletStretchMachineWrappingFilmUsage\",\n    \"value\": 4.2\n  },\n  {\n      \"op\": \"replace\",\n    \"path\": \"/PalletStretchMachineWrappingFilmRollStatus\",\n    \"value\": true\n  }\n]\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{digitaltwins-hostname}}/digitaltwins/PalletStretchMachine9?api-version=2020-10-31",
+					"protocol": "https",
+					"host": [
+						"{{digitaltwins-hostname}}"
+					],
+					"path": [
+						"digitaltwins",
+						"PalletStretchMachine9"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2020-10-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DigitalTwins Update (LightCurtainSensor)",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"op\": \"replace\",\n    \"path\": \"/LightCurtainResolution\",\n    \"value\": 0.09\n  },\n  {\n    \"op\": \"replace\",\n    \"path\": \"/LightCurtainRange\",\n    \"value\": 2.2\n  }\n]\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{digitaltwins-hostname}}/digitaltwins/LightCurtainSensor5?api-version=2020-10-31",
+					"protocol": "https",
+					"host": [
+						"{{digitaltwins-hostname}}"
+					],
+					"path": [
+						"digitaltwins",
+						"LightCurtainSensor5"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2020-10-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DigitalTwins Update (Door)",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"op\": \"replace\",\n    \"path\": \"/DoorStatus\",\n    \"value\": true\n  }\n]\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{digitaltwins-hostname}}/digitaltwins/Door2?api-version=2020-10-31",
+					"protocol": "https",
+					"host": [
+						"{{digitaltwins-hostname}}"
+					],
+					"path": [
+						"digitaltwins",
+						"Door2"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2020-10-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DigitalTwins Update (PalletTurnTable)",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"op\": \"replace\",\n    \"path\": \"/PalletTurnTableRotationSpeed\",\n    \"value\": 8\n  }\n]\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{digitaltwins-hostname}}/digitaltwins/PalletTurnTable5?api-version=2020-10-31",
+					"protocol": "https",
+					"host": [
+						"{{digitaltwins-hostname}}"
+					],
+					"path": [
+						"digitaltwins",
+						"PalletTurnTable5"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2020-10-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DigitalTwins Update (ConveyorBelt)",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"op\": \"replace\",\n    \"path\": \"/ConveyorBeltSpeed\",\n    \"value\": 0.7\n  }\n]\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{digitaltwins-hostname}}/digitaltwins/ConveyorBelt3?api-version=2020-10-31",
+					"protocol": "https",
+					"host": [
+						"{{digitaltwins-hostname}}"
+					],
+					"path": [
+						"digitaltwins",
+						"ConveyorBelt3"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2020-10-31"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "digitaltwins-hostname",
+			"value": "3DSceneStudio.api.sea.digitaltwins.azure.net",
+			"type": "string"
+		},
+		{
+			"key": "subscriptionId",
+			"value": "2cac0cd5-f773-421e-8644-9e2461b2ee3d",
+			"type": "string"
+		},
+		{
+			"key": "resourceGroup",
+			"value": "ADT-resource-group",
+			"type": "string"
+		},
+		{
+			"key": "ADT-resource-group",
+			"value": "3DSceneStudio",
+			"type": "string"
+		}
+	]
+}
