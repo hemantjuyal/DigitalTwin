@@ -61,6 +61,14 @@ During a live project demonstration, real-time data changes are reflected on Uni
 
 ### 1. Azure
 
+Azure directory further has three sub-directories - 
+
+**1. ARM-Template**
+   
+**2. Azure Digital Twin API**
+   
+**3. Device-Simulator**
+
 ### 2. DTDL Ontology
 
 ### 3. Unity 3D
