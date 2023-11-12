@@ -10,6 +10,7 @@ This project is a Digital Twin representation of a Factory. It has the following
 
 Each Robotic Palletizer has the following properties - 
 1. RoboticPalletizerID : It uniquely identifies each Robotic Palletizer.
+   
 2. Alert : Raises a warning when alert is sent from the local machine. The alert can be observed by a change in color of the Robotic Palletizer when certain components of the Palletizer display values in an abormal range. 
 
 Each Robotic Palletizer has 6 components having individual properties - 
@@ -17,7 +18,7 @@ Each Robotic Palletizer has 6 components having individual properties -
 1. Robotic Arm
    
    a. Robotic Arm ID : A unique identifier assigned to each robotic arm for identification.
-   
+
    b. Robotic Arm Status : Indicates the current operational state of the robotic arm, whether it is active or idle.
    
    c. Robotic Arm Power Consumption : The amount of electrical power consumed by the robotic arm during its operation, measured in watts.
@@ -26,27 +27,27 @@ Each Robotic Palletizer has 6 components having individual properties -
    
    e. Robotic Arm Load Capacity : The maximum weight or load that the robotic arm is designed to carry or manipulate without exceeding its specified limits.
 
-2. Conveyor Belt
+3. Conveyor Belt
    
    a. Conveyor Belt Speed : The rate at which the conveyor belt moves, determining the speed of material or objects being transported.
 
-3. Light Curtain Sensor
+4. Light Curtain Sensor
    
    a. Beam Resolution : The level of detail or granularity in the light curtain sensor's detection, influencing its precision.
    
    b. Detection Range : The maximum distance over which the light curtain sensor can detect objects or interruptions in the beam.
 
-4. Pallet Turn Table
+5. Pallet Turn Table
    
    a. Pallet TurnTable Rotation Speed : The speed at which the pallet turn table rotates, influencing the efficiency of pallet handling.
 
-5. Door
+6. Door
     
    a. Door - Last Accessed Time : The timestamp indicating the most recent time the door was accessed or opened. 
    
    b. Door Status : The current state of the door, such as "Open" or "Closed".
 
-6. Pallet Stretch Machine
+7. Pallet Stretch Machine
     
    a. Plastic Wrapping Speed : The speed at which the pallet stretch machine wraps plastic around the pallet.
    
@@ -56,14 +57,29 @@ Each Robotic Palletizer has 6 components having individual properties -
    
 During a live project demonstration, real-time data changes are reflected on Unity 3D. 
 
+## Project Structure
+
+### 1. Azure
+
+### 2. DTDL Ontology
+
+### 3. Unity 3D
+
+### 4. IoT - Cardboard - js
+
+### 5. 3D Models
+
 ## Pre-requisites
 1. Visual Studio Code
 2. Unity 3D
 3. Active Azure Subscription
 
-## Using Project 
+## Download and Installation
 
-1. Download Project from GitHub
+1. Download the Master Project from GitHub
+
+   Master Project Link - https://github.com/hemantjuyal/DigitalTwin.git
+   
 2. The extraction of the zip file shall take about 10 minutes.
 3. Obtain the path to DeviceSimulator.sln
 4. Navigate to the path above within the terminal.
@@ -74,5 +90,5 @@ During a live project demonstration, real-time data changes are reflected on Uni
    ```powershell
    dotnet run
 
-8. You can see real-time data changes in Unity 3D.
-9. An alert can be sent using the space bar. 
+9. You can see real-time data changes in Unity 3D.
+10. An alert can be sent using the space bar. 
