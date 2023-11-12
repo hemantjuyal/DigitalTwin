@@ -15,7 +15,7 @@ Each Robotic Palletizer has the following properties -
 
 Each Robotic Palletizer has 6 components having individual properties - 
 
-1. Robotic Arm
+### 1. Robotic Arm
    
    a. Robotic Arm ID : A unique identifier assigned to each robotic arm for identification.
 
@@ -27,27 +27,27 @@ Each Robotic Palletizer has 6 components having individual properties -
    
    e. Robotic Arm Load Capacity : The maximum weight or load that the robotic arm is designed to carry or manipulate without exceeding its specified limits.
 
-3. Conveyor Belt
+### 2. Conveyor Belt
    
    a. Conveyor Belt Speed : The rate at which the conveyor belt moves, determining the speed of material or objects being transported.
 
-4. Light Curtain Sensor
+### 3. Light Curtain Sensor
    
    a. Beam Resolution : The level of detail or granularity in the light curtain sensor's detection, influencing its precision.
    
    b. Detection Range : The maximum distance over which the light curtain sensor can detect objects or interruptions in the beam.
 
-5. Pallet Turn Table
+### 4. Pallet Turn Table
    
    a. Pallet TurnTable Rotation Speed : The speed at which the pallet turn table rotates, influencing the efficiency of pallet handling.
 
-6. Door
+### 5. Door
     
    a. Door - Last Accessed Time : The timestamp indicating the most recent time the door was accessed or opened. 
    
    b. Door Status : The current state of the door, such as "Open" or "Closed".
 
-7. Pallet Stretch Machine
+### 6. Pallet Stretch Machine
     
    a. Plastic Wrapping Speed : The speed at which the pallet stretch machine wraps plastic around the pallet.
    
