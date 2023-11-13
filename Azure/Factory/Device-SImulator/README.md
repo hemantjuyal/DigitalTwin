@@ -1,4 +1,4 @@
-# Using Device Simulator Files
+# Device Simulator Usage Guide
 
 ## Verification of Previous Steps from the ARM Template README
 
