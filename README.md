@@ -68,7 +68,7 @@ Let's refer to these components and their individual properties -
 
 ### 6. Pallet Stretch Machine
 
-   !![psss](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/fee58603-016d-4547-ba3b-5256e2c6ca7f)
+   ![psss](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/fee58603-016d-4547-ba3b-5256e2c6ca7f)
 
    It has the following properties - 
    
