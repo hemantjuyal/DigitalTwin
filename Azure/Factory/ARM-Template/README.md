@@ -1,5 +1,51 @@
 # ARM-Template Usage Guide
 
+The ARM-Template consists of - 
+
+1. Assets directory - It contains a HASH, a JSON, and, a BUNDLE file that need not be modified.
+
+2. Functions directory contains -
+
+   SignalRFunction.cs file - It is used to send data from Azure Digital Twins to Unity 3D.
+
+   TelemetryFunction.cs file - It sends data from the local machine to the Azure portal.
+
+   If there is a need to modify the above 2 files to create a custom project, then the following method is to be followed - https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template/functions#dll-file-generation-using-visual-studio
+
+3. Models directory - It contains the code files written in Digital Twin Definition Language (DTDL) for Azure Digital Twin creation on Azure Digital Twin Explorer. 
+
+4. azuredeploy.bicep file creates the following in the Resource Group created on Azure portal -
+   
+   a. IoT Hub
+   b. Storage Account
+   c. Storage Container
+   d. Azure Digital Twins (ADT) instance
+   e. SignalR Instance
+   f. App Plan
+   g. Function App
+
+   Further azuredeploy.bicep file - 
+   
+   a. Deploys the function code from a zip file - https://github.com/hemantjuyal/DigitalTwinReference/raw/main/blade-functions.zip
+
+   b. Adds RBAC role to Resource Group
+
+   c. Adds "Digital Twins Data Owner" role to ADT instance
+
+   d. Adds "Storage Blob Data Contributor" role to Resource Group
+
+   e. Adds "Digital Twins Data Owner" permissions to the system identity of the Azure Functions
+
+   f. Assigns ADT data role owner permissions to Application
+
+   g. Assigns ADT data role owner permissions to App Registration
+
+   h. Executes the Post Deployment Script - https://raw.githubusercontent.com/hemantjuyal/DigitalTwinReference/main/postdeploy.sh
+
+5. postdeploy.sh file uploads DTDL models to blob storage created in step 4.
+   
+   This file retrieves required files from - https://github.com/hemantjuyal/DigitalTwinReference.git
+
 ## Sign in to Azure using Azure CLI
 
 1. Locate the `azuredeploy.bicep` script that has been created for you. Typically, this file is in the root of the repository folder.
