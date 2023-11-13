@@ -1,5 +1,31 @@
 # Unity-3D Usage Guide
 
+1. Open Unity 3D
+
+![unity](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/59be684e-47ad-4e82-9a7b-53da57b807f9)
+
+2. Run the scene in Unity 3D
+
+![run](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/ec391eed-c14a-4b95-bfae-270b452d910a)
+
+3. Now, use the following command in the terminal to start the simulation -
+
+   ```powershell
+   dotnet run
+
+4. You can see real-time data changes in Unity 3D.
+
+5. Before -
+
+   ![bef](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a4bad1a2-0378-4350-91e2-ca1e57e454a8)
+
+6. After -
+
+   ![image](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/1bd0e6e6-1353-44e9-b848-2f8dadf1858e)
+
+7. An alert can be sent using the space bar. 
+
+
 This repository contains the code supporting the MS Learn Learning Path titled [Build Mixed Reality Digital Twins with Azure Digital Twin and Unity]
 
 The repository contains three projects:
