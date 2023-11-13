@@ -85,6 +85,20 @@ ARM-Template Usage Guide -
 https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template#arm-template-usage-guide
    
 **2. Azure Digital Twin API**
+
+1. Download and install Postman App to use the Postman API Platform - https://www.postman.com/downloads/
+
+2. Click on import
+
+   ![image](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/57b48010-84c5-4851-b4ba-e9fb55d5c24f)
+
+   ![image](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/43be9c91-43e8-42e5-b2f2-98f219debb7f)
+
+4. Import Azure Digital Twin Data Update API.postman_collection.json file from the following path -
+
+   ```powershell
+
+   DigitalTwin\Azure\Factory\Azure Digital Twin API
    
 **3. Device-Simulator**
 
@@ -118,28 +132,24 @@ https://github.com/hemantjuyal/DigitalTwin/blob/main/Azure/Factory/Device-SImula
 
 ### 4. IoT - Cardboard - js
 
-### 5. 3D Models
+IoT - Cardboard - js Guide - https://github.com/hemantjuyal/DigitalTwin/tree/main/IoT-Cardboard-js/FactoryFloorMaster/factoryfloor#factory-floor-application
 
-## Pre-requisites
-1. Visual Studio Code
-2. Unity 3D
-3. Active Azure Subscription
+### 5. 3D Models
 
 ## Download and Installation
 
 1. Download the Master Project from GitHub
 
    Master Project Link - https://github.com/hemantjuyal/DigitalTwin.git
-   
-2. The extraction of the zip file shall take about 10 minutes.
-3. Obtain the path to DeviceSimulator.sln
-4. Navigate to the path above within the terminal.
-5. Open Unity 3D
-6. Run the scene in Unity 3D
-7. Now, use the following command in the terminal to start the simulation -
+
+2. Obtain the path to DeviceSimulator.sln
+3. Navigate to the path above within the terminal.
+4. Open Unity 3D
+5. Run the scene in Unity 3D
+6. Now, use the following command in the terminal to start the simulation -
 
    ```powershell
    dotnet run
 
-9. You can see real-time data changes in Unity 3D.
-10. An alert can be sent using the space bar. 
+7. You can see real-time data changes in Unity 3D.
+8. An alert can be sent using the space bar. 
