@@ -10,7 +10,7 @@ The ARM-Template consists of -
 
    `SignalRFunction.cs` file - It is used to send data from Azure Digital Twins to Unity 3D.
 
-   `TelemetryFunction.cs` file - It sends data from the local machine to the Azure portal.
+   `TelemetryFunction.cs` file - It sends data from the local machine (Device Simulator) to the Azure portal (IoT Hub).
 
    If there is a need to modify the above 2 files to create a custom project, then the following method is to be followed -
 
