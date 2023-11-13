@@ -40,7 +40,7 @@ Let's refer to these components and their individual properties -
 
 ### 3. Light Curtain Sensor
    
-    ![lcr](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/d537fe79-ab74-4e5a-bec7-08c6d38d4de7)
+   ![lcr](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/d537fe79-ab74-4e5a-bec7-08c6d38d4de7)
 
    It has the following properties - 
    
@@ -50,7 +50,7 @@ Let's refer to these components and their individual properties -
 
 ### 4. Pallet Turn Table
    
-   !![palletrot](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a81f60da-a74c-4460-b6b9-645e466e2843)
+   ![palletrot](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a81f60da-a74c-4460-b6b9-645e466e2843)
 
    It has the following properties - 
    
