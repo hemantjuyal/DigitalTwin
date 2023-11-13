@@ -26,11 +26,11 @@ Each Robotic Palletizer has 6 components having individual properties -
 
    b. Robotic Arm Status : Indicates the current operational state of the robotic arm, whether it is active or idle.
    
-   c. Robotic Arm Power Consumption : The amount of electrical power consumed by the robotic arm during its operation, measured in watts.
+   c. Robotic Arm Power Consumption : The amount of electrical power consumed by the robotic arm during its operation.
    
    d. Robotic Arm Operating Speed : The speed at which the robotic arm performs its tasks, determining the velocity of its movements.
    
-   e. Robotic Arm Load Capacity : The maximum weight or load that the robotic arm is designed to carry or manipulate without exceeding its specified limits.
+   e. Robotic Arm Load Capacity : The current weight or load that the robotic arm is carrying.
 
 ### 2. Conveyor Belt
    
@@ -50,7 +50,7 @@ Each Robotic Palletizer has 6 components having individual properties -
    
    ![palletrot](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a81f60da-a74c-4460-b6b9-645e466e2843)
 
-   a. Pallet TurnTable Rotation Speed : The speed at which the pallet turn table rotates, influencing the efficiency of pallet handling.
+   a. Pallet TurnTable Rotation Speed : The speed at which the pallet turn table rotates.
 
 ### 5. Door
 
@@ -109,31 +109,33 @@ https://github.com/hemantjuyal/DigitalTwin/blob/main/Azure/Factory/Device-SImula
 
 ### 2. DTDL Ontology
 
-![DTDL](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/a80c941e-d465-4db4-af97-e6a80e460ecb)
+![DTDL](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/31850e74-bc1d-4b00-85c3-5333e460b2c5)
 
 1. This directory contains 9 .JSON files that are written in Digital Twins Definition Language (DTDL). These files are used to create Digital Twins of the Building, Factory Floor, Robotic Palletizers and its components in the Azure Digital Twins Explorer. 
 
 2. Data.xlsx is a file that is compatible with Azure Digital Twins Explorer upload format.
 
-   ![data](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/373c1bdf-6088-4b0d-8f13-691a7a47b5ad)
+   ![comp](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/754005e2-9c5c-44ab-bb75-fa7e3f7cf5b5)
 
    By uploading this data, we will be able to see a graph of relationships between all the components.
 
-   ![rel](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/26cc7698-caa4-4821-b6a5-c88bb23793eb)
+   ![graph](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/24773f38-768a-47fc-aae3-5f315082ed1d)
 
    Each component will also receive fixed values from the data sheet.
 
-   ![data](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/fa07c9c6-d6af-48cb-ba56-3aea3965150c)
+   ![imgdata](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c718f703-58e7-4c2b-8cd1-ea602c9593c9)
 
 3. Properties.xlsx is a reference file that defines the "Need Attention", "Normal", and "Abnormal" ranges for properties of the Factory components. 
 
-   ![prop](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/9c7b8708-db69-4b3c-aec4-db8774147fde)
+   ![PROP](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/1cfac555-463a-479d-8bd8-bbf63092ed46)
 
 ### 3. Unity 3D
 
 ### 4. IoT - Cardboard - js
 
-IoT - Cardboard - js Guide - https://github.com/hemantjuyal/DigitalTwin/tree/main/IoT-Cardboard-js/FactoryFloorMaster/factoryfloor#factory-floor-application
+IoT - Cardboard - js Guide - 
+
+https://github.com/hemantjuyal/DigitalTwin/tree/main/IoT-Cardboard-js/FactoryFloorMaster/factoryfloor#factory-floor-application
 
 ### 5. 3D Models
 
@@ -143,14 +145,38 @@ IoT - Cardboard - js Guide - https://github.com/hemantjuyal/DigitalTwin/tree/mai
 
    Master Project Link - https://github.com/hemantjuyal/DigitalTwin.git
 
-2. Obtain the path to DeviceSimulator.sln
-3. Navigate to the path above within the terminal.
-4. Open Unity 3D
-5. Run the scene in Unity 3D
-6. Now, use the following command in the terminal to start the simulation -
+2. Follow **all mentioned steps** of this README file from the Sign in to Azure using CLI step - 
+   
+   Link - https://github.com/hemantjuyal/DigitalTwin/blob/main/Azure/Factory/ARM-Template/README.md#sign-in-to-azure-using-azure-cli
+
+3. Obtain the path to DeviceSimulator.sln
+
+   ```powershell
+   DigitalTwin\Azure\Factory\Device-SImulator\DeviceSimulator
+   
+4. Navigate to the path above within the terminal.
+
+5. Open Unity 3D
+
+   ![unity](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/0c4577fa-bbc9-4e73-9371-97611ae2f25f)
+
+6. Run the scene in Unity 3D
+
+   ![run](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/a204ed11-2fe0-48d5-be35-f8ea499bb2b1)
+
+7. Now, use the following command in the terminal to start the simulation -
 
    ```powershell
    dotnet run
 
-7. You can see real-time data changes in Unity 3D.
+8. You can see real-time data changes in Unity 3D.
+
+Before - 
+
+![bef](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/6d023f27-6231-4d38-82bc-ceafeba00932)
+
+After-
+
+![aft](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/4be353f5-1953-430a-bb34-d7f0493717da)
+
 8. An alert can be sent using the space bar. 
