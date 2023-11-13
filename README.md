@@ -158,11 +158,11 @@ https://github.com/hemantjuyal/DigitalTwin/tree/main/IoT-Cardboard-js/FactoryFlo
 
 5. Open Unity 3D
 
-   ![unity](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/0c4577fa-bbc9-4e73-9371-97611ae2f25f)
+   ![unity](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/7fc942b1-275e-4b6a-b8cf-e096e7d8e739)
 
 6. Run the scene in Unity 3D
 
-   ![run](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/a204ed11-2fe0-48d5-be35-f8ea499bb2b1)
+   ![run](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/34043bd4-411b-4ecc-a0bf-bba8438c6ccb)
 
 7. Now, use the following command in the terminal to start the simulation -
 
@@ -173,10 +173,10 @@ https://github.com/hemantjuyal/DigitalTwin/tree/main/IoT-Cardboard-js/FactoryFlo
 
 Before - 
 
-![bef](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/6d023f27-6231-4d38-82bc-ceafeba00932)
+![bef](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/5f1f6f88-756d-4ce7-a31b-2ed1ae2763d0)
 
 After-
 
-![aft](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/4be353f5-1953-430a-bb34-d7f0493717da)
+![aft](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/dd367584-3c85-4078-8fcf-0cf9d78725ea)
 
 8. An alert can be sent using the space bar. 
