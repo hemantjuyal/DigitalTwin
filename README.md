@@ -61,9 +61,11 @@ During a live project demonstration, real-time data changes are reflected on Uni
 
 ### 1. Azure
 
-Azure directory further has three sub-directories - 
+Within the Factory directory under Azure directory, there are further three sub-directories - 
 
 **1. ARM-Template**
+
+ARM-Template Usage Guide - https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template#arm-template-usage-guide
    
 **2. Azure Digital Twin API**
    
