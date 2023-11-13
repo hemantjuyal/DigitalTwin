@@ -8,7 +8,7 @@ This project is a Digital Twin representation of a Factory. It has the following
 2. 2 Factory Floors
 3. 10 Robotic Palletizers, 5 on each floor
 
-![3D](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/8d88740e-35be-448c-8845-5fd560860e7c)
+![3D](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/3f20bdb7-277c-4a38-879e-1bc3e610f5e4)
 
 Each Robotic Palletizer has the following properties - 
 
@@ -20,7 +20,7 @@ Each Robotic Palletizer has 6 components having individual properties -
 
 ### 1. Robotic Arm
 
-   ![ra](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/e83b6f26-41c0-46b3-979d-07a60ec322a2)
+   ![ra](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a1449f96-1098-44b2-ba77-0f38f565f152)
 
    a. Robotic Arm ID : A unique identifier assigned to each robotic arm for identification.
 
@@ -34,13 +34,13 @@ Each Robotic Palletizer has 6 components having individual properties -
 
 ### 2. Conveyor Belt
    
-   ![cb](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/84e7f8c4-73cf-4cbf-a9a4-4ce70d82a111)
+   ![cb](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2856a45c-2896-4758-b7fe-897a7cd88ac2)
 
    a. Conveyor Belt Speed : The rate at which the conveyor belt moves, determining the speed of material or objects being transported.
 
 ### 3. Light Curtain Sensor
    
-   ![lcr](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/00768d2a-eeea-4edc-b160-09a1e1a8c2af)
+   ![lcr](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/d537fe79-ab74-4e5a-bec7-08c6d38d4de7)
 
    a. Beam Resolution : The level of detail or granularity in the light curtain sensor's detection, influencing its precision.
    
@@ -48,13 +48,13 @@ Each Robotic Palletizer has 6 components having individual properties -
 
 ### 4. Pallet Turn Table
    
-   ![palletrot](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/a9b932e1-2b26-4677-a60b-299e7e5066f2)
+   ![palletrot](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a81f60da-a74c-4460-b6b9-645e466e2843)
 
    a. Pallet TurnTable Rotation Speed : The speed at which the pallet turn table rotates, influencing the efficiency of pallet handling.
 
 ### 5. Door
 
-   ![door](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/7626185c-db9c-4c9e-88fb-4b3c8c74c4e6)
+   ![door](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/8da5a92b-2a12-4961-b7f1-7e802e740b0f)
 
    a. Door - Last Accessed Time : The timestamp indicating the most recent time the door was accessed or opened. 
    
@@ -62,7 +62,7 @@ Each Robotic Palletizer has 6 components having individual properties -
 
 ### 6. Pallet Stretch Machine
 
-   ![pss](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/62760723-a376-40e5-8a12-7e8c14f9abe6)
+   ![psss](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/fee58603-016d-4547-ba3b-5256e2c6ca7f)
    
    a. Plastic Wrapping Speed : The speed at which the pallet stretch machine wraps plastic around the pallet.
    
@@ -90,9 +90,10 @@ https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template#
 
 2. Click on import
 
-   ![image](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/57b48010-84c5-4851-b4ba-e9fb55d5c24f)
+   ![image](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/441d5f69-7cb6-451d-a4bf-20c72b80c297)
 
-   ![image](https://github.com/garimasrivastavaa/read-me-trials/assets/94553271/43be9c91-43e8-42e5-b2f2-98f219debb7f)
+   ![image](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/1545016f-b07b-4a1f-8c91-10974aa51e46)
+
 
 4. Import Azure Digital Twin Data Update API.postman_collection.json file from the following path -
 
