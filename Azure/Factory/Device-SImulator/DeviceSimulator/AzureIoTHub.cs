@@ -17,8 +17,8 @@ namespace DeviceSimulator
         /// Please replace with correct connection string value
         /// The connection string could be got from Azure IoT Hub -> Shared access policies -> iothubowner -> Connection String:
         /// </summary>
-        private const string iotHubConnectionString = "HostName=myprojHubn7hcpbdan2.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=E9KjB6vPkAahaxpa/FeBlDjcHCV5FccmoAIoTNHYJoQ=";
-        private const string adtInstanceUrl = "https://myprojadtn7hcpbdan2.api.eus.digitaltwins.azure.net";
+        private const string iotHubConnectionString = "HostName=myprojHubge2hbavrty.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=6f6ny/agAZYPrX0/CJRkxS6nqitieju0YAIoTLZEnLs=";
+        private const string adtInstanceUrl = "https://myprojadtge2hbavrty.api.eus.digitaltwins.azure.net";
         private const string alertRoboticPalletizerID = "DT-RP001";
         private const string alertVariableName = "Alert";
         private const string alertRoboticArmID = "DT-RP001-RA-001";
