@@ -2,29 +2,39 @@
 
 The ARM-Template consists of - 
 
+![ARM](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/4ed1d0ee-e656-41ff-8763-1d00008ac2d5)
+
 1. Assets directory - It contains a HASH, a JSON, and, a BUNDLE file that need not be modified.
 
 2. Functions directory contains -
 
-   SignalRFunction.cs file - It is used to send data from Azure Digital Twins to Unity 3D.
+   `SignalRFunction.cs` file - It is used to send data from Azure Digital Twins to Unity 3D.
 
-   TelemetryFunction.cs file - It sends data from the local machine to the Azure portal.
+   `TelemetryFunction.cs` file - It sends data from the local machine to the Azure portal.
 
-   If there is a need to modify the above 2 files to create a custom project, then the following method is to be followed - https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template/functions#dll-file-generation-using-visual-studio
+   If there is a need to modify the above 2 files to create a custom project, then the following method is to be followed -
 
-3. Models directory - It contains the code files written in Digital Twin Definition Language (DTDL) for Azure Digital Twin creation on Azure Digital Twin Explorer. 
+   https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template/functions#dll-file-generation-using-visual-studio
 
-4. azuredeploy.bicep file creates the following in the Resource Group created on Azure portal -
+4. Models directory - It contains the code files written in Digital Twin Definition Language (DTDL) for Azure Digital Twin creation on Azure Digital Twin Explorer. 
+
+5. `azuredeploy.bicep` file creates the following in the Resource Group created on Azure portal -
    
    a. IoT Hub
+   
    b. Storage Account
+   
    c. Storage Container
+   
    d. Azure Digital Twins (ADT) instance
+   
    e. SignalR Instance
+   
    f. App Plan
+   
    g. Function App
 
-   Further azuredeploy.bicep file - 
+   Further `azuredeploy.bicep` file - 
    
    a. Deploys the function code from a zip file - https://github.com/hemantjuyal/DigitalTwinReference/raw/main/blade-functions.zip
 
@@ -42,9 +52,11 @@ The ARM-Template consists of -
 
    h. Executes the Post Deployment Script - https://raw.githubusercontent.com/hemantjuyal/DigitalTwinReference/main/postdeploy.sh
 
-5. postdeploy.sh file uploads DTDL models to blob storage created in step 4.
+7. `postdeploy.sh` file uploads DTDL models to blob storage created in step 4.
    
    This file retrieves required files from - https://github.com/hemantjuyal/DigitalTwinReference.git
+
+8. `AppCredentials.txt` file, `ARM_deployment_out.txt` file, and, `Azure_config_settings.txt` file are generated after the deployment process. 
 
 ## Sign in to Azure using Azure CLI
 
