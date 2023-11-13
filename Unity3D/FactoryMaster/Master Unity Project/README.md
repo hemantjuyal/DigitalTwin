@@ -1,4 +1,5 @@
-# Introduction 
+# Unity-3D Usage Guide
+
 This repository contains the code supporting the MS Learn Learning Path titled [Build Mixed Reality Digital Twins with Azure Digital Twin and Unity]
 
 The repository contains three projects:
