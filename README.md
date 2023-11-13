@@ -10,17 +10,15 @@ This project is a Digital Twin representation of a Factory. It has the following
 
 ![3D](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/3f20bdb7-277c-4a38-879e-1bc3e610f5e4)
 
-Each Robotic Palletizer has the following properties - 
+Each Robotic Palletizer has 6 components. Each component has their own individual properties.
 
-1. RoboticPalletizerID : It uniquely identifies each Robotic Palletizer.
-   
-2. Alert : Raises a warning when alert is sent from the local machine. The alert can be observed by a change in color of the Robotic Palletizer when certain components of the Palletizer display values in an abormal range. 
-
-Each Robotic Palletizer has 6 components having individual properties - 
+Let's refer to these components and their individual properties - 
 
 ### 1. Robotic Arm
 
    ![ra](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a1449f96-1098-44b2-ba77-0f38f565f152)
+
+   It has the following properties - 
 
    a. Robotic Arm ID : A unique identifier assigned to each robotic arm for identification.
 
@@ -36,33 +34,43 @@ Each Robotic Palletizer has 6 components having individual properties -
    
    ![cb](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2856a45c-2896-4758-b7fe-897a7cd88ac2)
 
+   It has the following properties - 
+   
    a. Conveyor Belt Speed : The rate at which the conveyor belt moves, determining the speed of material or objects being transported.
 
 ### 3. Light Curtain Sensor
    
-   ![lcr](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/d537fe79-ab74-4e5a-bec7-08c6d38d4de7)
+    ![lcr](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/d537fe79-ab74-4e5a-bec7-08c6d38d4de7)
 
+   It has the following properties - 
+   
    a. Beam Resolution : The level of detail or granularity in the light curtain sensor's detection, influencing its precision.
    
    b. Detection Range : The maximum distance over which the light curtain sensor can detect objects or interruptions in the beam.
 
 ### 4. Pallet Turn Table
    
-   ![palletrot](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a81f60da-a74c-4460-b6b9-645e466e2843)
+   !![palletrot](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a81f60da-a74c-4460-b6b9-645e466e2843)
 
+   It has the following properties - 
+   
    a. Pallet TurnTable Rotation Speed : The speed at which the pallet turn table rotates.
 
 ### 5. Door
 
    ![door](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/8da5a92b-2a12-4961-b7f1-7e802e740b0f)
 
+   It has the following properties - 
+   
    a. Door - Last Accessed Time : The timestamp indicating the most recent time the door was accessed or opened. 
    
    b. Door Status : The current state of the door, such as "Open" or "Closed".
 
 ### 6. Pallet Stretch Machine
 
-   ![psss](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/fee58603-016d-4547-ba3b-5256e2c6ca7f)
+   !![psss](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/fee58603-016d-4547-ba3b-5256e2c6ca7f)
+
+   It has the following properties - 
    
    a. Plastic Wrapping Speed : The speed at which the pallet stretch machine wraps plastic around the pallet.
    
@@ -74,109 +82,59 @@ During a live project demonstration, real-time data changes are reflected on Uni
 
 ## Project Structure
 
-### 1. Azure
+Under the **Azure > Factory folder**, you will find the following sub-projects - 
 
-Within the Factory directory under Azure directory, there are further three sub-directories - 
+## 1. ARM-Template
 
-**1. ARM-Template**
-
-ARM-Template Usage Guide - 
-
-https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template#arm-template-usage-guide
+Refer to the [ARM-Template Usage Guide](https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template#arm-template-usage-guide/ "ARM-Template Usage Guide")
    
-**2. Azure Digital Twin API**
+## 2. Azure Digital Twin API
 
-1. Download and install Postman App to use the Postman API Platform - https://www.postman.com/downloads/
+Refer to the [Azure Digital Twin API Guide](https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/Azure%20Digital%20Twin%20API#azure-digital-twin-api-guide/ "Azure Digital Twin API Guide")
 
-2. Click on import
+## 3. Device-Simulator
 
-   ![image](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/441d5f69-7cb6-451d-a4bf-20c72b80c297)
+Refer to the [Device-Simulator Usage Guide](https://github.com/hemantjuyal/DigitalTwin/blob/main/Azure/Factory/Device-SImulator/README.md#device-simulator-usage-guide/ "Device-Simulator Usage Guide")
 
-   ![image](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/1545016f-b07b-4a1f-8c91-10974aa51e46)
+## 4. Ontology
 
+Refer to the [Ontology Guide](https://github.com/hemantjuyal/DigitalTwin/blob/main/Ontology/Factory/README.md#factory-dtdl-ontology-guide/ "Ontology Guide")
 
-4. Import Azure Digital Twin Data Update API.postman_collection.json file from the following path -
+## 5. 3D Scenes Studio
 
-   ```powershell
+Refer to the [3D Scenes Studio Usage Guide](https://github.com/hemantjuyal/DigitalTwin/tree/main/3DModels/CustomFactory#3d-scenes-studio-usage-guide/ "3D Scenes Studio Usage Guide")
 
-   DigitalTwin\Azure\Factory\Azure Digital Twin API
-   
-**3. Device-Simulator**
+## 6. Unity-3D
 
-Device-Simulator Usage Guide - 
+Refer to the [Unity-3D Usage Guide](https://github.com/hemantjuyal/DigitalTwin/blob/main/Unity3D/FactoryMaster/Master%20Unity%20Project/README.md#unity-3d-usage-guide/ "Unity-3D Usage Guide")
 
-https://github.com/hemantjuyal/DigitalTwin/blob/main/Azure/Factory/Device-SImulator/README.md#device-simulator-usage-guide
+## 7. IoT - Cardboard - js
 
-### 2. DTDL Ontology
+Refer to the [IoT - Cardboard - js Guide](https://github.com/hemantjuyal/DigitalTwin/tree/main/IoT-Cardboard-js/FactoryFloorMaster/factoryfloor#factory-floor-application/ "IoT - Cardboard - js Guide")
 
-![DTDL](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/31850e74-bc1d-4b00-85c3-5333e460b2c5)
+## 8. 3D Models
 
-1. This directory contains 9 .JSON files that are written in Digital Twins Definition Language (DTDL). These files are used to create Digital Twins of the Building, Factory Floor, Robotic Palletizers and its components in the Azure Digital Twins Explorer. 
-
-2. Data.xlsx is a file that is compatible with Azure Digital Twins Explorer upload format.
-
-   ![comp](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/754005e2-9c5c-44ab-bb75-fa7e3f7cf5b5)
-
-   By uploading this data, we will be able to see a graph of relationships between all the components.
-
-   ![graph](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/24773f38-768a-47fc-aae3-5f315082ed1d)
-
-   Each component will also receive fixed values from the data sheet.
-
-   ![imgdata](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c718f703-58e7-4c2b-8cd1-ea602c9593c9)
-
-3. Properties.xlsx is a reference file that defines the "Need Attention", "Normal", and "Abnormal" ranges for properties of the Factory components. 
-
-   ![PROP](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/1cfac555-463a-479d-8bd8-bbf63092ed46)
-
-### 3. Unity 3D
-
-### 4. IoT - Cardboard - js
-
-IoT - Cardboard - js Guide - 
-
-https://github.com/hemantjuyal/DigitalTwin/tree/main/IoT-Cardboard-js/FactoryFloorMaster/factoryfloor#factory-floor-application
-
-### 5. 3D Models
+Refer to the [3D Models Usage Guide](https://github.com/hemantjuyal/DigitalTwin/tree/main/3DModels/Factory#3d-models-usage-guide/ "3D Models Usage Guide")
 
 ## Download and Installation
 
-1. Download the Master Project from GitHub
+1. Download the Project from GitHub
 
-   Master Project Link - https://github.com/hemantjuyal/DigitalTwin.git
+   Project Link - [Factory Digital Twin Project](https://github.com/hemantjuyal/DigitalTwin/ "Factory Digital Twin Project")
 
-2. Follow **all mentioned steps** of this README file from the Sign in to Azure using CLI step - 
+2. Follow the Installation and deployment instructions as mentioned in the following projects -
+
+   * ARM-Template - 
+
+   * Device Simulator
+
+   * DTDL Ontology
+
+   * 3D Scenes Studio
+
+   * Unity-3D
+
+   * IoT - Cardboard - js
+
+   * 3D Models
    
-   Link - https://github.com/hemantjuyal/DigitalTwin/blob/main/Azure/Factory/ARM-Template/README.md#sign-in-to-azure-using-azure-cli
-
-3. Obtain the path to DeviceSimulator.sln
-
-   ```powershell
-   DigitalTwin\Azure\Factory\Device-SImulator\DeviceSimulator
-   
-4. Navigate to the path above within the terminal.
-
-5. Open Unity 3D
-
-   ![unity](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/7fc942b1-275e-4b6a-b8cf-e096e7d8e739)
-
-6. Run the scene in Unity 3D
-
-   ![run](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/34043bd4-411b-4ecc-a0bf-bba8438c6ccb)
-
-7. Now, use the following command in the terminal to start the simulation -
-
-   ```powershell
-   dotnet run
-
-8. You can see real-time data changes in Unity 3D.
-
-Before - 
-
-![bef](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/5f1f6f88-756d-4ce7-a31b-2ed1ae2763d0)
-
-After-
-
-![aft](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/dd367584-3c85-4078-8fcf-0cf9d78725ea)
-
-8. An alert can be sent using the space bar. 
