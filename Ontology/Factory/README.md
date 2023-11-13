@@ -1,6 +1,28 @@
-# Factory DTDL
+# Factory DTDL Ontology Guide 
 
-Our Digital Twins Factory consists of a Building containing 2 Factory Floors comprising of 5 Robotic Palletizers on each floor.
+The Digital Twins Factory consists of a Building containing 2 Factory Floors comprising of 5 Robotic Palletizers on each floor.
+
+Under Ontology > Factory, you will find the following files - 
+
+![ontologyfiles](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/bfa8e00f-f7b5-4e01-a65c-d2d7565c69dc)
+
+* This directory contains 9 .JSON files that are written in Digital Twins Definition Language (DTDL). These files are used to create Digital Twins of the Building, Factory Floor, Robotic Palletizers and its components in the Azure Digital Twins Explorer.
+
+* Data.xlsx is a file that is compatible with Azure Digital Twins Explorer upload format.
+
+  ![compa](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/59f62c10-28b3-40c5-ba05-e3c23e6cc461)
+
+* By uploading this data file, we will be able to see a graph of relationships between all the components.
+
+  ![graph](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a4e867c3-ddc5-41c7-a703-06ac9335f977)
+
+* Each component will also receive fixed values from the data sheet.
+
+  ![azuredt](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/6ac5c5f0-708a-4f7f-ad42-7934c8563799)
+
+* Properties.xlsx is a reference file that defines the "Need Attention", "Normal", and "Abnormal" ranges for properties of the Factory components.
+
+  ![propexcel](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/f28a2090-7930-43a9-9303-88055dd80338)
 
 ## Using Digital Twins Factory DTDL models
 
@@ -9,7 +31,6 @@ Our Digital Twins Factory consists of a Building containing 2 Factory Floors com
    ![urlpic](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/3220dce6-1c6a-4d3d-9317-ed3453814201)
    
    ![ADT-expsample](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/79d8736a-80c2-40d8-8c65-7ab001e2a480)
-
    
 2. Upload the 9 DTDL files by following the given path -
    
@@ -41,7 +62,3 @@ Our Digital Twins Factory consists of a Building containing 2 Factory Floors com
 8. Data will be visible by double clicking on the Digital Twin - 
 
   ![data](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/e8d09d17-f0cf-463a-ba64-712d82279b1d)
-
-
-
-
