@@ -60,7 +60,6 @@ public class SiteOverviewRoboticPalletizerButton : MonoBehaviour, IMixedRealityF
         progressController.CurrentValue = roboticPalletizerData.roboticPalletizerData.RoboticArmPowerConsumption;
         ShowWarningIndicator(roboticPalletizerData.roboticPalletizerMetaData.Alert);
     }
-
     public void OnClicked()
     {
         focusOnRoboticPalletizerEvent.Raise(roboticPalletizerData);

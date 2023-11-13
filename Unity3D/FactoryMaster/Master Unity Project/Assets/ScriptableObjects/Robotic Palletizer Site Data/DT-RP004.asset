@@ -17,7 +17,7 @@ MonoBehaviour:
     <RoboticArmID>k__BackingField: DT-RP004-RA-004
     <RoboticArmStatus>k__BackingField: 1
     <RoboticArmPowerConsumption>k__BackingField: 0
-    <RoboticArmOperatingSpeed>k__BackingField: 0
+    <RoboticArmOperatingSpeed>k__BackingField: 10
     <RoboticArmLoadCapacity>k__BackingField: 20
     <ConveyorBeltSpeed>k__BackingField: 0
     <LightCurtainResolution>k__BackingField: 10
