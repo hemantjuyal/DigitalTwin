@@ -100,13 +100,10 @@ Run the following command to create a service principal and configure its access
 ```
 
 
-![image](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/39042935-e328-4795-a75e-392245735c16)
+![2](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/39042935-e328-4795-a75e-392245735c16)
 
 
-![2](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/02700c1c-0060-4861-b3a6-344589197929)
-
-
-The output from this command is redirected from standard output to AppCredentials.txt text file. The command creates the file in the same directory where your run the command.
+The output from this command is redirected from standard output to `AppCredentials.txt` text file. The command creates the file in the same directory where your run the command.
 
 ## Obtain the object ID of the App Registration and the user ID
 
@@ -133,9 +130,7 @@ $userid=$(az ad signed-in-user show --query id -o tsv)
 echo $userid
 ```
 
-
-![3](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/b29ec917-4ca5-4271-b4f7-2066892be22a)
-
+![3](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/fa70a1cf-a418-4a4d-bc30-618d717e2853)
 
 ## Create the Azure resource group
 
@@ -149,7 +144,7 @@ Pay particular attention to the location. It must be **eastus**. This region is 
 
 ## Deploy the ARM template to the newly created resource group
 
-Deploy the supplied bicep file to your resource group and redirect the output to a text file called ARM_deployment_out.txt. This process can take 10-15 minutes to complete.
+Deploy the supplied bicep file to your resource group and redirect the output to a text file called `ARM_deployment_out.txt`. This process can take 10-15 minutes to complete.
 
 ```
 az deployment group create --template-file azuredeploy.bicep --resource-group ${projectname}-rg --parameters projectName=${projectname} userId=${userid} appRegObjectId=${objectid} > ARM_deployment_out.txt
@@ -167,7 +162,7 @@ This command downloads and installs the extension. If it's already installed, th
 
 ## Query Azure deployment for key configuration parameters
 
-Query the Azure deployment by using the az deployment group show command in **PowerShell**. This command redirects the output to a file named Azure_config_settings.txt in the same directory in which you run the command.
+Query the Azure deployment by using the az deployment group show command in **PowerShell**. This command redirects the output to a file named `Azure_config_settings.txt` in the same directory in which you run the command.
 
 ```
 az deployment group show --name azuredeploy --resource-group ${projectname}-rg --query properties.outputs.importantInfo.value > Azure_config_settings.txt
@@ -187,40 +182,39 @@ az iot hub connection-string show --resource-group ${projectname}-rg >> Azure_co
 get-content Azure_config_settings.txt
 ```
 
-
-![4](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/4261357d-6f3b-40c4-92f9-95a361b5929f)
+![4](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a1c059f6-2abc-45dd-83a9-0bbada6fdc98)
 
 
 ## Get app credentials
 
-1. Open DeviceSimulator.sln in Visual Studio and configure the DeviceSimulator with the host name for the Azure Digital Twins resource type created by the ARM template.
+1. Open `DeviceSimulator.sln` in Visual Studio and configure the DeviceSimulator with the host name for the Azure Digital Twins resource type created by the ARM template.
    
-2. Open the Azure_config_settings.txt text file that you created in the last exercise that contains the key Azure Digital Twins configuration parameters using a text editor. Alternatively, if your PowerShell session remains active, look for the output from your get-content command.
+2. Open the `Azure_config_settings.txt` text file that you created in the last exercise that contains the key Azure Digital Twins configuration parameters using a text editor. Alternatively, if your PowerShell session remains active, look for the output from your get-content command.
    
-3. From the Azure_config_settings.txt file or from the output of your get-content command in **PowerShell**, locate the key/value pair for the adtHostName key and copy the value. It should look similar to:
+3. From the `Azure_config_settings.txt` file or from the output of your get-content command in **PowerShell**, locate the key/value pair for the adtHostName key and copy the value. It should look similar to:
    
 ```
 https://myprojadtxxxxxxxxxx.api.eus.digitaltwins.azure.net
 ```
 
+![5](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a092a26d-d5fe-4b54-a7b5-4459215e1d23)
 
-![5](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c3f8ebc2-9439-4db9-8ea6-0052e53795c1)
 
-
-4. In your Visual Studio DeviceSimulator solution, open the AzureIoTHub.cs file in the editor by double-clicking the file from Solution Explorer. Paste the value for your adtHostName key/pair copied from Step 2 above into the adtInstanceUrl string variable.
+4. In your Visual Studio DeviceSimulator solution, open the `AzureIoTHub.cs` file in the editor by double-clicking the file from Solution Explorer. Paste the value for your adtHostName key/pair copied from Step 2 above into the adtInstanceUrl string variable.
 
 ## Configure the device simulator with primary connection string
 
 Configure the DeviceSimulator with the primary connection string for the IoT Hub created by the ARM template.
 
-1. From the Azure_config_settings.txt file or from the output of your get-content command in **PowerShell**, locate the key/value pair for the connectionString key and copy the value. It should look similar to:
+1. From the `Azure_config_settings.txt` file or from the output of your get-content command in **PowerShell**, locate the key/value pair for the connectionString key and copy the value. It should look similar to:
    
 ```
 HostName=myprojHubxxxxxxxxxx.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”
 ```
 
-2. In your Visual Studio DeviceSimulator solution, open the AzureIoTHub.cs file in the editor and paste your connectionString value copied in the previous step into the iotHubConnectionString string variable.
+2. In your Visual Studio DeviceSimulator solution, open the `AzureIoTHub.cs` file in the editor and paste your connectionString value copied in the previous step into the iotHubConnectionString string variable.
    
+Snapshot of `AzureIoTHub.cs` file in Visual Studio Code 
 
 ![6](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2c7f1d2b-da50-4f5e-b535-7f10fd2868ba)
 
@@ -229,9 +223,9 @@ HostName=myprojHubxxxxxxxxxx.azure-devices.net;SharedAccessKeyName=iothubowner;S
 
 1. Configure the DeviceSimulator with the authentication keys created by the ARM template.
 
-2. Open the AppCredentials.txt text file that you created in the previous exercise.
+2. Open the `AppCredentials.txt` text file that you created in the previous exercise.
    
-3. In your Visual Studio DeviceSimulator solution, open the PropUpdater.cs file in the editor. Copy and paste the globally unique identifiers (GUIDs) from your text file to the .cs file. Use the following mappings from the .cs variables to the JSON data output in your text file: 
+3. In your Visual Studio DeviceSimulator solution, open the `PropUpdater.cs` file in the editor. Copy and paste the globally unique identifiers (GUIDs) from your text file to the .cs file. Use the following mappings from the .cs variables to the JSON data output in your text file: 
 
 | AppCredentials.txt | PropUpdater.cs |
 | ------------- | ------------- |
@@ -239,6 +233,7 @@ HostName=myprojHubxxxxxxxxxx.azure-devices.net;SharedAccessKeyName=iothubowner;S
 | `password` | `clientSecret` |
 | `tenant` | `tenantId` |
 
+Snapshot of `PropUpdater.cs` file in Visual Studio Code 
 
 ![7](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2ae0ffcf-8085-4003-a5e5-2cd239f4dc43)
 
