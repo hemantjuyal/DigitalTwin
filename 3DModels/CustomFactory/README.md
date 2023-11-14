@@ -58,5 +58,27 @@ Navigate to Microsoft Azure Portal https://portal.azure.com/?quickstart=true#hom
 ```
 
 ## Initialize your 3D Scenes Studio environment
+Now that all the resources are set up, you can use them to create an environment in 3D Scenes Studio.
 
+1. Naviagte to the https://explorer.digitaltwins.azure.net/3dscenes/ The studio will open, connected to the Azure Digital Twins instance that you accessed last in the Azure Digital Twins Explorer. Dismiss the welcome demo.
 
+2. Select the Edit icon next to the instance name to configure the instance and storage container details.
+
+   <img width="1059" alt="Screenshot 2023-11-15 at 01 21 51" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/121e1d8a-9d47-4171-ae5b-231c796e0c86">
+
+   a. For the Azure Digital Twins instance URL, fill the host name of your instance from the Collect host name step into this URL: https://<your-instance-host-name>.
+
+   b. For the Azure Storage account URL, fill the name of your storage account from the Create storage resources step into this URL: https://<your-storage-account>.blob.core.windows.net.
+
+   c. For the Azure Storage container name, enter the name of your storage container from the Create storage resources step.
+
+   d. Select Save.
+      <img width="1440" alt="Screenshot 2023-11-15 at 01 25 00" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/0637bca2-d0ee-4913-9fae-a8271a58d4fa">
+3. Open the 3D Scene.
+   <img width="1440" alt="Screenshot 2023-11-15 at 01 27 37" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/607b97fd-4fed-42f8-9232-38e41ccdb20b">
+
+4. Factory Floor 3D Scene will open in the Build Mode, where elements and behaviours can be added 
+   <img width="1440" alt="Screenshot 2023-11-15 at 01 29 01" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/8ec62f8f-e831-4079-8aa9-6146adf9f78d">
+
+5. Toggle the View Mode to see the status of all components and their properties.
+   <img width="1440" alt="Screenshot 2023-11-15 at 01 31 10" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/c5871fe3-0120-40eb-b935-15f86d266443">
