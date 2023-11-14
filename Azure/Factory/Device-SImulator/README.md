@@ -8,14 +8,13 @@ Refer to the following steps once you are done setting up the ARM-Template -
 
    Snapshot of `AzureIoTHub.cs` file in Visual Studio Code -
 
-   ![az](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/9f588f04-ce5f-404b-8354-951745a2f11b)
+   ![az](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/13fa3992-3196-498f-9080-b9dc9264bc75)
 
 3. Verify that **clientId, clientSecret, and, tenantId** in `PropUpdater.cs` file under DeviceSimulator directory is configured properly as described in the [Configuring Device-Simulator with Authentication keys](https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template#configure-the-device-simulator-with-authentication-keys/ "Configuring Device-Simulator with Authentication keys") Guide.
 
    Snapshot of `PropUpdater.cs` file in Visual Studio Code -
-   
-   ![pr](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/23107504-1cb0-41fb-9aaa-c20a5b5015cf)
 
+   ![prop](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2b69c80b-8fb8-4105-8df9-cb97b07002ad)
 
 ##  Begin the Digital Twin Project Simulation
 
