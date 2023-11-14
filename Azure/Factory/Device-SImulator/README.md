@@ -1,6 +1,7 @@
 # Device Simulator Usage Guide
 
-## Verification of Previous Steps from the ARM Template README
+Please ensure that you have set up the ARM-Template as per the instructions in the [ARM-Template Usage Guide](https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template#arm-template-usage-guide/ "ARM-Template Usage Guide")
+
 
 1. Verify that **adtInstanceUrl** and **iotHubConnectionString** in **AzureIoTHub.cs** file under DeviceSimulator directory is configured properly as described in the ARM-Template README file.
 
