@@ -72,6 +72,10 @@ The ARM-Template consists of -
    ```powershell
    az login
 
+![login successful](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c7663dcd-4883-493c-8e87-31a790e3c740)
+
+![1](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/1594fe27-17bc-4ba8-a07e-55ac80e96db7)
+
 ## Set variables in PowerShell
 
 1. Set the $projectname variable. Make sure that your values are enclosed in double quotes.
@@ -91,6 +95,8 @@ Run the following command to create a service principal and configure its access
 ```powershell
    az ad sp create-for-rbac --name ${appreg} --role Contributor --scopes/subscriptions/<SUBSCRIPTION-ID> > AppCredentials.txt
 ```
+
+![2](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/65b9a12c-9fa3-4dc3-a22a-7162011e2797)
 
 The output from this command is redirected from standard output to AppCredentials.txt text file. The command creates the file in the same directory where your run the command.
 
@@ -118,6 +124,8 @@ $userid=$(az ad signed-in-user show --query id -o tsv)
 ```
 echo $userid
 ```
+
+![3](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/6f587bbb-1019-4436-b628-4627124cd914)
 
 ## Create the Azure resource group
 
