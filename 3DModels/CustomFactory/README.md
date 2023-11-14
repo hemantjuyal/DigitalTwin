@@ -49,8 +49,14 @@ Navigate to Microsoft Azure Portal https://portal.azure.com/?quickstart=true#hom
 
 3. Click on Upload.
    
-<img width="583" alt="Screenshot 2023-11-15 at 01 08 35" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/d244693b-7500-4f13-bff6-8563a9ede6b2">
+   <img width="583" alt="Screenshot 2023-11-15 at 01 08 35" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/d244693b-7500-4f13-bff6-8563a9ede6b2">
 
 4. Upload the following files
+```power shell
+   /DigitalTwin/3DModels/CustomFactory/3DSceneFactoryFloorMaster.glb
+   /DigitalTwin/3DModels/CustomFactory/3DScenesConfiguration.json
+```
 
-   
+## Initialize your 3D Scenes Studio environment
+
+
