@@ -1,4 +1,4 @@
-# Introduction 
+<img width="1440" alt="image" src="https://github.com/hemantjuyal/DigitalTwin/assets/143547766/4f090d12-15a8-4239-a260-f7dacc1a1502"># Introduction 
 This is a Unity 3D Project of a Factory Floor having Robotic Palletizers. Refer to the below snapshots for more details-
 
 ### 1. Building
@@ -64,15 +64,36 @@ The UI Panel shows the following properties:
 </br>
 </br>
 </br>
+
 ### 5. Alert
+<img width="800" alt="image" src="https://github.com/hemantjuyal/DigitalTwin/assets/143547766/5850163a-6e8f-41ad-8b98-3d061b4381b2">
+
+Robotic Palletizer with Alert triggered
 
 
 
 
 
 
-# Getting Started
-For instructions on how to use this repository, please visit MS learn and take the [Build Mixed Reality Digital Twins with Azure Digital Twin and Unity] learning path.
+# Using the Unity 3D Project
+
+To use this Unity 3D Project on your local machine refer to the following steps:
+</br>
+</br>
+</br>
+1. Open Unity Hub
+![8209a43d-473d-4477-9284-62e5054a47fa](https://github.com/hemantjuyal/DigitalTwin/assets/143547766/d382e059-3d26-4e78-91cd-b699edcf97e2)
+
+2. Click on Add Project from disk
+   ![9989d01a-2c1d-4f4e-8571-7e8000b18fe7](https://github.com/hemantjuyal/DigitalTwin/assets/143547766/4c1ee4d4-f958-4580-b8a8-99d52c85ed11)
+
+3. Open Master Unity Project
+![34b763b7-3383-4a45-8b47-a28838574879](https://github.com/hemantjuyal/DigitalTwin/assets/143547766/f1a93c59-ebd5-4511-b07c-77c86efc9fe9)
+
+   
+
+
+
 
 
 
