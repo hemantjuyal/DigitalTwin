@@ -34,6 +34,10 @@ Inside this directory run using npm or yarn:
 **build** - builds the app for production to the [./server/build](./server/build) folder.  
 **eject** - exposes content of react-script package  
 
+<img width="1440" alt="Screenshot 2023-11-14 at 23 47 45" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/3df566ea-7e15-41ea-8cfe-799dba3bf5f1">
+
+
+
 
 ## .env file parameters
 
