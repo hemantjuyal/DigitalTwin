@@ -53,9 +53,25 @@ Note - Properties.xlsx is a reference file that can be used to provide propertie
 
   ![impsuccess](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/37af2abf-9c48-44cb-85ac-bb6785686ba6)
 
-7. Run queries - 
+7. Run queries -
+
+   Query 1 -
+
+   ```powershell
+
+   SELECT * FROM digitaltwins
+
+   ```
 
   ![query](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/f9fcddc6-bc34-4050-8e0f-66edada08106)
+  
+  Query 2 - 
+
+  ```powershell
+
+   SELECT * FROM digitaltwins T where T.PalletStretchMachineWrappingSpeed < 20
+
+   ```
 
   ![query2](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/b3eeb012-5d45-47c4-b7ba-99dce4215c2b)
 
