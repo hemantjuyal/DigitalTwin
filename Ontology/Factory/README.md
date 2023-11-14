@@ -10,17 +10,15 @@ Under Ontology > Factory, you will find the following files -
 
 * Data.xlsx is a file that is compatible with Azure Digital Twins Explorer upload format.
 
-  ![compa](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/59f62c10-28b3-40c5-ba05-e3c23e6cc461)
-
-* By uploading this data file, we will be able to see a graph of relationships between all the components.
+* By uploading all the DTDL files and the Data.xlsx file, we will be able to see a graph of relationships between all the components - 
 
   ![graph](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a4e867c3-ddc5-41c7-a703-06ac9335f977)
 
-* Each component will also receive fixed values from the data sheet.
+* Azure Digital Twin explorer will show properties for each component - 
 
   ![azuredt](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/6ac5c5f0-708a-4f7f-ad42-7934c8563799)
 
-* Properties.xlsx is a reference file that defines the "Need Attention", "Normal", and "Abnormal" ranges for properties of the Factory components.
+Note - Properties.xlsx is a reference file that can be used to provide properties` values for the respective components. 
 
   ![propexcel](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/f28a2090-7930-43a9-9303-88055dd80338)
 
