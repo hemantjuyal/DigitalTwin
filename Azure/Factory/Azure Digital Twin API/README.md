@@ -14,3 +14,24 @@
 
    DigitalTwin\Azure\Factory\Azure Digital Twin API
 
+4. Login to Azure account by running the following command in the Command Prompt
+   ```cmd
+
+   az login
+
+5. Enter the following command to generate an access token
+   ```cmd
+   az account get-access-token --resource 0b07f429-9f4b-4714-9392-cc5e8e80c8b0
+
+<img width="1440" alt="Screenshot 2023-11-14 at 23 55 26" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/a9a9b523-285a-4ac6-804c-063291ff2bf7">
+
+6. Enter the access under the Authorisation tab<img width="1440" alt="Screenshot 2023-11-14 at 23 59 05" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/87b85292-f746-4ab2-87d1-67fe0df1ff6d">
+
+7. Update the variables according to the Azure Credentials
+
+   <img width="1440" alt="Screenshot 2023-11-15 at 00 05 58" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/de8e82cb-ca10-48c6-bfa3-dbebd5e05fd6">
+
+8. Choose anyone of the Collection Item to update properties of any component, Update component ID and their values and click on "Send".
+<img width="1440" alt="Screenshot 2023-11-15 at 00 08 48" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/aa46de2a-bffa-4b45-a029-28da47eed7a1">
+
+   
