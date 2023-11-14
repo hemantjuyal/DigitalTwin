@@ -76,7 +76,7 @@ The ARM-Template consists of -
 ![login successful](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c7663dcd-4883-493c-8e87-31a790e3c740)
 
 
-![1](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a1081668-7166-4367-9700-4abd0843dc45)
+![1](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/d7ca8e67-42eb-4d60-9509-8837bf6df988)
 
 
 ## Set variables in PowerShell
