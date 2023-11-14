@@ -69,11 +69,11 @@ The ARM-Template consists of -
 
    ```powershell
    az login
-   
+
 ![login successful](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c7663dcd-4883-493c-8e87-31a790e3c740)
 
 
-![1](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/d7ca8e67-42eb-4d60-9509-8837bf6df988)
+![1](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/d957edb3-3b05-4592-a977-0667fbfb24d2)
 
 
 ## Set variables in PowerShell
@@ -97,7 +97,7 @@ Run the following command to create a service principal and configure its access
 ```
 
 
-![2](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/39042935-e328-4795-a75e-392245735c16)
+![2](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/9a444a07-d789-4d51-b775-fc3741f93dce)
 
 
 The output from this command is redirected from standard output to `AppCredentials.txt` text file. The command creates the file in the same directory where your run the command.
@@ -127,7 +127,9 @@ $userid=$(az ad signed-in-user show --query id -o tsv)
 echo $userid
 ```
 
-![3](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/fa70a1cf-a418-4a4d-bc30-618d717e2853)
+
+![3](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/acaeebef-86d8-4b8c-96f5-97e6737cd9d2)
+
 
 ## Create the Azure resource group
 
@@ -179,7 +181,8 @@ az iot hub connection-string show --resource-group ${projectname}-rg >> Azure_co
 get-content Azure_config_settings.txt
 ```
 
-![4](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a1c059f6-2abc-45dd-83a9-0bbada6fdc98)
+
+![4](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/aecfadaa-07bc-4c7c-9391-09ec5cb424ca)
 
 
 ## Get app credentials
@@ -194,7 +197,8 @@ get-content Azure_config_settings.txt
 https://myprojadtxxxxxxxxxx.api.eus.digitaltwins.azure.net
 ```
 
-![5](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a092a26d-d5fe-4b54-a7b5-4459215e1d23)
+
+![4](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/aecfadaa-07bc-4c7c-9391-09ec5cb424ca)
 
 
 4. In your Visual Studio DeviceSimulator solution, open the `AzureIoTHub.cs` file in the editor by double-clicking the file from Solution Explorer. Paste the value for your adtHostName key/pair copied from Step 2 above into the adtInstanceUrl string variable.
@@ -213,7 +217,8 @@ HostName=myprojHubxxxxxxxxxx.azure-devices.net;SharedAccessKeyName=iothubowner;S
    
 Snapshot of `AzureIoTHub.cs` file in Visual Studio Code -
 
-![6](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2c7f1d2b-da50-4f5e-b535-7f10fd2868ba)
+
+![5](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c168f3ed-393c-47b7-ab4a-45e1e67f5435)
 
 
 ## Configure the device simulator with authentication keys
@@ -232,7 +237,8 @@ Snapshot of `AzureIoTHub.cs` file in Visual Studio Code -
 
 Snapshot of `PropUpdater.cs` file in Visual Studio Code -
 
-![7](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2ae0ffcf-8085-4003-a5e5-2cd239f4dc43)
+
+![6](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/387e3041-2bba-4752-9cad-ff0ba46afa5b)
 
 
 4. Select File > Save All to save your work in Visual Studio.
