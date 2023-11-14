@@ -16,9 +16,9 @@ MonoBehaviour:
     <RoboticPalletizerID>k__BackingField: DT-RP001
     <RoboticArmID>k__BackingField: DT-RP001-RA-001
     <RoboticArmStatus>k__BackingField: 1
-    <RoboticArmPowerConsumption>k__BackingField: 200
-    <RoboticArmOperatingSpeed>k__BackingField: 100
-    <RoboticArmLoadCapacity>k__BackingField: 200
+    <RoboticArmPowerConsumption>k__BackingField: 23
+    <RoboticArmOperatingSpeed>k__BackingField: 10
+    <RoboticArmLoadCapacity>k__BackingField: 20
     <ConveyorBeltSpeed>k__BackingField: 0
     <LightCurtainResolution>k__BackingField: 10
     <LightCurtainRange>k__BackingField: 20
