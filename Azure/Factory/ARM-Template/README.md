@@ -12,9 +12,7 @@ The ARM-Template consists of -
 
    `TelemetryFunction.cs` file - It sends data from the local machine (Device Simulator) to the Azure portal (IoT Hub).
 
-   If there is a need to modify the above 2 files to create a custom project, then the following method is to be followed -
-
-   https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template/functions#dll-file-generation-using-visual-studio
+   If there is a need to modify the above 2 files to create a custom project, then refer to the [DLL File Generation using Visual Studio](https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/ARM-Template/functions#dll-file-generation-using-visual-studio/ "DLL File Generation using Visual Studio")
 
 4. Models directory - It contains the code files written in Digital Twin Definition Language (DTDL) for Azure Digital Twin creation on Azure Digital Twin Explorer. 
 
