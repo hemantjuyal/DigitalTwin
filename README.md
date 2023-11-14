@@ -82,7 +82,7 @@ During a live project demonstration, real-time data changes are reflected on Uni
 
 ## Project Structure
 
-Under the **Azure > Factory folder**, you will find the following sub-projects - 
+Under the **Azure > Factory**, you will find the following sub-projects - 
 
 ## 1. ARM-Template
 
@@ -96,23 +96,33 @@ Refer to the [Azure Digital Twin API Guide](https://github.com/hemantjuyal/Digit
 
 Refer to the [Device-Simulator Usage Guide](https://github.com/hemantjuyal/DigitalTwin/blob/main/Azure/Factory/Device-SImulator/README.md#device-simulator-usage-guide/ "Device-Simulator Usage Guide")
 
-## 4. Ontology
+## 4. DTDL Ontology
+
+The Ontology sub-project can be used using the **Ontology > Factory** path.
 
 Refer to the [Ontology Guide](https://github.com/hemantjuyal/DigitalTwin/blob/main/Ontology/Factory/README.md#factory-dtdl-ontology-guide/ "Ontology Guide")
 
 ## 5. 3D Scenes Studio
 
+The Ontology sub-project can be used using the **3DModels > CustomFactory** path. 
+
 Refer to the [3D Scenes Studio Usage Guide](https://github.com/hemantjuyal/DigitalTwin/tree/main/3DModels/CustomFactory#3d-scenes-studio-usage-guide/ "3D Scenes Studio Usage Guide")
 
-## 6. Unity-3D
+## 6. Unity 3D
+
+The Unity 3D sub-project can be used using the **Unity3D > FactoryMaster > Master Unity Project** path. 
 
 Refer to the [Unity-3D Usage Guide](https://github.com/hemantjuyal/DigitalTwin/blob/main/Unity3D/FactoryMaster/Master%20Unity%20Project/README.md#unity-3d-usage-guide/ "Unity-3D Usage Guide")
 
 ## 7. IoT - Cardboard - js
 
+The IoT - Cardboard - js sub-project can be used using the **IoT-Cardboard-js > FactoryFloorMaster > factoryfloor** path. 
+
 Refer to the [IoT - Cardboard - js Guide](https://github.com/hemantjuyal/DigitalTwin/tree/main/IoT-Cardboard-js/FactoryFloorMaster/factoryfloor#factory-floor-application/ "IoT - Cardboard - js Guide")
 
 ## 8. 3D Models
+
+The 3D Models can be used using the **3DModels > Factory** path. 
 
 Refer to the [3D Models Usage Guide](https://github.com/hemantjuyal/DigitalTwin/tree/main/3DModels/Factory#3d-models-usage-guide/ "3D Models Usage Guide")
 
@@ -124,7 +134,7 @@ Refer to the [3D Models Usage Guide](https://github.com/hemantjuyal/DigitalTwin/
 
 2. Follow the Installation and deployment instructions as mentioned in the following projects -
 
-   * ARM-Template - 
+   * ARM-Template 
 
    * Device Simulator
 
@@ -133,8 +143,6 @@ Refer to the [3D Models Usage Guide](https://github.com/hemantjuyal/DigitalTwin/
    * 3D Scenes Studio
 
    * Unity-3D
-
-   * IoT - Cardboard - js
-
-   * 3D Models
+  
+   * Azure Digital Twin API
    
