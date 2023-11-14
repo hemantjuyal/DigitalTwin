@@ -57,6 +57,8 @@ Note - Properties.xlsx is a reference file that can be used to provide propertie
 
   ![query](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/f9fcddc6-bc34-4050-8e0f-66edada08106)
 
+  ![query2](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/b3eeb012-5d45-47c4-b7ba-99dce4215c2b)
+
 8. Data will be visible by double clicking on the Digital Twin - 
 
   ![data](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/e8d09d17-f0cf-463a-ba64-712d82279b1d)
