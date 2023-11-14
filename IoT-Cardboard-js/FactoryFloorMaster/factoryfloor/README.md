@@ -99,9 +99,13 @@ The Permissions below are only required to use Power BI
 
 Azure Digital Twins (ADT) has a CORS restriction that means browser apps cannot directly make HTTP requests to it.
 
+Go to your storage account, under Blob Service, add http://localhost:3000 as Allowed Origins, and add "Authorization,Content-Type,Content-Length,x-ms-version,x-ms-blob-type,x-ms-copy-source,x-ms-requires-sync" for Allowed headers.
+
+
+**NOTE:**
 This application a /server folder which is used as the client build output and can be deployed directly to Azure. The folder includes a node.js passthru proxy server, which proxies client requests to ADT via the backend avoiding CORS.
 You should create an Azure WebApp using Node 16 LTS, and set the SCM_DO_BUILD_DURING_DEPLOYMENT=true Application Setting on it.
 This causes the post-deployment build steps to run (including npm install) so you should not deploy /server/node_modules
 There are no other build steps for /server (no Webpack)
 
-Go to your storage account, under Blob Service, add http://localhost:3000 as Allowed Origins, and add "Authorization,Content-Type,Content-Length,x-ms-version,x-ms-blob-type,x-ms-copy-source,x-ms-requires-sync" for Allowed headers.
+
