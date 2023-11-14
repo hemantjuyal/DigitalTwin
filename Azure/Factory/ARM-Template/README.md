@@ -100,6 +100,9 @@ Run the following command to create a service principal and configure its access
 ```
 
 
+![image](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/39042935-e328-4795-a75e-392245735c16)
+
+
 ![2](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/02700c1c-0060-4861-b3a6-344589197929)
 
 
