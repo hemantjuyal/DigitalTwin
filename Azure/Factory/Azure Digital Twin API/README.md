@@ -23,7 +23,7 @@
    ```cmd
    az account get-access-token --resource 0b07f429-9f4b-4714-9392-cc5e8e80c8b0
 
-<img width="1440" alt="Screenshot 2023-11-14 at 23 55 26" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/a9a9b523-285a-4ac6-804c-063291ff2bf7">
+<img width="1440" alt="11" src="https://github.com/hemantjuyal/DigitalTwin/assets/94553271/58965f19-9308-47a1-a91a-6d50377e5d45">
 
 6. Enter the access under the Authorisation tab<img width="1440" alt="Screenshot 2023-11-14 at 23 59 05" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/87b85292-f746-4ab2-87d1-67fe0df1ff6d">
 
