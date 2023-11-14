@@ -55,15 +55,15 @@ Note - Properties.xlsx is a reference file that can be used to provide propertie
 
 7. Run queries -
 
-   Query 1 -
+Query 1 -
 
-   ```powershell
+  ```powershell
 
    SELECT * FROM digitaltwins
 
-   ```
+  ```
 
-  ![query](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/f9fcddc6-bc34-4050-8e0f-66edada08106)
+![query](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/f9fcddc6-bc34-4050-8e0f-66edada08106)
   
   Query 2 - 
 
