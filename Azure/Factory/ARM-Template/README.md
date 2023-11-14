@@ -71,8 +71,7 @@ The ARM-Template consists of -
 
    ```powershell
    az login
-
-
+   
 ![login successful](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c7663dcd-4883-493c-8e87-31a790e3c740)
 
 
