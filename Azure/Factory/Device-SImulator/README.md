@@ -25,8 +25,8 @@ Refer to the following steps once you are done setting up the ARM-Template -
 
 2. Open the terminal in Visual Studio Code Editor and paste the path to the DeviceSimulator.
 
-   ![terminal](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a714d59e-c733-48e4-86a6-1b74d8dbf240)
-
+![vs](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/4bf9ac92-bb14-47b5-a2bf-fc89e1bdb55a)
+   
 3. Use the following command to start the simulation - 
 
    ```powershell
