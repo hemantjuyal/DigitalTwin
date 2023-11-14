@@ -137,12 +137,11 @@ Refer to the [3D Models Usage Guide](https://github.com/hemantjuyal/DigitalTwin/
    * ARM-Template 
 
    * Device Simulator
+  
+   * Unity-3D
 
    * DTDL Ontology
 
    * 3D Scenes Studio
-
-   * Unity-3D
-  
+     
    * Azure Digital Twin API
-   
