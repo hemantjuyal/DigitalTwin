@@ -214,7 +214,7 @@ HostName=myprojHubxxxxxxxxxx.azure-devices.net;SharedAccessKeyName=iothubowner;S
 
 2. In your Visual Studio DeviceSimulator solution, open the `AzureIoTHub.cs` file in the editor and paste your connectionString value copied in the previous step into the iotHubConnectionString string variable.
    
-Snapshot of `AzureIoTHub.cs` file in Visual Studio Code 
+Snapshot of `AzureIoTHub.cs` file in Visual Studio Code -
 
 ![6](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2c7f1d2b-da50-4f5e-b535-7f10fd2868ba)
 
@@ -233,7 +233,7 @@ Snapshot of `AzureIoTHub.cs` file in Visual Studio Code
 | `password` | `clientSecret` |
 | `tenant` | `tenantId` |
 
-Snapshot of `PropUpdater.cs` file in Visual Studio Code 
+Snapshot of `PropUpdater.cs` file in Visual Studio Code -
 
 ![7](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2ae0ffcf-8085-4003-a5e5-2cd239f4dc43)
 
