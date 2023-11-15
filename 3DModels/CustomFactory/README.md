@@ -15,7 +15,7 @@ Create a new storage account and a container in the storage account. 3D Scenes S
    ```
 When the command completes successfully, you'll see details of your new storage account in the output. Look for the ID value in the output and copy it to use in the next command.
 
-  <img width="1122" alt="Screenshot 2023-11-15 at 01 01 12" src="https://github.com/hemantjuyal/DigitalTwin/assets/115024109/7660ffd5-8ed9-42d1-a302-517d540eff8d">
+<img width="1122" alt="Storage" src="https://github.com/hemantjuyal/DigitalTwin/assets/94553271/2303a8db-cdd1-4fdd-bf6c-fadea445fd3a">
 
 3. Run the following command to grant yourself the Storage Blob Data Owner on the storage account. This level of access will allow you to perform both read and write operations in 3D Scenes Studio. The command contains placeholders for the email associated with your Azure account and the ID of your storage account that you copied in the previous step.
 
