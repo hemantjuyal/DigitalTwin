@@ -1,4 +1,5 @@
-<img width="1440" alt="image" src="https://github.com/hemantjuyal/DigitalTwin/assets/143547766/4f090d12-15a8-4239-a260-f7dacc1a1502"># Introduction 
+# Introduction 
+
 This is a Unity 3D Project of a Factory Floor having Robotic Palletizers. Refer to the below snapshots for more details-
 
 ### 1. Building
@@ -58,7 +59,7 @@ The UI Panel shows the following properties:
 
 5. Light Curtain Resolution
 
-6. Pallet Stretch Fill Roll Status
+6. Pallet Stretch Film Roll Status
 
 7. Alert
 </br>
@@ -69,11 +70,6 @@ The UI Panel shows the following properties:
 <img width="800" alt="image" src="https://github.com/hemantjuyal/DigitalTwin/assets/143547766/5850163a-6e8f-41ad-8b98-3d061b4381b2">
 
 Robotic Palletizer with Alert triggered
-
-
-
-
-
 
 # Using the Unity 3D Project
 
@@ -90,12 +86,20 @@ To use this Unity 3D Project on your local machine refer to the following steps:
 3. Open Master Unity Project
 ![34b763b7-3383-4a45-8b47-a28838574879](https://github.com/hemantjuyal/DigitalTwin/assets/143547766/f1a93c59-ebd5-4511-b07c-77c86efc9fe9)
 
+![unity](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/59be684e-47ad-4e82-9a7b-53da57b807f9)
+
+5. Run the scene in Unity 3D
    
+![run](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/ec391eed-c14a-4b95-bfae-270b452d910a)
 
+6. Refer to this link to [Start the simulation using Device Simulator](https://github.com/hemantjuyal/DigitalTwin/tree/main/Azure/Factory/Device-SImulator#begin-the-digital-twin-project-simulation/ "Start the simulation using Device Simulator")
 
+7. You can see real-time data changes in Unity 3D -
+   
+    Before -
 
-
-
-
-[//]: # (Links)
-[Build Mixed Reality Digital Twins with Azure Digital Twin and Unity]: https://docs.microsoft.com/learn/
+   ![bef](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/a4bad1a2-0378-4350-91e2-ca1e57e454a8)
+   
+   After -
+   
+   ![image](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/1bd0e6e6-1353-44e9-b848-2f8dadf1858e) 
