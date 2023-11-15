@@ -38,7 +38,7 @@ This command doesn't have any output.
    ```
 When the command completes successfully, the output will show "created": true.
 
-## Adding Factory Floor 3D Scene to the Blob Storagw
+## Adding Factory Floor 3D Scene to the Blob Storage
 Navigate to Microsoft Azure Portal https://portal.azure.com/?quickstart=true#home 
 
 1. Search and Open "Storage Account" Azure Service
