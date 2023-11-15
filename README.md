@@ -100,7 +100,7 @@ Refer to the [Device-Simulator Usage Guide](https://github.com/hemantjuyal/Digit
 
 The Ontology sub-project can be used using the **Ontology > Factory** path.
 
-Refer to the [Ontology Guide](https://github.com/hemantjuyal/DigitalTwin/blob/main/Ontology/Factory/README.md#factory-dtdl-ontology-guide/ "Ontology Guide")
+Refer to the [DTDL Ontology Guide](https://github.com/hemantjuyal/DigitalTwin/blob/main/Ontology/Factory/README.md#factory-dtdl-ontology-guide/ "DTDL Ontology Guide")
 
 ## 5. 3D Scenes Studio
 
