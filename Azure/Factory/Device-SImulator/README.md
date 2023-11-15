@@ -41,7 +41,9 @@ Refer to the following steps once you are done setting up the ARM-Template -
    ![logs](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/89d5e4c6-aee2-4b9c-b459-54e957fd88cf)
 
 6. Press Spacebar to send an Alert.
-   
+
+   ![alert](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/70580df3-0757-4260-a4cb-5ac59b46ba62)
+
 7. Press Ctrl + C to stop the simulation -
 
    ![exit](https://github.com/hemantjuyal/DigitalTwin/assets/94553271/c4383191-e376-4301-aae3-f8173cf6340d)
