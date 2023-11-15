@@ -38,7 +38,6 @@ Inside this directory run using npm or yarn:
 
 
 
-
 ## .env file parameters
 
 | Parameter | Description |
