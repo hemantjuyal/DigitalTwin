@@ -1,4 +1,4 @@
-# Factory DTDL Ontology Guide 
+# DTDL Ontology Guide 
 
 The Digital Twins Factory consists of a Building containing 2 Factory Floors comprising of 5 Robotic Palletizers on each floor.
 
